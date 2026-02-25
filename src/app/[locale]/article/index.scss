@@ -1,0 +1,498 @@
+
+.blog-list {
+  .header {
+    background: #F4ECFF;
+    padding: 60px;
+    text-align: center;
+  }
+  .main-content {
+    margin: 30px 0;
+    display: flex;
+    gap: 40px;
+    align-items: start;
+    min-width: 0; // 允许flex项收缩
+    .wrapper-right {
+      flex: 1;
+      min-width: 0; // 允许内容收缩
+      background: #fff;
+      padding: 25px;
+    }
+    
+    .right-side {
+      flex: 0 0 auto;
+      width: 320px;
+      min-width: 280px;
+    }
+    
+    .list {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .item {
+          padding: 20px;
+          background: #fff;
+          &:last-child {
+            margin-bottom: 20px;
+          }
+          .title {
+            color: #375375;
+            font-size: 22px;
+            font-weight: 600;
+            margin-top: 0;
+            margin-bottom: 20px;
+            cursor: pointer;
+            &:hover {
+              color: #8B59ED;
+            }
+          }
+          .des {
+            color: #536D8C;
+            font-size: 16px;
+          }
+        }
+      }
+      .category-cell {
+        padding: 30px 0;
+        &:first-child {
+          padding-top: 0;
+        }
+        .title-box { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;
+          .category-title {
+            font-size: 24px;
+            font-weight: 400;
+            color: #252525;
+          }
+          .more-link, .sub-category-link {
+            font-size: 14px;
+            font-weight: 400;
+            cursor: pointer;
+            color: #8B59ED; // 默认高亮
+            text-decoration: none;
+            display: inline-block; // 便于伪元素分隔线对齐
+            &:hover {
+              text-decoration: underline; // 悬停加下划线
+            }
+          }
+          // 子分类之间加分割线（使用边框更稳定）
+          .sub-category-list {
+            column-gap: 0; // 避免与内边距叠加
+          }
+          // 确保无论 Typography 还是外层 Link，都有内边距与边框
+          .sub-category-list .sub-category-link,
+          .sub-category-list .sub-category-anchor {
+            position: relative;
+            padding: 0 12px;
+          }
+          .sub-category-list .sub-category-link:first-child,
+          .sub-category-list .sub-category-anchor:first-child { padding-left: 0; }
+
+          // 短一点的分割线，颜色更浅
+          .sub-category-list .sub-category-anchor:not(:last-child)::after,
+          .sub-category-list .sub-category-link:not(:last-child)::after {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 1px;
+            height: 12px; // 稍微长一点
+            background: #ECECF3; // 更浅
+          }
+        }
+        .first-row {
+          display: flex;
+          align-items: flex-start;
+          img {
+            min-width: 150px;
+            height: 100px;
+            object-fit: cover;
+          }
+          .blog-info {
+            flex: 1;
+            .blog-title {
+              font-size: 20px;
+              font-weight: 400;
+              color: #333;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              display: -webkit-box;
+              line-clamp: 2;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
+              cursor: pointer;
+              &:hover {
+                color: #8B59ED;
+              }
+            }
+            .blog-desc {
+              color: #333;
+              line-height: 21px;
+              font-size: 14px;
+              font-weight: 400;
+              max-height: 42px;
+              margin-top: 10px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              display: -webkit-box;
+              line-clamp: 2;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
+            }
+          }
+        }
+        .blog-box {
+          margin-top: 20px;
+          .blog-item {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            min-width: 0; // 允许子元素在flex下收缩
+            width: 100%;
+            .text {
+              font-size: 14px;
+              font-weight: 400;
+              color: #9b9ea0;
+              line-height: 24px;
+              height: 24px;
+              margin-bottom: 12px;
+              // 不换行，超出显示省略号
+            }
+            // Link 容器需要能收缩，省略号才会生效
+            a {
+              flex: 1;
+              min-width: 0;
+            }
+            .blog-title {
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              cursor: pointer;
+              &:hover {
+                color: #8B59ED;
+              }
+            }
+            // 针对category/page.tsx中的blog-item结构
+            .text.blog-title {
+              flex: 1;
+              min-width: 0;
+              white-space: nowrap;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              cursor: pointer;
+              &:hover {
+                color: #8B59ED;
+              }
+            }
+            // 右侧日期不收缩，避免挤压标题
+            .text:last-child {
+              flex: 0 0 auto;
+              margin-left: 8px;
+              white-space: nowrap;
+            }
+          }
+        }
+      }
+    }
+    .right-side {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      .right-card {
+        // border: 1px solid #E0E0E0;
+        background: #fff;
+        // border-radius: 12px;
+        padding: 20px;
+        // box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        & + .right-card { margin-top: 16px; }
+        &__title { 
+          font-weight: 600; 
+          color: #4A376F; 
+          margin-bottom: 16px; 
+          font-size: 16px;
+        }
+        &__list { display: flex; flex-direction: column; gap: 10px; }
+        &__link { color: #375375; font-size: 14px; text-decoration: none; display: flex; align-items: center; gap: 8px; }
+        &__dot { color: #98A2B3; flex: 0 0 auto; }
+        &__text {
+          line-height: 20px;
+          display: block;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+        &__link:hover .right-card__text {
+          color: #8B59ED;
+        }
+        &__tags { 
+          display: flex; 
+          flex-wrap: wrap; 
+          gap: 8px; 
+        }
+        &__tag { 
+          background: #fff; 
+          border: 1px solid #E0E0E0; 
+          border-radius: 8px; 
+          padding: 6px 12px; 
+          font-size: 13px; 
+          color: #333; 
+          font-weight: 400;
+          transition: all 0.2s ease;
+          &:hover {
+            border-color: #8B59ED;
+            color: #8B59ED;
+          }
+        }
+        &__keywords {
+          display: flex;
+          gap: 20px;
+        }
+        &__keywords-column {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          gap: 8px;
+        }
+        &__keyword {
+          color: #333;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 1.4;
+          cursor: pointer;
+          transition: color 0.2s ease;
+          &:hover {
+            color: #8B59ED;
+          }
+        }
+        &__empty { color: #98A2B3; font-size: 12px; }
+      }
+    }
+  }
+
+.blog-detail {
+  flex: 1;
+  margin-bottom: 40px;
+  .title {
+    color: #375375;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .publish-info {
+    background: #F4ECFF;
+    border-radius: 4px;
+    padding: 10px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    .avatar {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .author {
+        .name {
+          font-weight: 600;
+        }
+      }
+    }
+    .date {
+      font-weight: 600;
+    }
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .related {
+    margin-top: 60px;
+    .sub_title {
+      display: flex;
+      justify-content: space-between;
+      font-size: 24px;
+      margin-bottom: 40px;
+      .more {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        font-size: 15px;
+        cursor: pointer;
+      }
+    }
+    .list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      .item {
+        width: calc(50% - 20px);
+        padding: 20px;
+        border: 1px solid rgba(55, 83, 117, 0.3);
+        border-radius: 12px;
+        font-size: 14px;
+        cursor: pointer;
+        .name {
+          font-size: 16px;
+          font-weight: 500;
+        }
+        .des {
+          font-size: 14px;
+          line-height: 24px;
+          margin: 20px 0;
+        }
+        .info {
+          display: flex;
+          align-items: center;
+          gap: 4px;
+        }
+      }
+    }
+  }
+}
+
+.left-side {
+  width: 300px;
+  border: 1px solid #E6D4FF;
+  background: #F9F4FF;
+  border-radius: 6px;
+  padding: 20px;
+  .title {
+    font-weight: 600;
+    font-size: #375375;
+    margin-bottom: 20px;
+  }
+  .list {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-left: 1px solid #F4ECFF;
+    .item {
+      position: relative;
+      cursor: pointer;
+      .name {
+        &:hover {
+          color: #8B59ED;
+        }
+        &.active {
+          color: #8B59ED;
+          &::before {
+            position: absolute;
+            content: '';
+            left: -20px;
+            width: 2px;
+            background: #6841EA;
+            height: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.text-ellipsis-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.extra {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: calc(50% - 8px);
+    margin: 20px 0;
+  }
+  .tips {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .extra  {
+    .content {
+      width: 100%;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .tips {
+      text-align: center;
+      position: relative;
+      top: auto;
+      left: auto;
+      transform: none;
+    }
+  } 
+}
+
+// 中等屏幕尺寸，确保内容不被隐藏
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .blog-list .main-content {
+    gap: 24px;
+    .right-side {
+      width: 280px;
+      min-width: 260px;
+    }
+  }
+}
+
+// 小屏幕，进一步缩小右侧边栏
+@media screen and (max-width: 900px) and (min-width: 769px) {
+  .blog-list .main-content {
+    gap: 16px;
+    .right-side {
+      width: 260px;
+      min-width: 240px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) { 
+  .blog-list .main-content {
+    display: block;
+  }
+  .left-side {
+    width: 100%;
+  }
+  // 移动端右侧卡片全宽
+  .right-side {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    flex: 1 1 auto !important;
+    margin-top: 16px;
+  }
+  .right-side .right-card { width: 100%; }
+
+  // 移动端：收紧子分类间距，避免换行（不改字号）
+  .category-cell {
+    .first-row { flex-direction: column; align-items: stretch; }
+    .first-row img { width: 100% !important; height: auto !important; max-height: none; min-width: 0; margin-bottom: 12px; object-fit: contain; display: block; }
+    .first-row .blog-info { margin-left: 0; }
+    .title-box {
+      .sub-category-list .sub-category-link,
+      .sub-category-list .sub-category-anchor { padding: 0 2px; }
+      .sub-category-list .sub-category-link:first-child,
+      .sub-category-list .sub-category-anchor:first-child { padding-left: 0; }
+      .sub-category-list .sub-category-anchor:not(:last-child)::after,
+      .sub-category-list .sub-category-link:not(:last-child)::after { margin: 0 2px; }
+    }
+  }
+  .blog-detail .title {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+  .blog-detail .publish-info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .blog-detail .related .list .item {
+    width: 100%;
+  }
+}

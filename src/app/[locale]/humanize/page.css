@@ -1,0 +1,301 @@
+/* Legacy MUI alert styles - will be removed */
+
+/**
+按钮文字渐变
+*/
+.button-background{
+  font-weight: 700!important;
+  font-size: 14px !important;
+  background: radial-gradient(ellipse at left, #914BEC, #3B7EFF);
+  background: -webkit-linear-gradient(ellipse at left, #914BEC, #3B7EFF);
+  -webkit-background-clip: text;
+  color: transparent !important;
+  background-clip: text;
+}
+.button-background span{
+  color: #914BEC !important;
+  margin: 0 !important;
+}
+
+/**
+高质量、高通过率气泡框
+*/
+.custom-popover{
+  pointer-events: none;
+}
+/* Legacy MUI popover styles - will be removed */
+.custom-popover .MuiPaper-root::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 30%;
+  transform: translate(-50%, -50%) rotate(135deg);
+  width: 15px;
+  height: 15px;
+  background: #FFF;
+  border: 1px solid #ccc;
+  border-style: none none solid solid
+}
+
+/**
+ 关键词设置
+*/
+.keywords-popover .MuiPaper-root{
+  border: 1px #ccc solid;
+  overflow: visible;
+}
+.keywords-popover .MuiPaper-root::before {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 10%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  width: 15px;
+  height: 15px;
+  background: #FFF;
+  border: 1px solid #ccc;
+  border-style: none none solid solid
+}
+
+/**
+对话框结果
+*/
+.power-by{
+  font-size: 14px !important; 
+  font-weight: bold !important;
+  background: radial-gradient(ellipse at left, rgb(145,75,236, 0.5), rgb(59,126,255, 0.5));
+  background: -webkit-linear-gradient(ellipse at left,  rgb(145,75,236, 0.5), rgb(59,126,255, 0.5));
+  -webkit-background-clip: text;
+  color: transparent !important;
+  background-clip: text;
+}
+.copy-button{
+  width: 100px;
+  font-weight: bold !important;
+  height: 36px;
+  background-color: #EBEDF1 !important;
+  color: #914BEC !important;
+  &:hover {
+    background-color: #eee;
+  }
+}
+
+/**
+字数限制提示
+*/
+.limited-words{
+  border: 1px #914BEC solid;
+  border-bottom: none;
+  height: 28px; 
+  width: 211px; 
+  margin-left: 12px; 
+  border-radius: 10px 10px 0 0; 
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.limited-words-login{
+  border: 1px #914BEC solid;
+  border-bottom: none;
+  height: 28px; 
+  border-radius: 10px 10px 0 0; 
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.limited-words-remind{
+  border-bottom: none;
+  height: 30px; 
+  border-radius: 10px 10px 0 0; 
+  background: linear-gradient(to right, rgb(255,22,22, 0.56), rgb(255,191,173, 0.56));
+}
+.limited-words-remind .limited-words-text
+{
+  font-weight: 700 !important;
+  color: #F9D7D9 !important;
+  height: 30px !important;
+  line-height: 30px !important;
+  font-size: 14px !important;
+}
+.limited-words-remind a{
+  text-decoration: underline;
+  text-decoration-color: #006ffd;
+  line-height: 30px;
+  display: inline-block;
+  width: 80px;
+  font-weight: 700 !important;
+  text-align: center;
+  float: right;
+  background: radial-gradient(ellipse at left, #914BEC, #3B7EFF);
+  background: -webkit-linear-gradient(ellipse at left, #914BEC, #3B7EFF);
+  -webkit-background-clip: text;
+  color: transparent !important;
+  background-clip: text;
+}
+
+.limited-words-nologin{
+  height: 60px;
+  border-radius: 12px;
+  border: 1px solid #006ffd;
+  background: linear-gradient(90deg, #F7ECFF -0.48%, #006ffd 100%);
+  padding-left: 16px;
+
+}
+.limited-words-nologin .limited-words-text{
+  font-weight: 500 !important;
+  font-size: 14px !important; 
+  line-height: 60px !important;
+  background: radial-gradient(ellipse at left, #914BEC, #3B7EFF);
+  background: -webkit-linear-gradient(ellipse at left, #914BEC, #3B7EFF);
+  -webkit-background-clip: text;
+  color: transparent !important;
+  background-clip: text;
+}
+.limited-words-nologin a{
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  color:#333;
+  text-decoration: underline;
+  text-decoration-color: #333;
+}
+
+.limited-words-login .limited-words-text{
+  font-weight: 700 !important;
+  font-size: 14px !important; 
+  line-height: 28px !important;
+  height: 28px;
+  background: radial-gradient(ellipse at left, #914BEC, #3B7EFF);
+  background: -webkit-linear-gradient(ellipse at left, #914BEC, #3B7EFF);
+  -webkit-background-clip: text;
+  color: transparent !important;
+  background-clip: text;
+}
+.limited-words-login a{
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  text-align: center;
+  float: right;
+  display: inline-block;
+  line-height: 26px !important;
+  background: radial-gradient(ellipse at left, #914BEC, #3B7EFF);
+  background: -webkit-linear-gradient(ellipse at left, #914BEC, #3B7EFF);
+  -webkit-background-clip: text;
+  color: transparent !important;
+  background-clip: text;
+  padding-left: 8px;
+}
+
+/**
+*受众群体
+*/
+.persona-text{
+  font-size: 12px !important;
+  color: rgb(55,83,117, 0.6) !important;
+}
+.persona-list{
+  margin-bottom: 8px;
+  cursor: pointer;
+  height: 104px;
+}
+.choose-persona{
+  border-radius: 4px;
+  width: 158px !important;
+  border: 1px #E3E6EB solid;
+  max-width: auto !important;
+  object-fit: contain !important;
+}
+.choose-persona-activate{
+  border-radius: 4px;
+  width: 158px !important;
+  border: 1px #914BEC solid;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: auto !important;
+  object-fit: contain !important;
+}
+
+/**
+ 改写程度样式
+*/
+.rewrite-popover{
+  top: 80px !important;
+  left: -15px !important;
+}
+.rewrite-popover .MuiPaper-root{
+  border: 1px #ccc solid;
+  overflow: visible;
+}
+.rewrite-popover .MuiPaper-root::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 65%;
+  transform: translate(-50%, -50%) rotate(135deg);
+  width: 15px;
+  height: 15px;
+  background: #FFF;
+  border: 1px solid #ccc;
+  border-style: none none solid solid
+}
+
+
+/**
+语言选择
+*/
+.language-select .MuiBackdrop-root
+{
+  background-color: rgb(0, 0, 0, 0.5) !important;
+}
+
+.edit-button
+{
+  margin-right: 6px !important;
+  text-align: center;
+  align-items: center;
+  border-radius: 50% !important;
+  width: 20px;
+  min-width: 20px !important;
+  height: 20px;
+  background-color: #BBD3FB !important;
+}
+/* Legacy MUI button styles - will be removed */
+.edit-icon{
+  font-size: 14px !important;
+  color: #0034B5;
+  text-align: center;
+  align-items: center;
+}
+
+.delete-button
+{
+  text-align: center;
+  align-items: center;
+  border-radius: 50% !important;
+  width: 20px;
+  min-width: 20px !important;
+  height: 20px;
+  background-color: #F7C797 !important;
+}
+/* Legacy MUI button styles - will be removed */
+.delete-icon{
+  font-size: 14px !important;
+  color: #D35A21;
+  text-align: center;
+  align-items: center;
+}
+
+/**
+选择目的
+*/
+.purpose-select .MuiBackdrop-root
+{
+  background-color: rgb(0, 0, 0, 0.5) !important;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px !important; /* 滚动条的宽度 */
+}
+ 
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f4eeff !important; /* 滚动条轨道的背景颜色 */
+}
+ 
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #b794ff !important; /* 滚动条滑块的背景颜色 */
+  border-radius: 10px !important; /* 滑块的圆角 */
+}

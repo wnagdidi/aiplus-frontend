@@ -1,0 +1,118 @@
+@import "tailwindcss";
+/* HeroUI v2 doesn't require a separate styles.css import when using the plugin. */
+@config "../../../hero.ts";
+
+/* 主题颜色变量 */
+:root {
+  --hover-background-gradient: linear-gradient(90deg, #00d3fe 0%, #006ffd 100%);
+  --hover-text-color: #fff;
+}
+
+/* Basic reset that won't interfere with HeroUI */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* HeroUI theme classes */
+.light {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+/* Custom scrollbar styles */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: rgba(236, 72, 153, 0.3);
+  border-radius: 3px;
+  transition: background-color 0.2s;
+}
+
+.scrollbar-thin:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(236, 72, 153, 0.5);
+}
+
+/* Hide scrollbar but keep scrolling functionality */
+.scrollbar-hide {
+  /* For Webkit browsers (Chrome, Safari, Edge) */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari, Opera */
+}
+
+/* Remove Accordion divider lines - comprehensive approach */
+.heroui-accordion-item,
+[data-slot="item"],
+div[data-slot="item"],
+[class*="accordion-item"] {
+  border: none !important;
+  border-bottom: none !important;
+  border-top: none !important;
+  box-shadow: none !important;
+}
+
+.heroui-accordion-item::before,
+.heroui-accordion-item::after,
+[data-slot="item"]::before,
+[data-slot="item"]::after,
+div[data-slot="item"]::before,
+div[data-slot="item"]::after,
+[class*="accordion-item"]::before,
+[class*="accordion-item"]::after {
+  display: none !important;
+  content: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  width: 0 !important;
+}
+
+/* Remove any divider elements between items */
+/* [data-slot="item"] + [data-slot="item"], */
+.heroui-accordion-item + .heroui-accordion-item,
+.heroui-accordion-item hr,
+[data-slot="item"] hr,
+.heroui-divider,
+[class*="divider"] {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  opacity: 0 !important;
+}
+
+/* Target all possible border elements */
+[data-slot="item"] > * {
+  border-bottom: none !important;
+}
+
+[data-slot="item"] > div {
+  border-bottom: none !important;
+  border-top: none !important;
+}
+
+/* Firefox scrollbar */
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(236, 72, 153, 0.3) transparent;
+}

@@ -1,0 +1,1445 @@
+{
+  "Common": {
+    "brandName": "{brandName}",
+    "pricing": "Prezzi",
+    "login": "Login",
+    "try_for_free": "Prova gratis",
+    "profile": "Profilo",
+    "edit_profile": "Modifica profilo",
+    "upgrade_account": "Aggiorna account",
+    "contact_us": "Contattaci",
+    "your_subscription": "Il tuo abbonamento",
+    "have_not_subscribed": "Non hai sottoscritto alcun piano {brandName}",
+    "choose_your_plan": "Scegli il tuo piano",
+    "your_words": "Le tue parole",
+    "words_remaining": "{count}Parole rimanenti",
+    "number_of_words_available": "Numero di parole disponibili per l'uso",
+    "logout": "Esci",
+    "logout_success": "Esci correttamente",
+    "upgrade_now": "Aggiorna ora",
+    "not_now": "Non ora",
+    "message": "Messaggio",
+    "current_plan": "Abbonamento corrente",
+    "banner_caption": "Evitare il rilevamento dell'IA.",
+    "banner_countdown": "Sbrigati - finisce{date}",
+    "banner_title": "Back to School Sale:",
+    "banner_discount": "fino a{percent}SPENTO",
+    "save_now": "Salva ora",
+    "products": "Prodotti",
+    "company": "Azienda",
+    "api": "API",
+    "order_deducting_message": "L'ultimo ordine viene elaborato, l'abbonamento entrerà presto in vigore!",
+    "get_started": "Inizia",
+    "rate": "Valutare",
+    "pages": "Pagine",
+    "ai_resources": "Risorse sull'intelligenza artificiale"
+  },
+  "Error": {
+    "SUCCESS": "SUCCESSO",
+    "PARAM_INVALID": "La richiesta non è valida. Si prega di contattare il supporto. ID evento:{requestId}",
+    "NOT_FOUND": "Risorse richieste non trovata. Si prega di contattare il supporto. ID evento:{requestId}",
+    "INTERNAL_ERROR": "Qualcosa non va con il server. Si prega di contattare il supporto. ID evento:{requestId}",
+    "SEND_EMAIL_ERROR": "Invio di posta elettronica non riuscito. Si prega di contattare il supporto. ID evento:{requestId}",
+    "REGISTER_EMAIL_EXISTS": "Questa email è già stata registrata.",
+    "VERIFICATION_CODE_ERROR": "Codice non valido o scaduto",
+    "TOKEN_ERROR": "Si prega di accedere per utilizzare {brandName}",
+    "PERMISSION_DENIED": "Non hai abbastanza permessi per eseguire l'azione",
+    "RECAPTCHA_CHECK_ERROR": "ReCaptcha non riuscito, riprova",
+    "USER_LOGIN_ERROR": "email o password non valide",
+    "OLD_PASSWORD_INVALID": "La vecchia password non è valida",
+    "NEW_PASSWORD_EQUAL_OLD_PASSWORD": "NEW_PASSWORD_EQUAL_OLD_PASSWORD",
+    "RESET_PASSWORD_REQUEST_INVALID": "RESET_PASSWORD_REQUEST_INVALID",
+    "USER_NOT_EXISTS": "Utente non esiste, si prega di contattare il supporto. ID evento:{requestId}",
+    "HUMANIZE_API_ERROR": "Qualcosa non va umanizzare il contenuto. Si prega di contattare il supporto. ID evento:{requestId}",
+    "RESET_PASSWORD_INVALID_UUID": "Questa sessione di ripristino della password è scaduta. Si prega di inviare nuovamente l'email per avviare nuovamente il processo.",
+    "APP_EMAIL_IS_EXISTED": "Questa email è già stata registrata.",
+    "APP_EMAIL_IS_INVALID": "Inserisci un indirizzo email valido.",
+    "EMAIL_IS_NOT_EXISTED": "Questa email non è stata registrata.",
+    "TOKEN_INVALID_OR_EXPIRED": "La tua sessione è scaduta, accedi di nuovo",
+    "GOOGLE_CREDENTIAL_ERROR": "Le credenziali di Google non sono valide, riprova",
+    "USER_NOT_LOGIN": "Effettua il login per continuare",
+    "VISITOR_ONLY_REWRITE_SAMPLE": "Effettua il login per umanizzare i tuoi contenuti personalizzati",
+    "NO_ACTIVE_SUBSCRIPTION": "C'e' qualcosa che non va nell'abbonamento. Si prega di contattare il supporto. ID evento:{requestId}",
+    "WORDS_EXCEED_LIMIT": "Hai raggiunto il limite delle parole. Si prega di aggiornare per ottenere più parole.",
+    "WORDS_BELOW_MINIMUM": "Il tuo input dovrebbe contenere almeno 50 parole.",
+    "SUBSCRIPTION_LIMIT_REACHED": "Quota di abbonamento esaurita. Si prega di aggiornare per ottenere di più.",
+    "CAN_NOT_SUBSCRIBE_FREE_PLAN": "Piano gratuito non è necessario iscriversi",
+    "CAN_NOT_SUBSCRIBE_LOWER_PLAN": "Il nuovo piano deve essere di qualità superiore rispetto a quello esistente",
+    "CAN_NOT_CANCEL_FREE_SUBSCRIPTION": "Impossibile annullare l'abbonamento gratuito",
+    "STARTSAAS_ENCRYPTION_DATA_INVALID": "Stato di pagamento non valido"
+  },
+  "Metadata": {
+    "default": {
+      "title": {
+        "default": "Umanize AI - Best AI Text Humanizer per bypass AI Detectors"
+      },
+      "description": {
+        "default": "Vuoi far sembrare il testo AI come la scrittura umana? Prova gratuitamente il nostro strumento umanizzatore AI! Converte la scrittura di intelligenza artificiale simile a una macchina in un vero testo leggibile dall'uomo che sfugge agli strumenti di rilevamento mantenendo il significato previsto."
+      },
+      "keywords": "umanizzare il testo AI, non rilevabile AI umanizzatore, umanizzare la scrittura AI, AI all'umanizzatore"
+    },
+    "login": {
+      "title": "Login | Humanizze AI Detection - Prova Humanize AI oggi stesso",
+      "description": "Accedi a Humanizze AI e impara come aggirare il rilevamento AI e umanizzare il testo AI. Rendi la tua scrittura AI non rilevabile senza sforzo.",
+      "keywords": "bypass ai, bypass gpt, bypass ai, come rendere ai non rilevabile, Humanizze AI detection"
+    },
+    "pricing": {
+      "title": "Piani convenienti per umanizzare il rilevamento dell'IA e umanizzare i contenuti dell'IA",
+      "description": "Esplora i nostri piani tariffari per gli strumenti di rimozione del rilevamento AI e umanizzazione AI. Scopri come umanizzare il testo AI e bypassare il rilevamento AI con Humanize AI.",
+      "keywords": "ai detection remover, ai umanizer, bypass ai, umanizzare ai, umanizzare ai testo libero"
+    },
+    "checkout": {
+      "title": "Checkout per usare Humanize AI Detection",
+      "description": "Completa il tuo acquisto con Humanize AI e ottieni i migliori strumenti per bypassare il rilevamento AI e umanizzare il testo AI. Rendi invisibile la scrittura AI.",
+      "keywords": "ai detection remover, ai humanizer, ai bypass, come rendere il testo ai non rilevabile, umanizzare ai text"
+    },
+    "privacyPolicy": {
+      "title": "Informativa sulla privacy per Byecheck",
+      "description": "Ci impegniamo a proteggere la privacy dei nostri utenti. Quando usi il nostro sito Web, raccoglieremo e utilizzeremo i tuoi dati personali per migliorare la tua esperienza utente, ma manterremo la tua privacy rigorosamente riservata.",
+      "keywords": "politica sulla riservatezza"
+    },
+    "termsAndConditions": {
+      "title": "Conditoni e servizi per l'utilizzo di Byecheck",
+      "description": "Per accedere e utilizzare i servizi Byecheck, è necessario comprendere i termini e le condizioni. In caso di domande, ti preghiamo di contattarci.",
+      "keywords": "Termini e Condizioni"
+    },
+    "refundPolicy": {
+      "title": "Politica di rimborso per Byecheck",
+      "description": "If you are not satisfied with our service, we offer a refund. Si prega di rivedere i termini di rimborso e il processo di rimborso per proteggere i tuoi diritti.",
+      "keywords": "Termini di ritorno, processo di rimborso"
+    },
+    "aboutUs": {
+      "title": "Informazioni sull'intelligenza artificiale Byecheck - uno strumento di umanizzatore leader",
+      "description": "Scopri come Byecheck guida l'IA e la collaborazione umana per una maggiore creatività, innovare il futuristico processo di creazione di contenuti di intelligenza artificiale.",
+      "keywords": "su Byecheck"
+    },
+    "contactUs": {
+      "title": "Contatta Byecheck con e -mail o modulo online",
+      "description": "Se hai domande o hai bisogno di assistenza, il nostro team del servizio clienti è sempre qui per aiutarti. Non esitate a contattarci.",
+      "keywords": "Contatta Byecheck"
+    },
+    "aiDetector": {
+      "title": "AI Detector - Controlla AI per Chatgpt, GPT -4, DeepSeek e altro ancora",
+      "description": "Uno strumento avanzato del rivelatore di intelligenza artificiale per rilevare accuratamente se il testo è generato dalla macchina, generato dall'uomo o generato dall'a+umano. Ottieni una prova gratuita ora.",
+      "keywords": "Tester AI, rilevatore di contenuti AI, rivelatore anti -AI, controlla l'intelligenza artificiale, controllo del generatore di intelligenza artificiale"
+    },
+    "aiTranslator": {
+      "title": "AI Translator - Il miglior strumento di traduzione linguistica basato sull'intelligenza artificiale per una prova gratuita",
+      "description": "Il nostro AI Translator fornisce traduzioni naturali e accurate in oltre 120 lingue. Copriamo molteplici casi d'uso: dalla traduzione di frasi semplici a documenti lunghi, tenendo conto di contesto, tono e cultura, per generare contenuti umanizzati in grado di superare gli strumenti di rilevamento AI.",
+      "keywords": "ai translate, AI language translate, AI translate free"
+    },
+    "aiHuman": {
+      "title": "Convertitore di testo AI in testo umano - Umanizza il testo AI gratuitamente",
+      "scription": "Lo strumento di Byecheck per umanizzare i contenuti AI è gratuito per una prova a tempo limitato. Le sue potenti funzioni aiutano a convertire il testo AI in contenuti scritti a mano simili a quelli umani e possono bypassare qualsiasi sistema di rilevamento AI.",
+      "keywords": "converti testo AI in testo umano, converti testo AI in testo umano",
+      "description": "Byecheck's humanize AI content tool is free for a limited time trial. Its powerful functions help convert AI text into human-like handwritten content, and could bypass any AI detection system."
+    },
+    "aiBypass": {
+      "title": "Bypass AI - Strumento di bypass del rilevatore AI non rilevabile gratuito",
+      "description": "Avrai bisogno di uno strumento che bypassi in modo affidabile l'IA per migliorare la tua efficienza. Il nostro strumento offre un tasso di bypass costante del 99%, evitando tutti i rilevatori di IA: Turnitin, GPTZero, Originality.AI, ZeroGPT e altri.",
+      "keywords": "aggirare l'IA, bypassare il rilevamento dell'IA, bypassare il controllo dell'IA, miglior strumento di bypass dell'IA"
+    },
+    "aiRewriter": {
+      "title": "AI Rewriter - Il miglior strumento di riscrittura e generatore di riscrittura AI",
+      "description": "Gratuito per un periodo limitato! Byecheck Rewriter utilizza un algoritmo umanizzante, parafrasando il testo in modo non rilevabile e grammaticalmente corretto, bypassando facilmente i rilevatori di IA.",
+      "keywords": "riscrivere con IA, AI Rewriter non rilevabile, AI Rewriter di paragrafi"
+    }
+  },
+  "Auth": {
+    "sign_up_title": "Iscriviti a {brandName}",
+    "sign_up_title_get_words": "Iscriviti ora per ricevere {words} parole",
+    "no_cc_required": "Nessuna carta di credito richiesta",
+    "sign_up_get_words": "{words} parole",
+    "sign_up_get_ai_writing": "Scrittura veramente indescrivibile",
+    "sign_up_get_bypass": "bypassa tutti i rivelatori Al",
+    "sign_up_get_humanization": "Nessuna distorsione Umanizzazione",
+    "sign_up_get_plagiarism_free": "Contenuto 100% libero da plagio",
+    "sign_up_get_watermark_removal": "Rimozione filigrana ChatGPT",
+    "sign_up_get_penalties_avoid": "Evita le sanzioni di Google",
+    "sign_up_get_i18n_support": "Oltre 50 lingue supportate",
+    "sign_up_with_google": "Continua con Google",
+    "sign_up_with_email": "Continua con e-mail",
+    "already_have_an_account": "Hai gia' un conto?",
+    "sign_in_here": "Accedi qui",
+    "sign_up_agree": "Iscrivendoti, accetti il nostro sito",
+    "and": "e",
+    "terms_of_service": "Termine e servizi",
+    "privacy_policy": "Informativa sulla privacy",
+    "sign_up_email_title": "Iscriviti con la tua email",
+    "sign_up_email_subtitle": "Inserisci il tuo indirizzo per creare un account su {brandName}",
+    "sign_up_email_verify_title": "Verifica la tua email",
+    "sign_up_email_verify_subtitle": "Abbiamo inviato un codice di verifica a{email}Inserisci il codice qui sotto per verificare che sia il tuo indirizzo email.",
+    "sign_up_email_create_account_title": "Crea il tuo account",
+    "sign_up_email_create_account_subtitle": "Inserisci il tuo nome e una password per il tuo nuovo account.",
+    "email_address": "Indirizzo email",
+    "email": "Email",
+    "enter_code": "Inserisci codice",
+    "continue": "Continua",
+    "verify": "Verifica",
+    "save_changes": "Salva le modifiche",
+    "saved_changes": "Modifiche salvate",
+    "did_not_get_code": "Non hai ricevuto il codice?",
+    "resend_code": "Reimposta codice",
+    "first_name": "Nome",
+    "last_name": "Cognome",
+    "password": "Password",
+    "new_password": "Nuova password",
+    "confirm_password": "Conferma password",
+    "back": "Indietro",
+    "or": "o",
+    "create_account": "Crea account",
+    "accept_the": "Accetto la",
+    "terms_and_conditions": "Termine e servizi",
+    "sign_in_title": "Accedi a {brandName}",
+    "sign_in_with_google": "Accedi con Google",
+    "sign_in_with_fb": "Accedi con Facebook",
+    "or_sign_in_with_email": "o accedi con e-mail",
+    "forgot_password": "Hai dimenticato la password?",
+    "sign_in": "Accedi",
+    "sign_in_success": "Firmato con successo",
+    "sign_up_success": "Firmato con successo",
+    "submit": "Invia",
+    "back_to_sign_in": "Torna all'accesso",
+    "did_not_have_an_account": "Non avevi un conto?",
+    "sign_up_here": "Registrati qui",
+    "forgot_password_title": "Hai dimenticato la password?",
+    "forgot_password_subtitle": "Inserisci l'indirizzo email associato al tuo account e ti invieremo le istruzioni per reimpostare la password.",
+    "password_format_invalid": "Le password devono essere di 6-16 caratteri, contenenti almeno 1 lettera e 1 numero",
+    "password_confirm_invalid": "Le password non corrispondono",
+    "email_sent": "Email inviata!",
+    "reset_password_title": "Ripristina password",
+    "reset_password_success": "Ripristino della password con successo",
+    "bind_email_title": "Completa la tua email",
+    "bind_email_subtitle": "Per ricevere meglio informazioni di fatturazione e aggiornamenti del prodotto"
+  },
+  "Home": {
+    "main_title": {
+      "default": "Strumenti di rilevamento anti-AI: il tocco umano nell'evoluzione tecnologica"
+    },
+    "sub_title": {
+      "default": "Trasforma il tuo testo di intelligenza artificiale in contenuti coinvolgenti e umani{brandName}Ai umanizzatore. Il nostro strumento garantisce che il tuo contenuto sia privo di plagio e rimane non rilevabile dai rilevatori di intelligenza artificiale."
+    },
+    "compare_title": {
+      "default": "Umanizzare il testo AI con strumento umanizzatore AI gratuito"
+    },
+    "compare_subtitle": {
+      "default": "Converti il ​​testo generato dall'intelligenza artificiale in contenuti naturali simili all'uomo usando il nostro strumento umanizzatore AI, assicurando che si fonde perfettamente in qualsiasi contesto."
+    },
+    "reason": {
+      "default": "Perché dobbiamo aggirare il rilevamento dell'IA con"
+    },
+    "reason_subtitle": "3 motivi per cui è necessario {brandName}",
+    "avoid_unfair_school_penalty": "Evitare pene scolastiche ingiuste",
+    "avoid_unfair_school_penalty_desc": {
+      "default": "Molti studenti affrontano accuse ingiuste a causa di contenuti generati dall'IA.{brandName}Aiuta a prevenire questi problemi umanizzando il tuo testo, assicurando che passi non rilevato e salvaguardandoti da potenziali malintesi e voti bassi."
+    },
+    "avoid_google_ranking_penalty": "Ottimizzazione SEO-Friendly",
+    "avoid_google_ranking_penalty_desc": {
+      "default": "{brandName}Garantisce che i tuoi contenuti non vengano eliminati le parole chiave essenziali per la SEO, garantendo allo stesso tempo che il contenuto sia di qualità e possa essere facilmente letto dalle persone migliorando quindi le posizioni di classificazione dei motori di ricerca."
+    },
+    "avoid_marketing_spam_trigger": "Evita l'attivazione di spam di marketing",
+    "avoid_marketing_spam_trigger_desc": {
+      "default": "{brandName}Aiuta gli esperti di marketing a convertire il testo puramente creato dall'intelligenza artificiale in un inglese più umano per un paio di ragioni: può aiutare a evitare i filtri spam e raggiungere i tuoi lettori."
+    },
+    "detector_title": {
+      "default": "Rileva il contenuto di intelligenza artificiale per bypassare tutti i rilevatori di intelligenza artificiale"
+    },
+    "detector_subtitle": {
+      "default": "{brandName}Bypass facilmente i rilevatori di intelligenza artificiale come Gptzero, originalità AI, Zerogpt, Turnitin, Winston AI, contenuti su vasta scala e copyleak che assicurano che i tuoi contenuti rimangono inosservati e senza restrizioni."
+    },
+    "steps_title": {
+      "default": "3 passaggi per bypassare il rilevamento dell'IA"
+    },
+    "steps_1_title": {
+      "default": "1. Copia e incolla da Chatgpt"
+    },
+    "steps_1_desc": {
+      "default": "{brandName}può umanizzare il testo di Chatgpt, Claude o di qualsiasi altro generatore di contenuti AI."
+    },
+    "steps_2_title": {
+      "default": "2. Fare clic su \"Humanize\""
+    },
+    "steps_2_desc": {
+      "default": "{brandName}è il mandato di rilevamento dell'intelligenza artificiale leader del settore che funziona perfettamente con Turnitin, Zerogpt e altri."
+    },
+    "steps_3_title": {
+      "default": "3. Controlla l'IA"
+    },
+    "steps_3_desc": {
+      "default": "Non c'è bisogno di andare in un altro sito Web, abbiamo uno strumento rivelatori all-in-one, verificare e garantire automaticamente la sicurezza per il tuo lavoro"
+    },
+    "customer_title": {
+      "default": "Non rilevabile da AI, approvato dai professionisti!"
+    },
+    "customer_subtitle": {
+      "default": "Ascolta dai nostri utenti soddisfatti che si fidano{brandName}Per contenuti che ignora perfettamente il rilevamento dell'IA. Le loro testimonianze evidenziano l'efficacia e l'affidabilità dei nostri strumenti di umanizzazione AI avanzati."
+    },
+    "customer_1_said": {
+      "default": "\"Sono stato stressato nel mio lavoro scolastico e molte scadenze. Uno dei miei amici mi consiglia{brandName}. Ho provato. Trasforma il testo generato dall'integrità con contenuti che suona come se lo avessi scritto da solo, con una grammatica perfetta e nessun plagio. I miei saggi sono unici e senza errori e i miei voti sono decisamente migliorati. \" - Michael Thompson"
+    },
+    "customer_1_earn": "+ 120 %",
+    "customer_1_tip": {
+      "default": "Aumenta il mio grado di saggio"
+    },
+    "customer_2_said": {
+      "default": "\"Come scrittore SEO freelance,{brandName}ha trasformato il mio flusso di lavoro. Crea contenuti coinvolgenti, accurati e privi di plagio che si classificano bene sui motori di ricerca. Posso rispettare scadenze strette senza compromettere la qualità, tutto grazie a{brandName}. È uno strumento indispensabile per chiunque sia serio sulla scrittura di contenuti e SEO. \" - Emily Johnson"
+    },
+    "customer_2_earn": "$ 250 k",
+    "customer_2_tip": {
+      "default": "Guadagno extra da Finish More Post"
+    },
+    "customer_3_said": {
+      "default": "\"Gestire un'agenzia SEO, non posso ignorare il potere della co-scrittura di AI.{brandName}ha completamente trasformato la creazione di contenuti. I suoi algoritmi generano contenuti naturali e autentici e l'output per friendly ha aumentato notevolmente la visibilità del mio sito web. Ora, produco contenuti di alto livello su scala che non abbiamo mai immaginato, elevando il mio marchio a nuove altezze. \"-Joshua Noble"
+    },
+    "customer_3_earn": "+ 280 %",
+    "customer_3_tip": "Aumento del fatturato aziendale",
+    "faq": "FAQ per il rilevamento {brandName}",
+    "faq_subtitle": "Se sei nuovo o cerchi risposte alle tue domande, questa guida ti aiuterà a saperne di più sui nostri servizi e sulle loro funzionalità.",
+    "question_1": "Cos'è un dispositivo di rimozione del rilevamento AI?",
+    "answer_1": {
+      "default": "Uno strumento di scrittura di intelligenza artificiale non rilevabile chiamato Remover di rilevamento dell'IA o Bypasser AI aiuta gli utenti a aggirare i rilevatori di intelligenza artificiale creando materiale di intelligenza artificiale che riceve punteggi umani al 100%."
+    },
+    "question_2": "Perché è importante bypassare il rilevamento AI?",
+    "answer_2": {
+      "default": "Gli studenti devono garantire che il loro lavoro passi controlli di intelligenza artificiale e soddisfa le regole istituzionali. I creatori di contenuti possono migliorare la classifica di Google ed evitare le sanzioni eludendo i rilevatori di intelligenza artificiale. Gli inserzionisti possono far sembrare i contenuti autentici ed evitare report di spam utilizzando strumenti come{brandName}."
+    },
+    "question_3": "Come rendere il testo AI non rilevabile?",
+    "answer_3": {
+      "default": "Con{brandName}, puoi umanizzare il testo generato dall'intelligenza artificiale e renderlo completamente non rilevabile per i rilevatori di intelligenza artificiale. Il nostro team di algoritmo ha trascorso mesi a sviluppare questo strumento utilizzando un modello auto-allenato. La soluzione è semplice: basta fare clic sul pulsante \"umanizza\" e riceverai contenuti che suoni completamente scritti dall'uomo."
+    },
+    "question_4": "È libero di bypassare i rivelatori AI con {brandName}?",
+    "answer_4": {
+      "default": "Ogni nuovo utente può aggiungere parole gratuite al testo AI utilizzando{brandName}. Per accedere a parole e funzionalità aggiuntive, è necessario iscriverti a uno dei nostri piani di abbonamento. Vedi la nostra pagina di prezzo per ulteriori informazioni."
+    },
+    "question_5": "Quali lingue supporta {brandName}?",
+    "answer_5": {
+      "default": "Oltre a umanizzare la scrittura di intelligenza artificiale in inglese,{brandName}può anche gestire l'umanizzazione in oltre 30 altre lingue. Quindi, puoi usare{brandName}produrre liberamente la scrittura di intelligenza artificiale non rilevabile e raggiungere un pubblico mondiale."
+    },
+    "question_6": "Quanto tempo richiede l'elaborazione dei documenti?",
+    "answer_6": {
+      "default": "Il tempo di elaborazione per l'output umanizzato dipende dalla lunghezza e dalla complessità dell'input, nonché dalle tue esigenze specifiche. In media, aspettatevi il tuo documento senza rilevamento AI entro 10-20 secondi."
+    },
+    "recommend_title": {
+      "default": "Bypassare senza sforzo l'intelligenza artificiale{brandName}Oggi"
+    },
+    "recommend_subtitle": {
+      "default": "Trasformare il testo generato dall'IA in contenuti completamente non rilevabili, simili all'uomo. Tentativo{brandName}bypassare il rilevamento dell'IA gratuitamente!"
+    },
+    "avoid_ai_desc": "{brandName} è il bypasser AI leader del settore che può umanizzare il testo e bypassare i rivelatori AI Top",
+    "company": "Società",
+    "about_us": "Su di noi",
+    "terms_and_conditions": "Termine e servizi",
+    "privacy_policy": "Informativa sulla privacy",
+    "return_policy": "Politica di rimborso",
+    "contact_us": "Contattaci",
+    "solution_and_services": "Soluzioni e servizi",
+    "undetectable_ai": "AI non rilevabile",
+    "ai_humanizer": "Umanizzatore AI",
+    "ai_bypasser": "Bypass AI",
+    "ai_detection_remover": "Rimozione rilevamento IA",
+    "upgrade_now": "Aggiorna ora",
+    "try_now": "Prova subito AI Humanizor",
+    "limited_offer": "Limitato{percent}Offerta",
+    "test_detector_for_free": "Test AI Detector Gratis",
+    "start_for_free": "Inizia gratis",
+    "main_title2": {
+      "default": "Rilevatore di AI affidabile per Chatgpt, GPT-4, DeepSeek,\n Claude e altro ancora"
+    },
+    "main_title_ai_translator": {
+      "default": "Il traduttore di AI aiuta il tuo testo bypassare tutti i rilevatori di intelligenza artificiale"
+    },
+    "main_title_human": {
+      "default": "AI al convertitore di testo umano bypass qualsiasi sistema di rilevamento dell'IA"
+    },
+    "main_title_bypass": {
+      "default": "Bypasser AI affidabile per creare istantaneamente contenuti umani non rilevabili"
+    },
+    "main_title_rewriter": {
+      "default": "AI Reswriter: trasforma il contenuto istantaneamente con l'ottimizzazione delle parole chiave intelligente"
+    },
+    "main_title_detector": {
+      "default": "Rivelatore di AI: visione umana nel mondo dell'IA"
+    }
+  },
+  "Humanize": {
+    "mode": "Modalità",
+    "mode_free": "Gratis",
+    "mode_premium": "Premio",
+    "usage_guidelines": "Linee guida per l'uso",
+    "input_placeholder": "Inserisci il testo che vuoi umanizzare qui",
+    "try_a_sample": "Prova un campione",
+    "paste_text": "Incolla testo",
+    "words": "parole per tempo",
+    "humanize": "Umanizza",
+    "flash_sale": "70%Off Flash-Sale Premium",
+    "flash_sale_month_fee": "solo 3,99 dollari al mese",
+    "helper_title": "Umanizzare in 3 scenari principali",
+    "helper_chip_paper": "Saggi e documenti di ricerca",
+    "helper_chip_article": "Blog SEO e articoli di affiliazione",
+    "helper_chip_email": "Email di marketing",
+    "helper_input_text_title": "TESTO INPUT",
+    "helper_input_text_desc": "Il passaggio all'agricoltura ha richiesto migliaia di anni.",
+    "helper_result_text_title": "TESTO PARAFORMATO",
+    "helper_result_text_desc_1": "Il",
+    "helper_result_text_desc_2": "transizione",
+    "helper_result_text_desc_3": "ad un",
+    "helper_result_text_desc_4": "La società agraria ha attraversato diversi millenni",
+    "humanize_helper_text": "I risultati umanizzati verranno visualizzati qui",
+    "analyzing_content": "Stiamo analizzando il tuo contenuto ora.",
+    "processing_texts": "Elaborazione dei testi",
+    "identifying_text": "Identificazione del testo generato dall'intelligenza artificiale",
+    "comparing_human_pattern": "Confronto con il modello di scrittura umano",
+    "detecting_title": "Probabilità di rilevamento AI",
+    "detecting_subtitle": "Controllo se il prossimo è generato da IA. Attendi 5-10 secondi...",
+    "checking_result": "Controllo risultato:",
+    "human_written": "Scritto dall'uomo",
+    "50_human_written": "50% scritto dall'uomo",
+    "ai_generated": "Generata da IA",
+    "output_content_human_written": "Il contenuto di output sembra essere scritto dall'uomo.",
+    "less_than_min_words": "Il tuo input dovrebbe contenere almeno{minWords}parole.",
+    "copied_result": "Risultato copiato negli appunti!",
+    "get_premium": "Aggiornamento",
+    "for_more_words": "per più parole",
+    "monthly_usage_desc": "{used}/{total}parole gratuite al mese",
+    "get_more": "Prendi di più",
+    "upgrade_now": "Aggiorna ora",
+    "hit_word_limit": "Hai raggiunto il limite delle parole. Si prega di aggiornare per ottenere più parole.",
+    "your_content": "Il tuo contenuto",
+    "output": "Output",
+    "rewrite": "Riscrivi",
+    "passing_rate": "Tasso di passaggio",
+    "quality": "Qualità",
+    "normal": "Normale",
+    "height": "Alto",
+    "submit": "Presentare",
+    "clear": "Clear",
+    "copy": "Copia",
+    "more": "More",
+    "rewrite_level": "Riscrivi il livello",
+    "choose_persona": "Seleziona ruolo ",
+    "keywords": "Parole chiave ",
+    "personal_needs": "Necessità personalizzate",
+    "more_humanized": "Più umanizzato",
+    "hight_passing_tip": "I crediti di costo x2 garantiscono un tasso di passaggio più elevato che è più adatto per scenari che richiedono un tasso di passaggio elevato",
+    "hight_quality_tip": "I crediti di costo x2 garantiscono una qualità più stabile e sono più adatti per scenari di riscrittura seri",
+    "keywords_placeholder": "Fornisci le tue parole chiave e ci concentreremo sull'ottimizzazione in base alle parole chiave fornite. Puoi anche fornire parole chiave che devono rimanere invariate.",
+    "personal_placeholder": "Per esempio, è possibile richiedere di espandere il testo a 500 parole, accorciare il testo, usare un tono più formale o renderlo più educato",
+    "please_select_language": "Si prega di scegliere una lingua",
+    "Please_select_output_format": "Selezionare il formato di output",
+    "Please_select_the_purpose": "Scegli lo scopo della scrittura",
+    "Param": {
+      "3790b93fb56fd98f6b6466512383724c": "Lettibilità",
+      "4d066bbb0e40abe54f3000755a45aa6e": "Scopo",
+      "15d61712450a686a7f365adf4fef581f": "Modalità",
+      "46ae7abb16cb95fc64fa45ffafac4f7b": "High School",
+      "10238d6114894bb5edc39981835bbec9": "Università",
+      "270a37e30f72fc24b9b623402eb17195": "Dottorato",
+      "82ad21b5762c06c3eb611a807982ab76": "Giornalista",
+      "c769c2bd15500dd906102d9be97fdceb": "Marketing",
+      "c814fd17f6661d247523384865b80bbb": "Scrittura generale",
+      "aa71444b7b6dc365709350e025d91df5": "Saggio",
+      "92a2b5cb9c6906035c2864fa225e1940": "Articolo",
+      "a710492c49a03e7a00747bf5cbe87630": "Materiale di commercializzazione",
+      "bec670e5a55424d840db8636ecc28828": "Storia",
+      "d957d1eeb9a2e4784e910d9556b28d87": "Lettera di copertina",
+      "e98d2f001da5678b39482efbdf5770dc": "Relazione",
+      "0ab2df4893b1b7dd5391401b78b44ff1": "Materiale commerciale",
+      "501c86a72e95caaa26d0acb4dad38a13": "Materiale giuridico",
+      "d66636b253cb346dbb6240e30def3618": "Qualità",
+      "b336df698d12ac8e54570ba6ea2679f0": "Equilibrato",
+      "9a9a22f67f1c8127bfb92b3aa1d9e776": "Più umano"
+    },
+    "mobile_imput_placeholder": "Inserisci il testo che si desidera rilevare qui",
+    "general_writing": "Scrittura generale",
+    "essays": "Saggi",
+    "blog_article": "Articolo del blog",
+    "more_setting": "Più impostazione",
+    "format_of_output": "Formato dell'output",
+    "audience": "Pubblico ampio",
+    "college": "Studentessa",
+    "marketing": "Marketing",
+    "professional": "Professionale",
+    "paraphrase_unlimited_text": "Parafrasa il testo illimitato",
+    "paraphrase_in_unlimited_modes": "Parafrasi in modalità illimitate",
+    "access_premium_grammarrecommendations": "Accedi a GramarrerCommations premium",
+    "prevent_accidental_plagiarism": "Prevenire il plagio accidentale",
+    "and_so_much_more": "E molto di più!",
+    "starting_from": "a partire da",
+    "get_premium_today": "Ottieni premio oggi!",
+    "paraphrase_unlimited_words": "Parafrasi parole illimitate",
+    "grammar_improved": "La grammatica è migliorata",
+    "spelling_fixed": "Ortografia fissa",
+    "tone_adjusted": "Tono regolato"
+  },
+  "Billing": {
+    "pricing_main_title": {
+      "default": "Ottieni un rilevatore di AI premium AI e un prezzo conveniente"
+    },
+    "monthly": "Mensile",
+    "yearly": "Annuale",
+    "save_up_to": "Salva fino a{percent}",
+    "per_month": "Al mese",
+    "per_month_c": "/ mese",
+    "words_per_month": "{words}Parole / mese",
+    "buy_now": "Acquista ora",
+    "unlimited": "Illimitato",
+    "unlimited_words": "Parole illimitate",
+    "unlimited_words_per_request": "Parole illimitate per richiesta",
+    "words_per_request": "{words}Parole / richiesta",
+    "most_popular": "I più popolari",
+    "checkout_success": "Il pagamento è stato elaborato con successo",
+    "back_to_website": "Torna al sito web",
+    "cancel_subscription": "Annulla abbonamento",
+    "cancel_subscription_desc": "Continuerai ad avere accesso al tuo account fino alla fine del periodo di fatturazione corrente.Non ti verrà addebitato alcun importo dopo la data di fine dell'abbonamento.",
+    "cancel_subscription_success": "Il tuo abbonamento è stato cancellato con successo",
+    "secure_payment": "Pagamento sicuro",
+    "more": "di più",
+    "save_money": "SAVE{percent}",
+    "Plan": {
+      "71886c768c83fca7545e8ba14be486a7": "AIhumani Basic",
+      "eff5212d53934253c22eaa0cba003cf4": "AIhumani Professional",
+      "edc15188338cc059cd28990dd92e5f93": "AIhumani Unlimited",
+      "37c6b4ff9ffd286d3e494c3c72df3d3c": "Parole illimitate per umanizzare; passa tutti i rivelatori di IA; Contenuto 100% privo di plagio; Contenuti leggibili e di alta qualità; Trule Undetectable AI Writing; Uscite prive di errori; Rimozione filigrana ChatGPT",
+      "2026dce580da53e79838347cc1b5664d": "passa tutti i rivelatori di IA; Contenuto 100% privo di plagio; Contenuti leggibili e di alta qualità; Trule Undetectable AI Writing; Uscite prive di errori; ChatGPT Watermark Removal; Rilevatori AI incorporati",
+      "6ee4557bbbe139354d34d22f8869c219": "Parole illimitate per umanizzare; passa tutti i rivelatori di IA; Contenuto 100% privo di plagio; Contenuti leggibili e di alta qualità; Scrittura AI veramente indescrivibile; Uscite prive di errori; Rimozione filigrana ChatGPT",
+      "1c595fd9e5ab443b92342510ef289e79": "passa tutti i rivelatori di IA; Contenuto 100% privo di plagio; Contenuti leggibili e di alta qualità; Scrittura AI veramente indescrivibile; Uscite prive di errori; ChatGPT Watermark Removal; Rilevatori AI incorporati",
+      "78eb23fbc84f91ee306c1d9af5b4f0f5": "Passa tutti i rilevatori di intelligenza artificiale",
+      "7101736c63619b1ebab632b619ef23db": "Contenuto senza plagio al 100%",
+      "47b22ae76526522591c9bbb96f78fde3": "Contenuti di alta qualità e leggibile",
+      "21a6dcc2b71d24b40d66d8628e6f9ff5": "Scrittura di intelligenza artificiale davvero non rilevabile",
+      "7c9445f4766f35b4edd021903f486db5": "Output senza errori",
+      "a26f7abeeec6cf4dbd7effe80605414b": "Rimozione della filigrana di Chatgpt",
+      "6fc3440f72cb794cec7f86ca9f66191e": "Rilevatori di intelligenza artificiale incorporati",
+      "a232690a332961ecf3b02bcfbbf8cd5b": "Parole illimitate da umanizzare",
+      "b8960ff57f1b184d5161c8da40e0335c": "{brandName}Di base",
+      "99f388830f1194883bc651612032fbd4": "{brandName}Professionale",
+      "5f28d84e53d950d1ac43ced4ac78f9d4": "{brandName}Illimitata",
+      "6a1d02e0a259612781bc827093cb5046": "{brandName}Starter",
+      "f5bc03820460c0251b0df90eb6ce222b": "{brandName}Di base",
+      "5ace4e6437e2cdc8ee5b3ef509186f6f": "{brandName}Professionale",
+      "74c576d1b8ce57187b30a014fd2a7f33": "{brandName}Illimitata",
+      "5eb913e78d947a39ff25e4dd081b5e8f": "Illimitata"
+    },
+    "lifetime": "Prova gratuita",
+    "lifetime_deal": "Affare a vita",
+    "payment_success": "Il pagamento ha successo, grazie!",
+    "payment_failed": "Pagamento non riuscito",
+    "amount": "Quantità",
+    "content_quality_assurance": "Content Quality Assurance Card",
+    "content_quality_assurance_tip_1": "Per gli utenti del piano non con un limite, forniamo rimborsi per i conteggi delle parole interessati da guasti di rilevamento o importanti errori di grammatica. Vedere",
+    "content_quality_assurance_tip_2": "per i dettagli.",
+    "money_back_guarantee": "Garanzia di rimborso di 3 giorni",
+    "money_back_guarantee_tip_1": "Tentativa{brandName}per 3 giorni. Se non sei felice, puoi richiedere un rimborso. Vedere il nostro",
+    "money_back_guarantee_tip_2": "Per maggiori dettagli.",
+    "quarterly": "Trimestrale",
+    "product": "Prodotto",
+    "subscription": "Sottoscrizione",
+    "subscription_confirming": "Lo stato di abbonamento è in fase di conferma",
+    "billed": "fatturate",
+    "upgrade_enjoy": "Aggiorna ora e goditi più parole a un prezzo inferiore!",
+    "upgrade_tips": "Per solo {upgradeTotalPrice} (regolarmente {realTotalPrice}), accedere al piano aggiornato con parole estese. L'abbonamento attuale verrà sostituito da questo piano aggiornato: il conteggio delle parole non si immergerà.",
+    "subscription_checking": "Lo stato di abbonamento è in attesa di conferma bancaria. Puoi contattare direttamente il nostro servizio clienti per la conferma",
+    "per_year_c": "/ anno",
+    "contact_us_title": "Hai bisogno di più parole o APL? Contattaci ora!",
+    "contact_us_content": "· Per le tue esigenze di contenuti su larga scala: rileva immediatamente l'Al, quindi umanizzalo per risultati autentici e non rilevabili",
+    "contact_us_button": "Contattaci",
+    "subscribe": "Iscriviti"
+  },
+  "AboutUs": {
+    "our_story_title": "La nostra storia: è iniziata con una frustrazione",
+    "our_story_desc_1": "Conosciamo la sensazione: hai appena usato un potente strumento di intelligenza artificiale e l'output è ... quasi giusto. È intelligente, è veloce, ma non c'è ancora alcun elemento umano. Sembra robotico, viene contrassegnato dai rilevatori o non ha la sfumatura di cui hai bisogno.",
+    "our_story_desc_2": "Ecco dove è iniziata la nostra storia. L'intelligenza artificiale Byecheck non è stata progettata in una sala del consiglio, è stata concepita per una frustrazione condivisa per la dissonanza tra intelligenza artificiale e vera espressione umana. Siamo un gruppo di scrittori, sviluppatori e linguisti che pensavano che l'IA dovesse lavorare per te, non viceversa. La nostra missione è semplice: creare strumenti che non semplicemente sputano il testo, ma che producono comunicazioni che suoni naturali, sfumati e veramente umani.",
+    "what_we_do_title": "Cosa facciamo: colmare il divario tra AI e Humanity",
+    "what_we_do_desc_1": "Facciamo strumenti basati sull'intelligenza artificiale per aiutarti a comunicare con chiarezza, immaginazione e integrità. Trascendiamo il cliché, l'output robotico per stabilire una connessione emotiva.",
+    "what_we_do_desc_2": "I nostri strumenti fondamentali sono destinati a particolari dilemmi del mondo reale:",
+    "what_we_do_desc_3": "● L'umanizzatore è il nostro strumento di valore principale ed è sviluppato per qualsiasi utente che sta lottando per finire il contenuto generato dall'intelligenza artificiale. L'umanizzatore riscrive il contenuto e lo rende non rilevabile per l'IA, sia che tu sia uno studente che controlla il tuo lavoro per l'originalità, un marketer che scrive un blog persuasivo o un report professionale. Migliora la leggibilità, aggiunge un flusso naturale e fa sembrare che ciò che scrivi sia davvero il tuo lavoro.",
+    "what_we_do_desc_4": "● Traduttore AI: vai oltre la traduzione di parole per parola. Il nostro traduttore è addestrato a pensare nei idiomi, nel contesto e nella sfumatura culturale. È per le imprese e le persone che vogliono che il loro testo sia perfettamente localizzato preservando significato, intento, tono e sfumatura.",
+    "what_we_do_desc_5": "● Rilevatore di intelligenza artificiale: in un giorno ed età in cui abbonda il contenuto di intelligenza artificiale, sapere cosa era originale è cruciale. Il nostro rivelatore fornisce un'analisi trasparente e affidabile che consente agli insegnanti, ai redattori e ai gestori dei contenuti di controllare l'autenticità e di mantenere un alto livello di originalità di lavoro.",
+    "our_why_title": "Il nostro \"perché\": la convinzione che ci guida",
+    "our_why_desc": "Riteniamo che sia compito della tecnologia migliorare le capacità umane, non soppiantarla. I nostri strumenti sono pensati per essere i tuoi alleati, non i tuoi rivali. Questi strumenti fanno il lavoro sporco per te: la prima bozza, la noiosa riscrittura, le traduzioni impegnative-quindi puoi fare ciò che le persone sono meglio in: impostazione della strategia, scintilla la creatività e aggiungendo quel po 'di intuizione unica nel suo genere che solo tu puoi contribuire.",
+    "our_promise_to_you_title": "La nostra promessa a te",
+    "our_promise_to_you_desc_1": "Quando ti iscrivi AI Byecheck, non stai solo acquistando un piano, ti stai iscrivendo a un partner che supporterà con tutto il cuore i tuoi sforzi. Siamo tutti in cui per:",
+    "our_promise_to_you_desc_2": "1) Continua Innovation: il mondo online si muove rapidamente. Aggiorniamo continuamente i nostri algoritmi in modo da essere sempre un passo avanti e i nostri strumenti rimangono efficaci e fidati.",
+    "our_promise_to_you_desc_3": "2) Design incentrato sull'utente: strumenti semplici per i problemi complessi che affrontiamo tutti. Il tuo feedback andrà direttamente nella nostra tabella di marcia del prodotto.",
+    "our_promise_to_you_desc_4": "3) Onestà e fiducia: la tua privacy è fondamentale per noi. Il tuo contenuto è il tuo contenuto. Crediamo nell'essere trasparenti su come operiamo.",
+    "join_us_on_the_journey_title": "Unisciti a noi nel viaggio",
+    "join_us_on_the_journey_desc": "Siamo qui per autorizzarti a comunicare con fiducia in un'età di intelligenza artificiale. Dai un'occhiata agli strumenti, scegli il tuo piano e inizia a creare contenuti che siano sia fortemente efficienti che perfettamente umani.",
+    "the_naturalized_ai_team_title": "La squadra di AI Byecheck",
+    "get_started": "Inizia ora",
+    "about_us": "Di{brandName}",
+    "our_vision_title": "La nostra visione",
+    "our_vision_content": "Siamo nati da una convinzione semplice: la missione più importante della tecnologia non dovrebbe essere quella di sostituire l'umanità, ma di potenziarla. Speriamo di portare calore al futuro.",
+    "our_mission_title": "La nostra missione",
+    "our_mission_content": "La nostra missione è creare strumenti di intelligenza artificiale veramente a livello umano. Crediamo fermamente che la vera intelligenza non risieda solo nella risoluzione dei problemi ma anche nello stupore. Siamo un team di tecnologi, designer e sostenitori dell’ambiente impegnati a rendere l’intelligenza più umana e il progresso più sostenibile.",
+    "our_core_values_title": "I nostri valori fondamentali",
+    "our_core_values_desc_1": "1. Design incentrato sull'uomo",
+    "our_core_values_desc_2": "I nostri strumenti ascoltano, comprendono e si adattano alle complesse emozioni e ai bisogni degli esseri umani. Ci impegniamo a rimuovere la freddezza della tecnologia e a rendere l’intelligenza artificiale un partner accogliente, inclusivo e autorevole per tutti.",
+    "our_core_values_desc_3": "2. Impegno per la Sostenibilità",
+    "our_core_values_desc_4": "Algoritmi ecologici: ottimizza l'efficienza del modello, esegui più attività con meno risorse di elaborazione e riduci significativamente la nostra impronta di carbonio.",
+    "our_core_values_desc_5": "Servizi cloud responsabili: dare priorità ai fornitori di servizi cloud e ai data center che utilizzano il 100% di energia rinnovabile.",
+    "our_core_values_desc_6": "Riduzione dei rifiuti digitali: attraverso una progettazione intelligente dei processi, aiutiamo gli utenti a ridurre inutili duplicazioni di lavoro e sprechi di risorse.",
+    "our_core_values_desc_7": "3. Azione ambientale",
+    "our_core_values_desc_8": "Crediamo che le idee abbiano bisogno di azione. Pertanto, doniamo una percentuale fissa dei nostri profitti a organizzazioni ambientaliste certificate e incoraggiamo i membri del nostro team a partecipare ad iniziative ambientali locali come la piantumazione di alberi e la pulizia delle spiagge.",
+    "our_commitment_to_you": "Il nostro impegno nei tuoi confronti",
+    "our_commitment_to_you_desc_1": "Quando ti iscrivi a{brandName}, non stai semplicemente acquistando un piano; ti stai iscrivendo con un partner che è pienamente impegnato a supportare la tua attività.",
+    "our_commitment_to_you_desc_2": "1) Innovazione continua: il mondo online è in continua evoluzione. Aggiorniamo costantemente i nostri algoritmi per stare al passo con i tempi e garantire che i nostri strumenti rimangano affidabili ed efficaci.",
+    "our_commitment_to_you_desc_3": "2) Design centrato sull'utente: utilizziamo strumenti semplici per risolvere i problemi complessi che affrontiamo. Il tuo feedback verrà incorporato direttamente nella roadmap del nostro prodotto.",
+    "our_commitment_to_you_desc_4": "3) Integrità: la tua privacy è fondamentale per noi. Operiamo in modo trasparente per garantire la proprietà e la privacy dei tuoi contenuti.",
+    "last_info": "Ogni calcolo che fai riflette le nostre aspirazioni condivise per un mondo più intelligente, più umano e più sostenibile. Insieme, proteggiamo il calore dell’umanità con l’intelligenza e seminiamo i semi di un futuro sostenibile con la tecnologia.",
+    "sincerely_title": "Cordiali saluti, il{brandName}Squadra"
+  },
+  "ContactUs": {
+    "contact_us_title": "Contattare{brandName}",
+    "how_can_we_help": "Ci piacerebbe avere tue notizie",
+    "send_us_email": "Contattaci tramite:{supportEmail}",
+    "manager_said": "Hai una domanda sui nostri strumenti? Hai bisogno di aiuto con l'abbonamento o vuoi semplicemente condividere un feedback? Siamo qui per ascoltare. Accendere a noi è il modo più semplice per ottenere le risposte di cui hai bisogno.",
+    "manager_name": "Johanna",
+    "manager_desc": "Manager del servizio clienti,{brandName}",
+    "send_success": "Grazie per averci contattato. Ti risponderemo via email entro tre giorni lavorativi."
+  },
+  "TermsAndConditions": {
+    "terms_and_conditions": "Termini e condizioni d'uso",
+    "last_modified": "Ultimo aggiornamento: 12/08/25",
+    "terms_of_use_desc_1": "Benvenuto a{brandName}. I seguenti Termini e Condizioni (questi “Termini”) si applicano quando si utilizza il sito web Byecheck situato all'indirizzo https://byecheck.com/ (il “Sito”) e i servizi forniti attraverso il Sito, inclusi, senza limitazioni, Humanizer, AI Translator e lo strumento AI Detection (i “Servizi”) ivi offerti.",
+    "terms_of_use_desc_2": "Questi termini servono a governare il tuo utilizzo dei nostri servizi. Utilizzando il nostro sito, creando un account o utilizzando in altro modo i nostri servizi, l'utente accetta di essere vincolato da questi Termini e dalla nostra Informativa sulla privacy. Se non sei d'accordo con tutte le disposizioni di questi termini, non è possibile utilizzare o accedere ai nostri servizi.",
+    "highlight_1": "A{brandName}, siamo qui per fornire un valore reale risolvendo i tuoi problemi. Se riscontri problemi o hai suggerimenti, contattaci: daremo al tuo feedback la massima priorità.",
+    "highlight_2": "Crediamo nel principio dei primi principi: risolvendo i problemi più critici del settore e offrendo un vero valore ai nostri utenti, il nostro marchio può davvero diventare una risorsa preziosa.",
+    "pre_service": "Pre-servizio (prima di iniziare)",
+    "during_service": "Durante il servizio (durante l'utilizzo del servizio)",
+    "post_service": "Post-servizio (dopo aver acquistato)",
+    "general_terms": "Termini generali (informazioni importanti per tutti gli utenti)",
+    "acceptance_of_terms_and_conditions_title": {
+      "default": "Accettazione di termini e servizi"
+    },
+    "acceptance_of_terms_and_conditions_items_1": {
+      "default": "Accordo: accedendo e utilizzando{brandName}Servizi, riconosci e accetta di essere vincolato da questi termini. Se non sei d'accordo con questi termini, non è necessario accedere o utilizzare i servizi."
+    },
+    "acceptance_of_terms_and_conditions_items_2": "Cambiamenti:{brandName}Si riserva il diritto di modificare, aggiornare o rivedere questi termini in qualsiasi momento senza preavviso. L'uso continuato dei servizi dopo eventuali modifiche costituisce l'accettazione dei termini rivisti.",
+    "flexible_plans_title": "Piani flessibili con personalizzazione",
+    "flexible_plans_items_1": "Offriamo piani di abbonamento su misura con elaborazione di pagamenti sicuri. Se hai domande o hai bisogno di un piano personalizzato, inviaci un'e -mail a{supportEmail}- Siamo felici di aiutarti!",
+    "free_plan_title": "Piano gratuito con esperienza completa",
+    "free_plan_items_1": "Il nostro piano gratuito offre 600 parole, significativamente più della maggior parte dei concorrenti, perché crediamo che tu meriti abbastanza da testare completamente{brandName}Stabilità ed efficacia. Il nostro obiettivo è permetterti di verificare che il prodotto possa davvero risolvere i tuoi problemi prima di impegnarti.",
+    "free_plan_items_2": "Se hai bisogno di più di 600 parole a causa di requisiti speciali, non esitare a inviare un'e -mail al nostro team di supporto per richiedere ulteriori parole gratuite. Siamo qui per assicurarci di fare una scelta sicura e informata.",
+    "quality_assurance_title": "Scheda di garanzia della qualità",
+    "quality_assurance_items_1": "Per gli utenti che acquistano i nostri piani non limitati, se si incontrano un testo che non riesce a bypassare il rilevamento o contiene errori di grammatica significativi, offriamo una politica delle carte di garanzia della qualità. Semplicemente contattaci a{supportEmail}e rimborseremo il conteggio delle parole interessati.",
+    "quality_assurance_items_2": "Ci impegniamo a fornire il tasso di bypass di rilevamento più elevato e la qualità della grammatica di prim'ordine, piuttosto che consentire ai contenuti di scarsa qualità di drenare le parole simboliche dei nostri clienti.",
+    "prohibited_uses_title": "Usi proibiti",
+    "prohibited_uses_items_1": "{brandName}è solo a scopo lecito. Si prega di astenersi dall'utilizzare i nostri servizi per eventuali attività dannose, illegali o dannose.",
+    "prohibited_uses_items_list_1": "Se la tua transazione è contrassegnata come ad alto rischio, indicando una potenziale frode (ad es. Carte di credito rubate), ti contatteremo per la verifica dell'identità. Se non c'è risposta, ti rimborseremo e blocceremo l'IP sospetto.",
+    "prohibited_uses_items_list_2": "Se rileviamo l'utilizzo del bot, il raschiatura del web o gli attacchi sul nostro sito, sospenderemo immediatamente il tuo account e blocceremo il tuo IP.",
+    "technical_support_title": "Supporto tecnico e risoluzione dei problemi",
+    "technical_support_items_1": "In caso di problemi tecnici, il nostro team di supporto è pronto ad aiutare entro 24 ore. Sia che tu abbia bisogno di aiuto con l'utilizzo degli strumenti o la risoluzione dei problemi, miriamo a fornire soluzioni rapide ed efficaci.",
+    "shape_the_future_title": "Modellare il futuro di{brandName}E goditi crediti illimitati!",
+    "shape_the_future_items_1": "Comprendiamo che ogni utente - studenti, professionisti, esperti di marketing - hanno bisogni unici per la riscrittura.",
+    "shape_the_future_items_2": "Miriamo a sviluppare funzionalità specializzate su misura per le tue esigenze. Per favore condividi le tue intuizioni con noi! Invia un'e -mail al nostro fondatore all'indirizzo scarlettnoble@byecheck.com con le tue idee per strumenti di riscrittura intelligenti.",
+    "highlight_3": "Ogni mese, sceglieremo 3 collaboratori e li ricompenseremo con un aggiornamento gratuito a un piano di parole illimitato. Facciamo insieme il miglior strumento umanizzante!",
+    "registration_and_user_accounts_title": "1. Registrazione e sicurezza dell'account",
+    "registration_and_user_accounts_items_1": "Per utilizzare i servizi a pagamento, è necessario registrarsi per un account e fornire informazioni vere e accurate. Sei responsabile di proteggere le informazioni sul tuo account e per tutte le azioni che si svolgono sotto il tuo account. Accetti di informarci prontamente se conosci qualsiasi uso non autorizzato del tuo account o di qualsiasi altra violazione della sicurezza. Per eventuali danni o danni che si verificano a causa della mancata manutenzione dei dettagli del tuo account, Byecheck non può e non sarà ritenuto responsabile.",
+    "subscription_services_title": "2. Servizi di abbonamento, commissioni e pagamenti",
+    "subscription_services_items_1": "Piani di abbonamento: i nostri servizi sono offerti su base di abbonamento (\"abbonamento\"). Puoi scoprire maggiori dettagli sulla tua abbonamento, tra cui prezzo e funzionalità, nella nostra pagina dei prezzi.",
+    "subscription_services_items_2": "Pagamento: fornendo un metodo di pagamento, ci si dà l'autorizzazione per riscuotere addebiti a causa dell'utilizzo di quel metodo. Le spese sono ricorrenti e devono essere pagate in anticipo in conformità con il periodo di fatturazione selezionato. Tutti gli addebiti non sono rimborsabili, a meno che non siano richiesti dalla legge applicabile o esplicitamente dichiarate nella nostra politica di rimborso.",
+    "subscription_services_items_3": "Rinnova prima: l'abbonamento si rinnoverà automaticamente alla scadenza di ciascun periodo di fatturazione a meno che non si rinunci a tale rinnovo almeno tre (3) giorni prima della data di rinnovo. È possibile annullare l'abbonamento in qualsiasi momento all'interno delle impostazioni dell'account. La cancellazione entrerà in vigore alla tua prossima data di rinnovo.",
+    "subscription_services_items_4": "Cambiamenti dei prezzi: potremmo modificare le nostre commissioni di abbonamento in qualsiasi momento. Ti avviseremo prima di qualsiasi cambiamento di prezzi ragionevoli. Il continuo impegno con i servizi in seguito alla data di entrata in vigore dell'aumento del prezzo costituisce il tuo consenso alle spese aumentate.",
+    "conduct_and_acceptable_use_policy_title": "3. Condurre e accettare la politica di utilizzo",
+    "conduct_and_acceptable_use_policy_items_1": "Non utilizzare i nostri servizi per scopi aziendali o di comunità che sono illegali o non autorizzati. Sei l'unico responsabile dell'utilizzo dei servizi e del contenuto dell'utente (definito di seguito), inclusa la tua presentazione di dati, testo, file o informazioni (\"Contenuto dell'utente\") tramite i Servizi.",
+    "conduct_and_acceptable_use_policy_items_1_1": "",
+    "conduct_and_acceptable_use_policy_items_2": "1) Concordato di non utilizzare i servizi in violazione delle leggi, non utilizzare i servizi per scopi illegali.",
+    "conduct_and_acceptable_use_policy_items_3": "2) Violare i diritti di proprietà intellettuale degli altri o inviare contenuti che violano, diffamatori, diffamatori o altrimenti illegali.",
+    "conduct_and_acceptable_use_policy_items_4": "3) Pubblica contenuti illegali, molestati, offensivi, diffamanti, osceni o in qualche modo discutibili.",
+    "conduct_and_acceptable_use_policy_items_5": "4) Utilizzare i servizi per produrre contenuti per usi dannosi o fraudolenti.",
+    "intellectual_property": "4. Proprietà intellettuale",
+    "intellectual_property_1": "1) Ciò che possediamo: i servizi e tutti i software, le interfacce visive, la grafica, la progettazione, la compilation e tutti gli altri elementi, inclusi ma non limitati all'uso tramite qualsiasi sito (\"elementi del sito\"), sono di proprietà di Byecheck o dei suoi licenziatari e sono protetti da leggi statali e federali e/o trattati internazionali. Il presente Accordo ti garantisce una licenza limitata, non esclusiva, non pubblicossibile, non trasferibile per accedere e utilizzare i servizi per l'uso personale o aziendale.",
+    "intellectual_property_2": "2) I tuoi diritti: mantieni la proprietà di qualsiasi contenuto utente che pubblichi. Quando pubblichi i contenuti utente, offri Byecheck una licenza esente da royalty, in tutto il mondo, da utilizzare, host e elabora i contenuti solo per fornire e migliorare i servizi per te.",
+    "intellectual_property_3": "3) Output AI: l'output generato dai nostri strumenti AI è per uso personale. Fatti salvo la tua esecuzione di questi termini che possiedi ciò che scrive per te. Detto questo, data la natura dell'apprendimento automatico, l'output generato potrebbe non essere unico e altri possono generare soluzioni simili.",
+    "disclaimer_of_warranties_title": "5. Disclaimer delle garanzie",
+    "disclaimer_of_warranties_items_1": "Utilizzi i servizi a proprio rischio. I servizi sono forniti su base \"così com'è\", \"come disponibile\" e \"con tutti i guasti\". Byecheck declina tutte le garanzie di qualsiasi tipo, esplicite o implicite, inclusi, ma non limitati, le garanzie implicite di commerciabilità, idoneità per uno scopo particolare o non violazione. Non vi è alcuna garanzia che i servizi saranno ininterrotti, tempestivi o senza errori.",
+    "limitation_of_liability_title": "6. Limitazione della responsabilità",
+    "payments_subscriptions_and_refunds_items_1": "In nessun caso Byecheck sarà responsabile in tutta misura consentita ai sensi della legge applicabile per eventuali danni indiretti, accidentali, punitivi, speciali o consequenziali, la perdita di profitti o entrate (diretta o indiretta), perdita di dati, utilizzo, buona volontà o altre perdite immateriali derivanti da (i) accesso o utilizzo dei servizi; e (ii) il carattere o il comportamento di terzi sui servizi; derivante o risultante in relazione ai servizi; (c) Dall'impossibile accedere o utilizzare i servizi, se la perdita è dovuta a qualsiasi atto o omissione.",
+    "refund_policy_title": { "default": "Politica di rimborso" },
+    "refund_policy_items_1": {
+      "default": "Politica di rimborso: è possibile richiedere un rimborso entro 3 giorni (72 ore) dall'acquisto iniziale se non sei soddisfatto, a condizione che tu non abbia usato più di 1000 parole."
+    },
+    "refund_policy_items_2": {
+      "default": "Rimborsi non ammissibili: le richieste di rimborso inviate dopo la finestra di 3 giorni (72 ore) dal tuo acquisto iniziale o quelle superiori a 1000 parole utilizzate non verranno elaborate."
+    },
+    "refund_policy_items_3": {
+      "default": "Processo di rimborso: per richiedere un rimborso, si prega di contattare l'assistenza clienti presso{supportEmail}, fornendo i dettagli dell'ordine e il motivo della tua richiesta di rimborso."
+    },
+    "refund_policy_items_4": "Aggiornamenti della politica:{brandName}Si riserva il diritto di modificare e aggiornare questa politica di rimborso in qualsiasi momento. Ti invitiamo a rivedere periodicamente questa politica.",
+    "refund_policy_items_5": "Piano gratuito:{brandName}Fornisce un piano gratuito che consente agli utenti di provare il servizio prima di impegnarsi in un abbonamento.",
+    "service_quality_guarantee_title": "Garanzia di qualità del servizio",
+    "service_quality_guarantee_items_1": "Ci impegniamo a fornire un servizio di alta qualità. La nostra piattaforma e strumenti soddisfano gli standard del settore. Se riscontri problemi di qualità del servizio, offriremo un risarcimento come un rimborso o un'estensione del servizio, a seconda della situazione.",
+    "customer_support_title": "Assistenza clienti",
+    "customer_support_items_1": "Il nostro team è sempre disponibile per assistere a eventuali preoccupazioni, che si tratti di funzionalità, gestione degli account o risolvere un problema. Puoi contattarci via e -mail o chat dal vivo (in arrivo) e risponderemo rapidamente per guidarti attraverso eventuali sfide.",
+    "secure_payment_support_title": "Supporto di pagamento sicuro",
+    "secure_payment_support_items_list_1": "Annulla in qualsiasi momento: puoi annullare l'abbonamento in qualsiasi momento. State tranquilli, non inizieremo mai addebiti non autorizzati, detrazioni multiple o pagamenti duplicati.",
+    "secure_payment_support_items_list_2": "Problemi di pagamento: se si verifica un raro problema di pagamento, ti preghiamo di contattarci immediatamente. Lavoreremo con il processore di pagamento per indagare e risolvere la questione il più rapidamente possibile.",
+    "secure_payment_support_items_list_3": "Addebiti non autorizzati: se si nota addebiti non autorizzati sulla tua carta dalla nostra piattaforma, potrebbe indicare che le informazioni della tua carta sono state compromesse da parti fraudolente. In tali casi, ti aiuteremo a garantire un rimborso e prendere le misure necessarie per proteggere il tuo account.",
+    "lifetime_plan_title": "Piano a vita",
+    "lifetime_plan_items_1": "Per gli utenti che acquistano il piano a vita, avrai accesso a{brandName}Per tutto il tempo in cui continuiamo a operare. Si prega di notare che se{brandName}cessa le operazioni, l'accesso a vita potrebbe non essere più applicabile. Ti terremo informato su eventuali importanti modifiche.",
+    "legal_compliance_title": "Conformità legale",
+    "legal_compliance_items_1": "Questi termini sono regolati dalle leggi di Hong Kong. Ci impegniamo a rispettare tutti i requisiti legali pertinenti per garantire un'esperienza equa e sicura per tutti gli utenti.",
+    "intellectual_property_title": "Proprietà intellettuale",
+    "intellectual_property_items_1": "Tutta la proprietà intellettuale relativa a{brandName}Servizi - incluso il software, gli strumenti, gli algoritmi, i progetti, i marchi e le tecnologie proprietarie - sono di proprietà di{brandName}o i suoi licenziatari. Questi sono protetti in base alle leggi sulla proprietà intellettuale applicabili e ti viene concessa una licenza limitata, non esclusiva e non trasferibile per utilizzare il servizio in conformità con questi termini.",
+    "intellectual_property_items_2": "Qualsiasi contenuto che genera o carichi utilizzando{brandName}, incluso il testo riscritto o parafrasato, rimane la tua proprietà intellettuale.{brandName}Non fa alcuna richiesta di proprietà sui tuoi contenuti. Tuttavia, utilizzando i nostri servizi, ci concedi una licenza limitata per elaborare i tuoi contenuti esclusivamente allo scopo di fornire il servizio.",
+    "complete_agreement_title": "Accordo completo",
+    "complete_agreement_items_1": "Questi termini costituiscono l'intero accordo tra te e{brandName}per quanto riguarda i servizi. Eventuali accordi precedenti, scritti o orali, sono sostituiti da questi termini.",
+    "no_waiver_title": "Nessuna rinuncia",
+    "no_waiver_items_1": "Se non applichiamo immediatamente una disposizione di questi termini, ciò non significa che abbiamo rinunciato al nostro diritto di farlo in futuro.",
+    "severability_title": "Severabilità",
+    "severability_items_1": {
+      "default": "Se una disposizione di questi termini è considerata non valida o inapplicabile da un tribunale, le disposizioni rimanenti continueranno ad essere pienamente efficaci."
+    },
+    "contact_us_title": "Contattaci",
+    "contact_us_items_1": {
+      "default": "In caso di domande o problemi su questi Termini o sui Servizi, ti preghiamo di inviarci un'e -mail su{supportEmail}. Faremo tutto ciò che è in nostro potere per rispondere alle tue domande in modo rapido ed efficace."
+    }
+  },
+  "PrivacyPolicy": {
+    "privacy_policy": "Informativa sulla privacy per{brandName}",
+    "last_modified": "Ultimo aggiornamento: 26 luglio 2025",
+    "privacy_policy_desc": "Benvenuti a{brandName}! A{brandName}(\"Noi\", \"noi\", \"nostro\" o \"la società\"), la tua privacy è di fondamentale importanza e siamo dedicati a proteggere i tuoi dati personali. Questa politica sulla privacy descrive il modo in cui raccogliamo, utilizziamo, condividiamo e proteggiamo le tue informazioni quando visiti il ​​nostro sito Web all'indirizzo https://byecheck.com/ (\"sito\") o utilizziamo il nostro strumento di umanizzazione, traduttore di intelligenza artificiale e strumento di rilevamento dell'IA o servizi (\"Servizi\"). Quando usi il nostro sito e i nostri servizi, accetti e accetti questa politica.",
+    "information_we_collect_title": "1. Informazioni che raccogliamo",
+    "information_we_collect_item_1": "Potremmo raccogliere dati personali da te quando usi{brandName}, incluso il tuo nome, indirizzo e -mail e altri dettagli di contatto.",
+    "information_we_collect_item_2": "Informazioni personali: il tuo nome e indirizzo e-mail, informazioni di pagamento (elaborate da processori di pagamento di terze parti sicuri) e qualsiasi altra informazione che ci fornisci quando ti registri per un account, iscriviti ai nostri servizi o mettiti in contatto.",
+    "information_we_collect_item_3": "Dati di utilizzo: raccogliamo automaticamente queste informazioni quando visiti, accedi o utilizziamo il sito e i servizi, inclusi l'indirizzo IP, il tipo di browser, il tipo di dispositivo, le pagine visitate e la data e l'ora della tua visita.",
+    "information_we_collect_item_4": "Dati dei contenuti: possiamo elaborare il testo o il contenuto che fornisci durante l'utilizzo dei nostri prodotti AI (inclusi umanizzazione, traduzione o funzionalità di rilevamento) al fine di fornire i servizi. Ma non manteniamo tali dati più del necessario per generare i risultati e migliorare i nostri servizi.",
+    "how_we_use_your_information_title": "2. Come utilizziamo le tue informazioni",
+    "how_we_use_your_information_item_1": "Le informazioni che raccogliamo ci consentono, tra le altre cose:",
+    "how_we_use_your_information_item_2": "Fornire, supportare e migliorare i nostri servizi, comprese le opzioni del servizio clienti e di fatturazione;",
+    "how_we_use_your_information_item_3": "Gestire l'abbonamento e la fatturazione e gestire la nostra attività;",
+    "how_we_use_your_information_item_4": "Per comunicare con te, inclusi annunci di servizio, aggiornamenti e supporto.",
+    "how_we_use_your_information_item_5": "Offri un'esperienza su misura e fornirti contenuti e informazioni personalizzate;",
+    "how_we_use_your_information_item_6": "Riconosci ed esamina le tendenze che ci aiutano a migliorare i nostri servizi.",
+    "how_we_use_your_information_item_7": "E cura: gestire le tue e-mail con cura.",
+    "storage_and_retention_of_data_title": "3. Archiviazione e conservazione dei dati",
+    "storage_and_retention_of_data_item_1": "I tuoi dati sono ospitati su server sicuri e non li manteniamo più lunghi del necessario per servire gli scopi indicati nella presente Dichiarazione sulla privacy, a meno che le leggi applicabili non dettino diversamente. Il contenuto elaborato dall'intelligenza artificiale viene temporaneamente archiviato per fornire il servizio e quindi eliminato o anonimo.",
+    "disclosure_and_sharing_of_data_when_required_by_law_title": "4. Divulgazione e condivisione dei dati quando richiesto dalla legge",
+    "disclosure_and_sharing_of_data_when_required_by_law_item_1": "Non vendiamo le tue informazioni personali, ma la tua condivisione o le divulgiamo a:",
+    "disclosure_and_sharing_of_data_when_required_by_law_item_2": "Provider di servizi: potremmo coinvolgere venditori di terze parti per aiutarci a fornirti i servizi, come servizi di processore di pagamento, servizi di provider di hosting, servizi di analisi, ecc.",
+    "disclosure_and_sharing_of_data_when_required_by_law_item_3": "Avranno un obbligo di riservatezza rispetto alle tue informazioni.",
+    "disclosure_and_sharing_of_data_when_required_by_law_item_4": "Requisiti legali: abbiamo il diritto di divulgare le tue informazioni, se necessario, per legge o nella convinzione in buona fede che tale azione è necessaria.",
+    "disclosure_and_sharing_of_data_when_required_by_law_item_5": "Trasferimenti aziendali: possiamo divulgare le tue informazioni a entità con cui abbiamo rapporti commerciali, come in caso di fusione o vendita.",
+    "cookies_and_tracking_technologies_title": "5. Cookie e tecnologie di tracciamento",
+    "cookies_and_tracking_technologies_item_1": "I cookie e le tecnologie di monitoraggio hanno alcune informazioni utili e ti dico come migliorare la tua esperienza.",
+    "cookies_and_tracking_technologies_item_2": "Puoi controllare il browser per rifiutare i cookie, ma di conseguenza alcune funzionalità dei nostri servizi potrebbero non funzionare.",
+    "your_rights_and_choices_title": "6. I tuoi diritti e scelte",
+    "your_rights_and_choices_item_1": "Visualizza, modifica o rimuovi le informazioni in nostro possesso;",
+    "your_rights_and_choices_item_2": "Smetti di ulteriori e -mail di marketing da noi;",
+    "your_rights_and_choices_item_3": "Serie alle preoccupazioni che potresti avere il diritto di limitare o obiettare ai dati utilizzati in determinate circostanze, anche per il marketing diretto.",
+    "your_rights_and_choices_item_4": "Contattaci a{supportEmail}Se vuoi fare uno dei precedenti.",
+    "security_title": "7. Sicurezza",
+    "security_item_1": "Prendiamo misure appropriate e ragionevoli per proteggere le tue informazioni personali da accesso, raccolta, utilizzo o divulgazione non autorizzati, inclusa la crittografia dei dati personali, ove appropriato. Tuttavia, non esiste una sicurezza al 100% quando si tratta di Internet o archiviare dati online.",
+    "international_data_transfers_title": "8. Trasferimenti di dati internazionali",
+    "international_data_transfers_item_1": "Se si accede al servizio al di fuori degli Stati Uniti, si prega di avvisare che le tue informazioni, comprese le informazioni personali, possano essere trasferite negli Stati Uniti, dove si trovano i nostri server. Accedendo o utilizzando i Servizi, l'utente accetta questi trasferimenti.",
+    "children's_privacy_title": "9. Privacy dei bambini",
+    "children's_privacy_item_1": "I nostri servizi sono destinati agli utenti di età pari o superiore a 18 anni. Non raccogliamo consapevolmente alcuna informazione personale da bambini di età inferiore ai 18 anni. Se pensi che un bambino ci abbia dato le sue informazioni personali, ti preghiamo di contattarci.",
+    "changes_to_this_policy_title": "10. Modifiche a questa politica",
+    "changes_to_this_policy_item_1": "Abbiamo il diritto di modificare la presente Informativa sulla privacy come riteniamo opportuno in qualsiasi momento. Qualsiasi modifica alla presente Informativa sulla privacy verrà pubblicata in questa pagina e la politica sulla privacy rivista sarà datata nella parte superiore di questa pagina. Ti invitiamo a rivedere questa politica su base regolare.",
+    "contact_us_title": "11. Contattaci",
+    "contact_us_item_1": "In caso di domande sulla presente Informativa sulla privacy o le nostre pratiche di dati, contattaci all'indirizzo:{supportEmail}"
+  },
+  "RefundPolicy": {
+    "refund_policy": "Politica di rimborso",
+    "subscription_cancellation_and_refund_policy_title": "Condizioni di rimborso",
+    "subscription_cancellation_and_refund_policy_item_1": "Ciao utente!",
+    "general_subscription_terms_title": "Termini di abbonamento generale",
+    "general_subscription_terms_item_1": "Abbiamo due abbonamenti: un mensile e un altro annuale per soddisfare le tue esigenze di utilizzo. L'iscrizione consente il pieno accesso alla nostra suite di strumenti di intelligenza artificiale, come umanizzatore di testo, traduttore e rivelatore. Poiché si tratta di un servizio di prodotto digitale, una volta attivato l'abbonamento, hai accesso a tutti gli strumenti. Pertanto, aderiamo ai processi di rimborso standard per le merci digitali dettagliate di seguito:",
+    "general_subscription_terms_item_2": "1. In genere non offriamo rimborsi per le commissioni di abbonamento prepagato, tranne quando sono richiesti pagamenti non rimborsabili ai sensi delle leggi applicabili nella tua giurisdizione. Prima di iscriverti, scegli saggiamente.",
+    "general_subscription_terms_item_3": "2. In caso di (i) un malfunzionamento tecnico catastrofico riconosciuto che ti impedisce di accedere alla piattaforma e agli strumenti per l'intero (o quasi) periodo di fatturazione e (ii) il fallimento persiste nonostante il nostro team di supporto utente che ti contatti, quindi rimborseremo la frazione della tassa di abbonamento per il tempo.",
+    "special_refund_cases_title": "Casi di rimborso speciali",
+    "special_refund_cases_item_1": "1. Gestione della casella di controllo Offioni duplicati: se sulla recinzione sei effettivamente a doppio carico sullo stesso piano di abbonamento esatto a seguito dell'errore di sistema, eseguiremo un rimborso per un sovraccarico non appena confermeremo l'accusa.",
+    "special_refund_cases_item_2": "2. Necessità legali: se hai diritto dalla protezione del consumatore locale civile per ricevere un rimborso, rispetteremo tali disposizioni statutarie e forniremo il rimborso.",
+    "claim_eligible_refunds_policies_title": "Rivendicare politiche di rimborso ammissibili",
+    "claim_eligible_refunds_policies_item_1": "Nel caso in cui la tua attività rientri in una delle situazioni di rimborso di cui sopra, è possibile presentare un reclamo attraverso le seguenti fasi:",
+    "claim_eligible_refunds_policies_item_3": "2. Lascia che l'e -mail abbia quanto segue:",
+    "claim_eligible_refunds_policies_item_4": "1) Il tuo nome completo",
+    "claim_eligible_refunds_policies_item_6": "3) Una spiegazione completa per il problema o il motivo per cui stai chiedendo un rimborso (allega eventuali documenti correlati che possono aiutare / supportare il tuo reclamo se puoi aiutarci a elaborare il tuo reclamo in modo più rapido).",
+    "claim_eligible_refunds_policies_item_7": "3. Dopo aver ricevuto la domanda, completeremo la conferma in 3-5 giorni lavorativi. È nostra intenzione tornare da te il più rapidamente possibile una volta effettuata la determinazione per il ritorno.",
+    "subscription_cancellation_terms_title": "Termini di cancellazione dell'abbonamento",
+    "subscription_cancellation_terms_item_1": "Puoi annullare l'abbonamento e recuperare il tuo account in qualsiasi momento:",
+    "subscription_cancellation_terms_item_2": "1. Annulla l'abbonamento attuale se si desidera farlo.",
+    "subscription_cancellation_terms_item_3": "2. Disabilita l'opzione di abbonamento a rinnovo automatico (disabilita questo abbonamento per la fattura automatica per interrompere la ricezione di promemoria di pagamenti automatici).",
+    "subscription_cancellation_terms_item_4": "Nota: annullare l'abbonamento non lo disattiva all'istante, sarai comunque in grado di utilizzare gli strumenti fino alla data di scadenza. Fino a quando l'abbonamento non si esaurisce, puoi continuare a goderti le funzionalità normalmente.",
+    "subscription_cancellation_and_refund_policy_item_2": "Saluti!{brandName}Grazie per il privilegio di averti. Gli strumenti di intelligenza artificiale di qualità non dovrebbero essere altro che semplici da usare, facili allo stesso tempo ma potenti e utili per chiunque, e faremo del nostro meglio per rendere i nostri utenti soddisfatti del servizio di abbonamenti. Ovviamente, per rendere i nostri servizi sostenibili e concentrarsi sulla creazione di strumenti più sorprendenti e/ o utili per te in futuro, è essenziale che abbiamo politiche semplici e standardizzate su cancellazioni e rimborsi di abbonamento.",
+    "claim_eligible_refunds_policies_item_2": "1. Si prega di inviarci un'e-mail all'e-mail del servizio clienti{supportEmail}con il tuo ID e -mail registrato su{brandName}. Specificare nella riga dell'oggetto dell'oggetto e -mail come applicato per il rimborso.",
+    "claim_eligible_refunds_policies_item_5": "2) Email registrata utilizzata per iscriverti{brandName}",
+    "subscription_cancellation_terms_item_5": "Se hai domande relative a questa politica o richiedi ulteriore assistenza, non esitare a inviarci un'e -mail{supportEmail}, saremo felici di aiutarti. Abbiamo un servizio clienti che si prenderà cura di te professionalmente.",
+    "subscription_cancellation_terms_item_6": "Grazie ancora per la tua fiducia e supporto.{brandName}è entusiasta di continuare a servirti con fantastici servizi di intelligenza artificiale!"
+  },
+  "PayRegister": {
+    "subscribe_text": "Iscriviti",
+    "per_text": "per",
+    "plan_tag": "{planTag}",
+    "plan_desc": "Abbonamento ad Aihumaniz. Include quantità di parole variabili per{planTag}e completi acces ... fatturati{planTag}",
+    "subtotal_text": "Subtotale",
+    "tax_text": "Tassare",
+    "total_due_today": "Totale dovuto oggi",
+    "email_text": "E-mail",
+    "payment_method": "Metodo di pagamento",
+    "card_text": "carta",
+    "card_information": "Informazioni sulla carta",
+    "card_number": "Numero della carta",
+    "cardholder_name": "Nome del titolare",
+    "first_name": "Nome di battesimo",
+    "last_name": "Cognome"
+  },
+  "AvoidaiPro": {
+    "home_placeholder": "Dimmi quali contenuti non rilevabili vuoi creare o umanizzare oggi.",
+    "show_un_login_count": "Limitato | 900 parole libere！",
+    "free_plan": "Free Plan",
+    "upgrade": "Upgrade",
+    "show_sign_up": "Sign Up For 600 Free Words Now!",
+    "show_un_limited": "Unlimited Number Of Words!",
+    "words": "Words",
+    "show_not_enough": "Not Enough Words",
+    "chat_placeholder": "You can also tell me via text the way you want to rewrite it",
+    "clear": "Clear",
+    "send": "Send",
+    "more_about": "More About Byecheck",
+    "write_essay": "Scrivi un saggio",
+    "write_repoter": "Scrivi un rapporto professionale",
+    "write_resume": "Scrivi un curriculum",
+    "write_email_professor": "Scrivi un'e -mail al professore",
+    "write_SEO": "Scrivi un articolo con le parole chiave SEO",
+    "error_message": "Inserisci il messaggio corretto!",
+    "home_sub_title": "Dai vita all'IA, trasformala in vita reale.",
+    "history_session": "Sessioni di storia",
+    "history_placeholder": "Sessioni di cronologia di ricerca",
+    "not_history": "Non sessioni di storia",
+    "delete_chat_title": "Elimina permanentemente la conversazione",
+    "delete_chat_sub_title": "Questi dati di conversazione verranno eliminati permanentemente e non possono essere recuperati o annullati. Sei sicuro di volerlo eliminarlo?",
+    "agree": "Essere d'accordo",
+    "dis_agree": "In disaccordo",
+    "today": "Oggi",
+    "this_week": "Questa settimana",
+    "this_year": "Quest'anno",
+    "earlier": "Prima",
+    "avoidai_gpt": "Evitare",
+    "chat_sub_title": "Chat come GPT, ottieni contenuti non rilevabili",
+    "sub_title_1": "Segnato 95+ su Grammarly",
+    "sub_desc_1": "Crea contenuti non rilevanti utilizzabili con buona qualità e grammatica accurata.",
+    "sub_title_2": "Tono accademico e professionale",
+    "sub_desc_2": "Fornire contenuti umanizzati con un tono accademico e professionale alla prima priorità.",
+    "sub_title_3": "Niente più incomprensibile, niente più illusioni",
+    "sub_desc_3": "Dì addio a aggiunta erroneamente incomprensibile. Crea contenuti leggibili e utilizzabili.",
+    "sub_title_4": "Resta fedele all'originale, attenersi ai fatti",
+    "sub_desc_5": "Allineare con fonti originali, fatti/esempi e persino punti di vista degli autori.",
+    "sub_desc_4": "Allineare con fonti originali, fatti/esempi e persino punti di vista degli autori."
+  },
+  "NewHomePage": {
+    "product_value_main_title": "Umanizza l'IA con una percentuale di successo del 99%",
+    "product_value_sub_title": "Addestrato su milioni di materiali di scrittura umana reali per umanizzare il contenuto IA in 4 principali aree: accademica, professionale, marketing e discorsi della vita quotidiana.",
+    "product_value_item_1_title": "Punteggio 95+ su Grammarly",
+    "product_value_item_1_content": "Prova a testare Byecheck su Grammarly, e troverai una media di punteggi 95+. Mentre alcuni algoritmi di umanizzazione IA introducono intenzionalmente errori umani per imitare imperfezioni, noi di Byecheck diamo priorità alla qualità, offrendo contenuti utilizzabili che mantengono autenticità e professionalità.",
+    "product_value_item_2_title": "Tono Accademico e Professionale",
+    "product_value_item_2_content": "Byecheck utilizza milioni di articoli accademici e report aziendali come fonti di dati di addestramento originali per offrire contenuti indetectabili con un tono accademico e professionale fin dall'inizio, evitando anche i rilevatori di IA.",
+    "product_value_item_3_title": "Addio al 'filtro da asilo'",
+    "product_value_item_3_content": "Molti strumenti di umanizzazione IA semplificano intenzionalmente il testo per farlo sembrare scritto da un bambino di 6 anni al fine di eludere la rilevazione IA. Ovviamente, questo è inaccettabile per scritti seri. Byecheck mostra la tua professionalità mantenendo standard elevati, assicurandoti che il contenuto umanizzato da IA corrisponda effettivamente al tuo scopo di scrittura.",
+    "product_value_item_4_title": "Niente più cavolate, niente più illusioni",
+    "product_value_item_4_content": "Hai mai usato strumenti di umanizzazione IA per creare contenuti disparati o aggiungere per errore cavolate? Qui entra in gioco Byecheck. L'usabilità del contenuto è la nostra preoccupazione principale e non aggiungiamo inutilmente materiale solo per eludere la rilevazione IA.",
+    "product_value_item_5_title": "Rimani fedele all'originale, attieniti ai fatti",
+    "product_value_item_5_content": "Molti parafrasatori includono fonti di dati fabricate che non sono mai state menzionate, anche ChatGPT a volte lo fa. Byecheck ha investito molto nel garantire che le fonti, i fatti/esempi e persino i punti di vista degli autori siano allineati con l'originale.",
+    "purchase_motivation_main_title": "Perché scegliere Byecheck per umanizzare il testo IA",
+    "purchase_motivation_sub_title": "Byecheck offre vantaggi senza pari che lo distinguono da altri umanizzatori IA:",
+    "purchase_motivation_item_1_title": "Accuratezza Garantita",
+    "purchase_motivation_item_1_content": "Byecheck comprende il contesto e le sfumature del tuo testo originale. Seleziona intelligemente le parole giuste per produrre un output lucidato e umanizzato senza alterare il significato, l'atteggiamento e l'emozione originali.",
+    "purchase_motivation_item_2_title": "Alto Punteggio su Grammarly",
+    "purchase_motivation_item_2_content": "A differenza di altri umanizzatori IA che ottengono punteggi superiori a 60 su Grammarly, Byecheck mantiene stabilmente punteggi superiori a 90, dimostrando il suo alto standard di qualità grammaticale.",
+    "purchase_motivation_item_3_title": "Miglior SEO",
+    "purchase_motivation_item_3_content": "Byecheck assicura che il tuo contenuto rispetti le linee guida di qualità di Google, umanizzando le strutture e il ritmo delle frasi senza alterare le ‘parole chiave’ che intendi posizionare più in alto nei motori di ricerca.",
+    "purchase_motivation_item_4_title": "Evita di essere etichettato come Spam",
+    "purchase_motivation_item_4_content": "Byecheck trasforma i contenuti generati dall'IA per renderli indistinguibili da testi scritti da esseri umani. Che vengano usati in email o pubblicazioni online, i tuoi contenuti non saranno mai etichettati come spam.",
+    "purchase_motivation_item_5_title": "Supporto di più lingue",
+    "purchase_motivation_item_5_content": "Byecheck supporta oltre 50 lingue, tra cui francese, italiano, tedesco, spagnolo, portoghese, turco, tagalog e polacco. Ciò ti consente di umanizzare contenuti IA in praticamente qualsiasi lingua tu abbia bisogno.",
+    "purchase_motivation_item_6_title": "Provalo gratuitamente",
+    "purchase_motivation_item_6_content": "Prova gratuitamente la potenza di Byecheck! Non sono necessari pagamenti o registrazioni per provarlo. Scopri tu stesso perché Byecheck è lo strumento definitivo per umanizzare il testo generato dall'IA.",
+    "compare_main_title": "Evita la rilevazione dell'IA con contenuti IA indetectabili",
+    "compare_sub_title": "Byecheck trasforma il contenuto generato da IA (come ChatGPT o GPT-4) in testo al 100% simile a quello scritto da un umano. Scopri come umanizzare la scrittura IA e farla leggere come se fosse scritta da una persona.",
+    "compare_item_left_title": "Originale",
+    "compare_item_right_title": "Umanizzato da Byecheck",
+    "compare_item_chatgpt_left_content": "You always manage to brighten my day, and I feel incredibly lucky to have you in my life. Whether we're sharing quiet moments together or laughing about something silly, every moment with you feels special. You inspire me to be better, and I’m grateful for your support, love, and understanding.",
+    "compare_item_chatgpt_right_content": "You never fail to lift my mood, I am truly blessed to have you. Sharing quiet times together or giggling over something ridiculous, being with you always feels amazing and wonderful. Thanks for the inspiration, I appreciate your support as well as love and understanding.",
+    "compare_item_chatgpt4_left_1_content": "Define Your Target Market and Customer Segments",
+    "compare_item_chatgpt4_left_2_content": "Before expanding, it's important to know who your product intends to serve. Understanding your ideal customers — their needs, problems, and behaviors — will yield valuable information to tailor your growth strategy. Think about elements such as demographics, location, company size, user behavior.",
+    "compare_item_chatgpt4_right_1_content": "Define Your Target Market and Customer Segments",
+    "compare_item_chatgpt4_right_2_content": "Before you expand, it's vital to identify who your product is intended for. Having a clear understanding of your customers — their needs, problems and behaviours — will provide valuable insights to define your growth strategy. Consider aspects like demographics, geography, organization size, user behavior",
+    "compare_item_claude_left_1_content": "Key Actions:",
+    "compare_item_claude_left_2_content": "Interview customers and conduct surveys",
+    "compare_item_claude_left_3_content": "Study competitors and identify gaps in the market",
+    "compare_item_claude_left_4_content": "Segment customers by pain points, budget, usage",
+    "compare_item_claude_right_1_content": "Key Actions:",
+    "compare_item_claude_right_2_content": "Talk to customers and ask them questions via surveys.",
+    "compare_item_claude_right_3_content": "Analyze competitors and find market gaps",
+    "compare_item_claude_right_4_content": "Segment customers by pain points, budget, usage",
+    "compare_item_gemini_left_content": "As an admin, my primary responsibility is to oversee the entire server. This involves announcing important news, moderating major events, releasing updates, and managing both our website and store. I also handle reviewing all types of applications. In addition, I provide general support, including processing support tickets and assisting members with any questions or issues they may have. One of my key duties is enforcing server rules, which includes banning cheaters and rulebreakers to ensure a fair and enjoyable experience for everyone.",
+    "compare_item_gemini_right_content": "As an administrator, I ensure seamless operations by moderating chats so that everyone feels supported and included; processing support tickets; and assisting members with their queries or issues. Minor offences usually result in me warning the player first. If they continue to disobey the rules, then I will duly temporarily ban them. This procedure is followed for all kinds of offences: whether it's cheating in duels, sending inappropriate messages in the chat etc., and enable maintaining fair as well as organized community. Also, I am responsible for overseeing and moderating major events to ensure seamless functioning and proper organization.",
+    "detectors_main_title": "Come umanizzare i contenuti IA ed evitare i rilevatori di IA come GPTZero, Originality.ai e altri",
+    "detectors_sub_title": "Il nostro strumento di bypass IA può aiutarti a umanizzare i contenuti IA ed eludere efficacemente i rilevatori di IA, inclusi quelli più rigorosi sul mercato.",
+    "aitechnology_main_1_title": "Evita le penalizzazioni di Google",
+    "aitechnology_sub_1_title": "Con Byecheck, puoi ottenere contenuti IA indetectabili che suonano autenticamente umani. Questo previene il rischio di subire penalizzazioni da parte di Google, che potrebbero causare una drastica diminuzione del traffico del sito web.",
+    "aitechnology_main_2_title": "Evita le cartelle Spam",
+    "aitechnology_sub_2_title": "Byecheck può aiutarti a evitare che il tuo testo generato da IA finisca nelle cartelle di spam, non visto e non letto, riscrivendolo per sembrare scritto da un umano e autentico.",
+    "language_main_title": "Evita l'IA in molte lingue",
+    "language_sub_title": "Il nostro strumento di umanizzazione dei rilevatori di IA è progettato per soddisfare le esigenze degli utenti globali. Può umanizzare contenuti IA e riscrivere qualsiasi testo in oltre 50 lingue, garantendo un'elusione efficace dei rilevatori IA.",
+    "crowd_portrait_main_title": "Caratteristiche su misura per diverse industrie e scenari umanizzati nella vita reale",
+    "crowd_portrait_sub_title": "Byecheck offre funzionalità specializzate per soddisfare diverse esigenze di umanizzazione. Esploriamo come diversi professionisti possono beneficiare del nostro strumento gratuito di bypass IA.",
+    "crowd_portrait_item_1_title": "Studenti",
+    "crowd_portrait_item_1_content": "Scrivere saggi e compiti non solo deve evitare la rilevazione IA, ma anche avere una buona valutazione grammaticale. Byecheck ti aiuta a ottenere ottimi voti, offrendo lavori con un punteggio medio su Grammarly di 95+ scritti in un tono accademico e contenuti privi di plagio.",
+    "crowd_portrait_item_2_title": "Professionisti",
+    "crowd_portrait_item_2_content": "Preoccupato che il tuo capo o i clienti possano scoprire che stai usando l'IA, ma fai comunque affidamento su di essa per un'espressione più sofisticata per mantenere la professionalità? Byecheck aiuta i brillanti professionisti a usare liberamente l'IA, eludendo la rilevazione IA, lasciando brillare la loro vera competenza senza compromessi.",
+    "crowd_portrait_item_3_title": "Esperti SEO",
+    "crowd_portrait_item_3_content": "Byecheck elimina il rischio di essere segnalato dai rilevatori IA e rimane conforme alle linee guida dei motori di ricerca. Nel frattempo, Byecheck fornisce funzionalità come la modifica della struttura delle frasi per migliorare l'usabilità e l'efficacia SEO senza alterare le parole chiave.",
+    "crowd_portrait_item_4_title": "Piccole imprese",
+    "crowd_portrait_item_4_content": "Le piccole imprese possono usare l'API Byecheck per umanizzare contenuti IA in batch, aggiornando automaticamente il contenuto del sito web. Contatta support@byecheck.com per maggiori dettagli.",
+    "faqs_main_title": "FAQ per Byecheck Detection",
+    "faqs_sub_title": "Se sei nuovo o cerchi risposte alle tue domande, questa guida ti aiuterà a conoscere meglio i nostri servizi e le loro caratteristiche.",
+    "faqs_item_1_q": "Cos'è l'IA indetectabile?",
+    "faqs_item_1_a": "L'IA indetectabile si riferisce a strumenti di intelligenza artificiale all'avanguardia progettati per trasformare contenuti generati dall'IA in testo simile a quello scritto da un umano, consentendo di eludere la rilevazione da parte dei rilevatori di contenuti IA. Utilizzando algoritmi avanzati, questi strumenti umanizzano il testo, assicurandosi che assomigli a uno stile di scrittura naturale evitando i tratti comuni che indicano la paternità dell'IA.",
+    "faqs_item_2_q": "Cos'è Byecheck?",
+    "faqs_item_2_a": "Byecheck è un'IA indetectabile progettata per riscrivere il tuo testo generato dall'IA, garantendo che rimanga indetettato. A differenza di altri strumenti di bypass dei rilevatori di IA che compromettono la qualità del contenuto o introducono errori umani, Byecheck dà priorità all'usabilità, offrendo prestazioni senza soluzione di continuità mantenendo un alto tasso di successo nell'eludere i rilevatori di IA.",
+    "faqs_item_3_q": "Come rendere il testo IA indetectabile?",
+    "faqs_item_3_a": "Per rendere il testo generato dall'IA indetectabile, strumenti avanzati come Byecheck offrono una soluzione affidabile. Specificamente progettati per trasformare i contenuti generati da IA in testi che leggano come scritti da umani, i nostri strumenti utilizzano algoritmi sofisticati per umanizzare il contenuto, garantendo che eluda con successo la rilevazione da parte dei rilevatori di contenuti IA.",
+    "faqs_item_4_q": "Quante lingue sono supportate da Byecheck?",
+    "faqs_item_4_a": "Il nostro strumento di bypass IA supporta oltre 50 lingue, tra cui inglese, arabo, danese, francese, cinese, giapponese, coreano, greco, italiano, portoghese, slovacco, polacco e altre.",
+    "faqs_item_5_q": "Questo strumento di bypass IA mi aiuterà a eludere la rilevazione IA da parte di Google?",
+    "faqs_item_5_a": "Sì, lo strumento di bypass IA è progettato per trasformare il testo generato dall'IA in linguaggio naturale simile a quello umano, rendendolo indistinguibile dalla scrittura umana. Utilizza meccanismi avanzati di bypass dei rilevatori di IA ed elude efficacemente i rilevatori di IA, inclusi quelli di Google.",
+    "faqs_item_6_q": "Questo IA è indetectabile gratuitamente?",
+    "faqs_item_6_a": "Byecheck offre una prova gratuita che consente agli utenti di testare la funzionalità senza dover fare alcun tipo di impegno. Tuttavia, se desideri utilizzare frequentemente lo strumento, dovrai passare a un piano a pagamento per ottenere più crediti e funzionalità extra.",
+    "faqs_item_7_q": "Qual è il miglior scrittore IA indetectabile?",
+    "faqs_item_7_a": "Byecheck è l'IA leader che non può essere rilevata. Trasforma i contenuti generati dall'IA in testi in grado di eludere più rilevatori di contenuti IA. Byecheck mira a riscrivere e trasformare il testo in una versione umanizzata, mantenendo il punto di vista originale e le informazioni fattuali. Byecheck mette al primo posto l'usabilità, a differenza di un semplice umanizzatore di IA.",
+    "faqs_item_8_q": "Come è stato addestrato il modello di bypass IA?",
+    "faqs_item_8_a_1": "Il nostro modello di bypass IA è stato addestrato utilizzando analisi linguistiche e modelli statistici su contenuti scritti da esseri umani reali in 4 categorie principali: articoli accademici, report professionali, articoli di marketing e conversazioni della vita quotidiana.",
+    "faqs_item_8_a_2": "Lo strumento di bypass dei rilevatori Byecheck aiuta a comprendere gli stili di scrittura umana reali e a imitarli (contenuti, frasi, struttura delle frasi e persino tono) in diversi scenari.",
+    "faqs_item_8_a_3": "L'obiettivo principale di Byecheck è aiutarti a eludere i rilevatori di IA, ma la sua priorità numero 1 è servire lo scopo attuale della tua scrittura con il contenuto più adatto.",
+    "general_recommend_main_title": "Evita l'IA oggi con contenuti grammaticalmente corretti e affidabili",
+    "general_recommend_sub_title": "Trasforma i testi generati da IA in contenuti completamente indetectabili e simili a quelli umani, senza errori grammaticali. Prova Byecheck ora per eludere la rilevazione IA gratuitamente!"
+  },
+  "NewDev": {
+    "tab1_name": "AI umanizza",
+    "tab2_name": "Rivelatore di ai",
+    "tab3_name": "Bypass ai",
+    "tab4_name": "Convertitore di testi umani di AI",
+    "tab5_name": "Ai Reswriter",
+    "tab6_name": "Traduttore di ai"
+  },
+  "Detector": {
+    "tool": {
+      "title": "Prova Ai Humanizer di Byecheck Bypass",
+      "tips1": "Crea contenuti AI non rilevabili con punteggi umani al 100%",
+      "tips2": "Bypass AI Detector come Turnitin, Gptzero, Originality.Ai, ecc.",
+      "tips3": "Ottieni output senza plagio al 100% e non pagati",
+      "button": "Umanizzare il testo di AI",
+      "loading_main": "Probabilità di rilevamento di al",
+      "loading_sub": "Verifica se il tessico al-generato. Si prega di attendere 5-10 secondi.",
+      "check_result_tip": "I risultati di controllo verranno visualizzati qui",
+      "check_ai": "Controlla l'IA",
+      "check_result": "Risultato di controllo",
+      "text_placeholder": "Inserisci il testo che vuoi umanizzare qui",
+      "words": "Parole",
+      "sample": "Campione"
+    },
+    "section1": {
+      "title": "Rilevatore di intelligenza artificiale integrato",
+      "sub_title": "Tester AI di fiducia per Chatgpt, GPT-4o, Gemini, Claude, DeepSeek, Grok o qualsiasi altro LLM",
+      "content1": "I rilevatori di intelligenza artificiale, noti anche come rilevatori di contenuti AI, sono progettati per identificare e analizzare se il contenuto è stato generato da modelli AI o modificato da AI.",
+      "content2": "Il rivelatore di intelligenza artificiale Byecheck copre modelli di AI tradizionale come GPT-4, Claude, Gemini, Bard, Llama e Falcon, fornendo un punteggio di probabilità che indica se un testo è stato generato da un essere umano o AI. Ciò ti aiuterà a determinare rapidamente la fonte della generazione di contenuti e fornirà prove affidabili per la revisione dei contenuti, la valutazione dell'originalità e altri scenari.",
+      "content3": "Questo approccio globale separa in modo affidabile la scrittura umana naturale dai modelli relativamente regolari del testo generato dall'IA.",
+      "content4": "Ricorda: nessun rivelatore supporta una precisione al 100%. I sistemi di rilevamento devono essere aggiornati al passo con miglioramenti dei modelli linguistici e strumenti Ai-ASSISTIVI."
+    },
+    "trust_by": "Affidati di 234.567 utenti paganti",
+    "new_user": "Adottato da 876 scuole",
+    "section3": {
+      "title": "Potenti caratteristiche dello strumento di rilevamento Byecheck.com",
+      "sub_title": "Rileva un testo scritto dall'integrità con il controllo dei contenuti: vengono consegnati risultati accurati e mette in evidenza il contenuto generato dall'IA per la modifica e supporta 110+ lingue e parole illimitate. Ampiamente affidabile per saggi, rapporti ecc., Mostra compatibilità con i principali modelli di intelligenza artificiale alla valutazione autentica.",
+      "one": {
+        "title": "Motore di rilevamento ad alta precisione",
+        "content": "Utilizza algoritmi avanzati per analizzare sottili differenze nei modelli linguistici, coerenza semantica e caratteristiche stilistiche, distinguendo accuratamente il contenuto creato dall'uomo dal contenuto generato dall'IA con un tasso di falsi positivi estremamente basso."
+      },
+      "two": {
+        "title": "Rilevamento completo della copertura del modello",
+        "content": "Compatibile con tutti i principali modelli di lingua AI, inclusi ma non limitati a GPT-4, Claude, Gemini, Bard, Llama e Falcon. Identifica efficacemente il testo elaborato mediante strumenti di riscrittura come Grammarly e QuillBot."
+      },
+      "three": {
+        "title": "Tecnologia di analisi intelligente",
+        "content1": "Sulla base di modelli addestrati con grandi quantità di scrittura umana e testo di intelligenza artificiale, identifica le caratteristiche tipiche dell'intelligenza artificiale come l'uso ripetitivo delle parole, la mancanza di creatività e le transizioni di frasi imbarazzanti.",
+        "content2": "Il nostro sistema esegue controlli di coerenza approfondita comprendendo che la scrittura umana di solito contiene tratti e incoerenze naturali, mentre il testo generato dall'IA tende a mostrare un'eccessiva consistenza. Con la tecnologia costantemente aggiornata, restiamo al passo con l'avanzamento delle capacità di scrittura di intelligenza artificiale e garantiamo una precisione continua anche se i modelli linguistici diventano sempre più sofisticati."
+      },
+      "four": {
+        "title": "Presentazione dei risultati visualizzati",
+        "content1": "Segna chiaramente i sospetti segmenti generati dall'IA, mostra la percentuale di rilevamento dell'intelligenza artificiale, aiutando gli utenti a identificare rapidamente le sezioni che richiedono revisione, completano in modo efficiente la revisione dei contenuti e mantengono informazioni preziose eliminando i problemi.",
+        "content2": "Questo metodo visivo chiarisce e operativo di approfondimenti, piuttosto che fornire un punteggio complessivo, aiutando i creatori di contenuti, gli educatori ed editori a identificare rapidamente sezioni problematiche mantenendo le preziose parti del testo. Il sistema di marcatura intuitivo accelera e semplifica il processo di autenticazione dei contenuti."
+      },
+      "five": {
+        "title": "Supporto linguistico globale",
+        "content": "Supporta il rilevamento in oltre 120 lingue (comprese lingue e lingue alfabete non latino con grammatica complessa), mantenendo l'efficienza durante l'elaborazione di documenti lunghi, consentendo un'applicazione senza bordi."
+      },
+      "six": {
+        "title": "100+ Lingue rilevamento",
+        "content1": "Offre un riconoscimento completo dei contenuti AI in oltre 120 lingue, garantendo una precisione costante indipendentemente dalla lingua originale del testo di input. Anche i linguaggi negli script non latici o quelli con strutture grammaticali complesse sono mantenute secondo un elevato standard di rilevamento dal sistema.",
+        "content2": "Non esiste un limite di conteggio delle parole e può gestire efficacemente tutto, dai brevi post di social media ai documenti di ricerca di lunga durata. Questa caratteristica multilingue garantisce l'applicabilità globale, rendendo il nostro rivelatore uno strumento essenziale per le organizzazioni internazionali, i creatori di contenuti multilingue e le istituzioni educative che lavorano attraverso le barriere linguistiche.",
+        "button": "Inizia a rilevare ora >>"
+      }
+    },
+    "section4": {
+      "title": "Scenari di applicazione del rivelatore AI",
+      "one": {
+        "title": "Creazione del blog",
+        "content": "Verificare l'originalità, aiutare i contenuti a distinguersi nei risultati di ricerca, costruire la fiducia dei lettori ed evitare sanzioni algoritmiche."
+      },
+      "two": {
+        "title": "Campo accademico",
+        "content": "Identificare le sezioni di articoli privi di originalità, mantenere l'integrità accademica e garantire che la ricerca rifletta un pensiero accademico genuino."
+      },
+      "three": {
+        "title": "Scrittura del rapporto di ricerca",
+        "content": "La ricerca di alta qualità riflette le tue conoscenze e le tue intuizioni critiche. Quando i rapporti contengono analisi autentiche, il rilevamento dell'IA anziché i contenuti generici assicura facendo questo, consentendo ai professori o alla direzione di apprezzare la vostra visione professionale personale."
+      },
+      "four": {
+        "title": "Applicazioni professionali",
+        "content": "Verificare l'autenticità dei risultati del lavoro, dimostrare le capacità effettive e sostenere l'integrità professionale."
+      },
+      "five": {
+        "title": "Operazioni sui social media",
+        "content": "Aiutare a trattenere lo stile personale nella creazione assistita dall'intelligenza artificiale, creando contenuti che bilanciano l'efficienza con unicità per migliorare l'impegno dei fan."
+      }
+    },
+    "section5": {
+      "title": "Punteggio AI elevato? Prova il nostro umanizzatore!",
+      "sub_title": "Hai trovato contenuti di intelligenza artificiale nella tua scrittura? Il nostro umanizzatore AI trasforma istantaneamente il testo generato dalla macchina in contenuti autentici e originali preservando la qualità e il significato. Ottieni punteggi di rilevamento dell'intelligenza artificiale più bassi con scrittura senza errori che mantiene la tua voce, il tutto con un clic.",
+      "button": "Prova l'umanizzatore AI gratuito >>"
+    },
+    "section6": {
+      "title": "Sviluppo futuro dei rilevatori di intelligenza artificiale",
+      "sub_title": "In futuro, i rilevatori di contenuti di intelligenza artificiale si evolveranno verso applicazioni in tempo reale, integrate e specializzate. Man mano che le normative etiche migliorano, i rilevatori di intelligenza artificiale possono diventare l '\"infrastrutture\" della società digitale, bilanciando l'innovazione tecnologica e i confini della responsabilità.",
+      "button": "Controlla il tuo testo ora >>"
+    },
+    "faqList": {
+      "one": {
+        "q": "Come funzionano i rilevatori di contenuti di intelligenza artificiale?",
+        "a": "Il rilevatore di contenuti di AI utilizza algoritmi per individuare i modelli associati al testo generato dall'IA. Guardano cose come le formazioni della frase, le variazioni nel vocabolario, la prevedibilità e l'uniformità dello stile. Controlla queste caratteristiche del tuo testo rispetto alla scrittura umana e alla scrittura di intelligenza artificiale per vedere quanto è probabile che quel contenuto generato dalla macchina."
+      },
+      "two": {
+        "q": "Quanto sono affidabili i rilevatori di contenuti di intelligenza artificiale?",
+        "a": "Il rivelatore di intelligenza artificiale in genere fornisce una precisione tra l'80-95%. Può contrassegnare falsi positivi soprattutto nel materiale tecnico, scrivendo da non nativi e testo AI fortemente curato. Nessun rivelatore è perfetto e i risultati hanno lo scopo di guidare piuttosto che servire come prova assoluta di utilizzo dell'IA."
+      },
+      "three": {
+        "q": "I rilevatori di contenuti AI possono differenziare il contenuto da strumenti specifici come Chatgpt, Claude?",
+        "a": "È in grado di identificare i contenuti da specifici strumenti di scrittura di intelligenza artificiale come Chatgpt, Claude, Bard e altro ancora. Ma man mano che l'IA migliora, le tecniche di rilevamento necessitano di aggiornamenti di algoritmo continuo per rilevare nuovi modelli negli ultimi modelli e versioni dell'IA."
+      },
+      "four": {
+        "q": "Come posso rendere meno rilevabili i contenuti generati dall'IA?",
+        "a": "Il contenuto generato dall'IA è meno rilevabile se pesantemente modificato da un essere umano. I metodi includono la miscelazione di informazioni personali, la modifica della struttura della frase, l'uso di esempi unici, alterare il vocabolario e la riscrittura. Ma il modo più etico è usare l'IA per il lavoro iniziale e quindi aggiungere importanti input originali."
+      },
+      "five": {
+        "q": "I rilevatori di contenuti di intelligenza artificiale gratuiti funzionano altrettanto bene come quelli a pagamento?",
+        "a": "I rilevatori di intelligenza artificiale gratuiti di solito forniscono rilevamento di base con caratteristiche limitate e possono limitare il numero di parole. Le versioni a pagamento offrono spesso una maggiore precisione, analisi più profonde, elaborazione in massa e funzionalità di reporting. Le versioni gratuite potrebbero essere adeguate per l'uso occasionale, mentre i casi d'uso professionali o accademici spesso garantiscono soluzioni retribuite."
+      },
+      "six": {
+        "q": "I rilevatori di contenuti AI possono supportare lingue diverse dall'inglese?",
+        "a": "La maggior parte dei rilevatori di intelligenza artificiale lavora principalmente con i contenuti inglesi e può avere vari gradi di altre capacità linguistiche. Ma il nostro checker AI ha un supporto multi-lingua, l'accuratezza potrebbe cadere per lingue più rare."
+      },
+      "seven": {
+        "q": "L'uso di un rivelatore di intelligenza artificiale mi protegge da problemi di plagio?",
+        "a": "Il rilevamento dell'intelligenza artificiale e il rilevamento del plagio sono due strumenti diversi. I rilevatori di intelligenza artificiale rilevano contenuti scritti dalla macchina, mentre i controllori del plagio rilevano la somiglianza con il contenuto pubblicato esistente. L'uso di entrambi garantirà una verifica completa del contenuto, poiché AI-Generated potrebbe essere originale ma comunque rilevato come scritto da macchina."
+      }
+    },
+    "main_tile": "Rilevatore di AI affidabile per Chatgpt, GPT-4, DeepSeek, \nClaude e altro ancora",
+    "section2": {
+      "title": "Come funzionano i rilevatori di intelligenza artificiale",
+      "content1": "I rilevatori di intelligenza artificiale utilizzano più modelli di algoritmo per estrarre funzionalità da testo, immagini, audio o video. Combinano il deep learning sulle differenze tra caratteristiche di contenuto create dall'uomo e generate dall'IA con modelli probabilistici per calcolare le deviazioni multidimensionali e determinare la probabilità di generazione di intelligenza artificiale, identificando così la fonte di generazione."
+    },
+    "recognized_user": "Riconosciuto da 1.235 agenzie di copywriting"
+  },
+  "Converter": {
+    "section1": {
+      "title1": "Evoluzione degli strumenti di rilevamento anti-AI",
+      "sub_title1": "Con il rapido sviluppo dell'intelligenza artificiale, gli strumenti di rilevamento anti-AI sono gradualmente emersi e diventano una delle direzioni importanti dell'iterazione tecnologica. L'obiettivo fondamentale degli strumenti di rilevamento anti-AI è simulare le emozioni umane, comprendere il contesto e ottimizzare gli algoritmi per rendere il testo, la parola e altri contenuti generati dall'IA più naturale e più vicini all'espressione umana.",
+      "title2": "Principi tecnici degli strumenti di rilevamento anti-AI",
+      "button": "Prova gratuita >>",
+      "sub_title2": "Dato che motori di ricerca come Google implementano i sistemi di identificazione e penalità per contenuti di intelligenza artificiale, sono emersi strumenti di rilevamento anti-AI. Questi strumenti analizzano gli indicatori chiave della tecnologia di identificazione dell'IA, come specifiche strutture di frasi e modelli di vocabolario, e li sostituiscono in modo intelligente. Pur mantenendo la correttezza logica e grammaticale, riducono efficacemente il tasso di intelligenza artificiale, mantengono l'originalità ed evitano il rischio di sanzioni a causa di problemi di qualità del contenuto."
+    },
+    "section2": {
+      "title": "Applicazioni basate su scenari di rilevamento anti-AI",
+      "sub_title": "In futuro, man mano che l'interazione multimodale matura, gli strumenti di rilevamento anti-AI diventeranno più personalizzati.",
+      "list": {
+        "one": {
+          "name": "Campo accademico",
+          "des": "Gli studenti possono ridurre il tasso di intelligenza artificiale e migliorare le loro prestazioni accademiche."
+        },
+        "two": {
+          "name": "Campo mediatico",
+          "des": "I professionisti dei media possono generare rapidamente articoli originali e altamente leggibili."
+        },
+        "three": {
+          "name": "Campo di marketing",
+          "des": "Gli esperti di marketing possono personalizzare in modo efficiente una copia promozionale per un pubblico diverso, risparmiando costi."
+        },
+        "four": {
+          "name": "Campo di e-commerce",
+          "des": "I commercianti possono generare automaticamente descrizioni dei prodotti per guidare le conversioni dei clienti."
+        },
+        "five": {
+          "name": "Proprietario del negozio di e-commerce",
+          "des": "Crea descrizioni di prodotti convincenti con stili personalizzabili che guidano le conversioni e aumentano le entrate."
+        },
+        "six": {
+          "name": "Gli esperti di marketing e gli inserzionisti",
+          "des": "Crea ganci che attirano l'attenzione utilizzando la personalizzazione di stile per ogni piattaforma, con conteggi di parole flessibili per garantire una migliore messaggistica del marchio."
+        }
+      }
+    },
+    "section3": {
+      "title": "Le caratteristiche chiave del nostro strumento di rilevamento anti-AI",
+      "title1": "Conversione semantica istantanea",
+      "des1": "Analizza accuratamente il contesto e modifica rapidamente il contenuto di intelligenza artificiale per renderlo più umano, garantendo che le informazioni rimangono fedeli all'originale.",
+      "title2": "Ricostruzione di contesto profondo",
+      "des2": "Attraverso l'analisi semantica multidimensionale, converte il contenuto formulaico in un testo fluente conforme alla logica del pensiero umano mantenendo le idee fondamentali.",
+      "title3": "Assicurazione di alta qualità",
+      "des3": "Il database di regole grammaticali esteso incorporato raggiunge una precisione del 98% nella correzione grammaticale in tempo reale, sfuggendo al rilevamento dell'IA mainstream.",
+      "title4": "Adattamento SEO intelligente",
+      "des4": "Gli algoritmi di ottimizzazione della densità semantica integrano perfettamente le parole chiave, il bilanciamento della cordialità dei motori di ricerca e l'esperienza dei lettori.",
+      "title5": "Framework di conformità e sicurezza",
+      "des5": "Il rilevamento del triplo plagio garantisce l'originalità, aderendo rigorosamente agli standard EEAT (competenza, autoritività, affidabilità) per evitare sanzioni della piattaforma.",
+      "title6": "Supporto linguistico globale",
+      "des6": "Supporta la traduzione tra oltre 110 lingue e ottimizzazione per 120 lingue, soddisfacendo le esigenze di creazione transfrontaliera."
+    },
+    "section6": {
+      "title": "Domande frequenti",
+      "faqList": {
+        "q1": "1. Cosa fa un convertitore di testi umano di un'intelligenza artificiale?",
+        "a1": "Il convertitore di testi di AI a umano è uno strumento che ti aiuta a prendere il testo generato dall'IA (tramite Chatgpt, Google Gemini, Claude o qualsiasi altro scrittore di intelligenza artificiale) e trasformarlo in contenuti naturali simili all'uomo senza tutti i toni robotici: mantenere intatto il significato e il contesto originali.",
+        "q2": "2. Perché ho bisogno di un'intelligenza artificiale per il convertitore del testo umano?",
+        "a2": "Il contenuto troppo robotico è rilevabile da molti lettori e danneggia la tua credibilità e SEO. Inoltre, gli strumenti di rilevamento dell'intelligenza artificiale possono catturare il contenuto di intelligenza artificiale. Il nostro convertitore per il testo umano aiuti aiuta a creare contenuti autentici e coinvolgenti a cui il pubblico si riferisce, consentendo al contempo di aggirare la maggior parte dei rilevatori di intelligenza artificiale.",
+        "q3": "3. In che modo funziona il convertitore di tema umano all'intelligenza artificiale?",
+        "a3": "Ci sono 3 passaggi nel processo: in primo luogo, incolla il tuo testo di uscita AI nel convertitore. Successivamente, attraverso l'elaborazione del linguaggio naturale (PNL) e altri algoritmi: lo strumento determina la struttura della frase, il tono e le varie caratteristiche importanti nel testo. Il convertitore emette infine una versione del tuo testo che è naturale e umano.",
+        "q4": "4. L'uso del convertitore di testo AI al testo umano costa qualcosa?",
+        "a4": "Una volta acquistati i nostri servizi illimitati, non ci sono mai limiti di utilizzo, quindi puoi usare l'umanizzatore tutte le volte. Potrebbe essere necessario registrarsi in anticipo per un account.",
+        "q5": "5. Quali strumenti di rilevamento dell'IA Support il tuo convertitore bypassing?",
+        "a5": "Il nostro strumento umanizzatore AI è in grado di bypassare tutti i principali rilevatori di intelligenza artificiale come Zerogpt, Gptzero, Copyleaks, QuillBot, non rilevabile AI, Scribbr, Sale, Turnitin, Crossplag, Winston AI e originalità AI.",
+        "q6": "6. Quali modalità/stili sono disponibili nel tuo convertitore?",
+        "a6": "Lo strumento include più modalità di scrittura come la scrittura generale, per bypassare il rivelatore di AI per scopi generali. Vari stili di scrittura per contesti diversi come un vasto pubblico, collage, marketing e professionista. Il nostro strumento include anche opzioni di personalizzazione delle parole chiave e delle esigenze personali che offrono funzionalità di riscrittura più avanzate e superiori per gli utenti professionisti.",
+        "q7": "7. Come posso usare l'intelligenza artificiale per il convertitore del testo umano?",
+        "a7": "Se vuoi convertire il testo di AI in testo umano, il nostro strumento è facile da usare: prima, vai al nostro sito Web. Ora incolla il contenuto di scrittura di intelligenza artificiale che si desidera convertire nella casella di testo fornita e selezionare la modalità di conversione di scelta. Basta premere il pulsante \"umanizza\" e in pochi secondi, avrai un testo simile al 100% pronto per essere utilizzato dal tuo contenuto di intelligenza artificiale. Puoi anche utilizzare il nostro rilevatore di contenuti AI integrato per verificare se il testo umanizzato è accurato."
+      }
+    },
+    "section7": {
+      "title": "Outlook: coesistenza piuttosto che sostituzione",
+      "sub_title": "Lo strumento ideale di rilevamento anti-AI potrebbe comprendere le differenze culturali e le abitudini individuali e costruire un ecosistema complementare di macchine umane: gli esseri umani sono responsabili di giudizi di valore, mentre le macchine gestiscono compiti ripetitivi. Il significato finale di AI sta nel scatenare la creatività umana e per consentire alla tecnologia di servire veramente i bisogni umani.",
+      "button_text": "Inizia gratuitamente >>"
+    }
+  },
+  "Bypass": {
+    "section1": {
+      "title1": "Bypass AI: tasso di passaggio del 99%, punteggi altamente umani",
+      "sub_title1": "Avrai bisogno di uno strumento che ignori in modo affidabile l'intelligenza artificiale, non solo per assicurarti di essere protetto nel processo di umanizzazione del documento batch, ma ha anche un punteggio umano elevato per soddisfare un certo livello elevato di rapporto umano. Pertanto, il nostro strumento fornisce un tasso di bypass costante del 99%, rimanendo alla larga da tutti i rilevatori di intelligenza artificiale: Turnitin, Gptzero, Originalità.AI, Zerogpt e altro ancora.",
+      "title2": "Bypass AI e plagio Rilevamento con grammatica perfetta",
+      "button": "Bypass AI Detector >>",
+      "sub_title2": "L'intelligenza artificiale bypass garantisce risultati completamente umanizzati per saltare i rilevatori di intelligenza artificiale come Turnitin, Gptzero e Originalità.AI, che sono anche immacolati grammaticali senza plagio. Crea contenuti diversi in modo creativo pertanto consentendo di passare senza soluzione di continuità al plagio e ai servizi di rilevamento dell'intelligenza artificiale con grammatica perfetta.",
+      "title3": "Migliora le classifiche SEO e parole chiave bypassing AI",
+      "sub_title3": "Bypass AI Creazione di contenuti non rilevabili: in grado di aumentare le prestazioni SEO e le classifiche delle parole chiave evitando la penalità di Google. Attraverso contenuti umanizzati senza plagio, con grammatica impeccabile, ti proteggiamo per guidare e mantenere un traffico coerente dalle classifiche delle parole chiave. A lungo termine, aiutiamo a bypassare l'intelligenza artificiale nel processo di creazione di contenuti per proteggere efficacemente la risorsa di pagina."
+    },
+    "section2": {
+      "title": "La soluzione di bypass dell'IA per tutti",
+      "name1": "Studenti e accademici: bypass AI Detection, sgrauggio sbagliato",
+      "des1": "Gli studenti temono che i rilevatori di intelligenza artificiale contrassegneranno i loro incarichi o vengano erroneamente accusati come generati ai. L'algoritmo non rilevabile di Bypass AI ti fornirà un punteggio umano elevato in modo da poter inviare con sicurezza il tuo lavoro ed evitare sanzioni accademiche.",
+      "name2": "Content Writers & Blogger: ottieni contenuti autentici, ottieni pagamenti",
+      "des2": "Il contenuto con un punteggio AI elevato sarà respinto dai clienti e potrebbe portare a mancato pagamento. Bypass AI ti consente di scrivere in modo umanizzato coinvolgente che passa facilmente il rilevamento dell'intelligenza artificiale in modo che i tuoi contenuti siano all'altezza delle aspettative del cliente e vieni pagato.",
+      "name3": "Le imprese e i professionisti del marketing: classificati, prevenire la penalità di Google",
+      "des3": "Il contenuto senza tocco umano porterà a penalità di Google. Bypass AI fornisce contenuti umanizzati e unici che migliorano le prestazioni SEO, aumentano le classifiche delle parole chiave e si impegna davvero con il pubblico garantendo così un traffico coerente."
+    },
+    "section3": {
+      "title": "Bypass AI Introduzione ai punti deboli della folla",
+      "title1": "Studenti - Valore primario",
+      "des1": "Assicurati che il tuo lavoro non venga giudicato erroneamente per essere stato scritto da AI",
+      "title2": "Studenti - Valore premium",
+      "des2-1": "- lavoro originale quindi nessun rischio di cattiva condotta accademica",
+      "des2-2": "- La grammatica impeccabile ti dà dei voti migliori",
+      "title3": "Scrittori di contenuti - Valore primario",
+      "des3": "Non ottenere i tuoi contenuti non pagati dai clienti a causa dell'elevato rapporto AI",
+      "title4": "Scrittori di contenuti - Valore premium",
+      "des4-1": "- lavoro originale quindi nessun rischio di cattiva condotta accademica",
+      "des4-2": "- La grammatica impeccabile ti dà dei voti migliori",
+      "title5": "Marketer - valore primario",
+      "des5": "Proteggere il rango SEO e impedire la penalizzazione di Google",
+      "title6": "Marketer - valore premium",
+      "des6-1": "- Migliora le classifiche delle parole chiave per ottenere traffico coerente",
+      "des6-2": "- Mantienilo umano e interagisci veramente con il pubblico"
+    },
+    "section6": {
+      "title": "Domande frequenti",
+      "faqList": {
+        "q1": "1. Come funziona Byecheck?",
+        "a1": "Woteerai usa l'intelligenza artificiale avanzata per valutare e riscrivere il testo generato dall'IA. Il nostro sistema esprezza e sostituisce i modelli di testo di intelligenza artificiale comuni, li scambia per un linguaggio vario e naturale, ma mantiene il significato fondamentale del tuo testo in modo che rimanga accurato e logico. Convertiamo il testo robotico in contenuti simili all'uomo senza alterarne il significato essenziale.",
+        "q2": "2. Quali rilevatori di intelligenza artificiale possono bypass woteerai?",
+        "a2": "Byecheck può aggirare molti rivelatori di intelligenza artificiale popolari come Turnitin, Gptzero, Originalità.AI, copyleaks, contenuto su scala e zerogpt. I nostri algoritmi vengono regolarmente aggiornati per far fronte a una nuova tecnologia di rilevamento, quindi i tuoi contenuti rimangono umani e superano i test di rilevamento dell'IA.",
+        "q3": "3. Byecheck compromette la qualità dei miei contenuti?",
+        "a3": "Assolutamente no. Byecheck mantiene le informazioni e il significato essenziali del contenuto originale, ma migliora la sua qualità introducendo più modelli di linguaggio naturale e dispositivi retorici. Il nostro strumento aiuta a evitare la ridondanza, aggiunge variazioni nell'espressione e migliora la struttura grammaticale rendendo il testo fluente e naturale.",
+        "q4": "4. Quanto tempo impiega Byecheck per elaborare il contenuto?",
+        "a4": "Il tempo di elaborazione per Byecheck dipende dalla lunghezza e dalla complessità del testo. In generale, in secondi vengono elaborati brevi testi fino a 500 parole; I testi di media lunghezza (500-2000 parole) di solito richiedono meno di 10 secondi; mentre i testi lunghi potrebbero richiedere più tempo. Ottimizziamo costantemente il nostro algoritmo per garantire un trattamento efficiente e accurato.",
+        "q5": "5. È legale o etico usare Woteerai?",
+        "a5": "Byecheck è pienamente legale. Il nostro strumento aiuta gli utenti a migliorare i contenuti generati dall'IA rendendolo più allineato con gli stili di scrittura umana, non per il plagio o l'inganno. L'uso corretto del nostro strumento in un contesto accademico, professionale e aziendale può migliorare la qualità dei contenuti e l'originalità. Byecheck non perdona alcun tipo di disonestà o plagio accademico.",
+        "q6": "6. Quali sono i vantaggi di Byecheck rispetto ad altri strumenti di bypass AI?",
+        "a6": "Byecheck ha diversi vantaggi distinti: \n- Tasso di successo superiore a oltre il 98% nel bypass \n- Mantiene un significato originale aggiungendo un'espressione simile all'uomo \n- 110+ supporti più linguistici e di dominio professionale \n- Interfaccia semplice e intuitiva \n- Protezione rigorosa per la privacy dei dati \n- Aggiornamenti regolari per compensare i nuovi metodi di rilevamento dell'IA",
+        "q7": "7. Le mie informazioni sono sicure con Byecheck?",
+        "a7": "Sì, Woteerai è un forte sostenitore della privacy degli utenti e della sicurezza dei dati. Abbiamo in atto rigide misure di protezione dei dati e non utilizziamo i tuoi contenuti per formare i nostri modelli. Tutto il testo viene elaborato in modo sicuro in un ambiente crittografato, con contenuti originali non mantenuti dopo il completamento. Possiedi completamente la tua proprietà intellettuale."
+      }
+    }
+  },
+  "Rewriter": {
+    "section2": {
+      "title": "Cosa puoi fare con Byecheck Ai Rewriter?",
+      "sub_title": "Con Byecheck AI Reswriter, non si riscristi: crei contenuti ottimizzati, personalizzati e non rilevabili che si distinguono.",
+      "title1": "Incorporare parole chiave per più traffico SEO",
+      "des1": "Fai clic su \"Parole chiave\" per inserire perfettamente e naturalmente le parole chiave nel testo riscritto dell'IA. Byecheck accelera \"le parole chiave incorporate\" di soli 1 clic.",
+      "title2": "Personalizza completamente le tue esigenze di riscrittura",
+      "des2": "Fai clic su \"bisogni personali\" per personalizzare la tua riscrittura: impostare i limiti di lunghezza del testo e formati specifici, regolare il tono o aggiungere nuove idee e opinioni.",
+      "title3": "Correggi errori di grammatica e sintassi",
+      "des3": "Correggi automaticamente gli errori grammaticali e perfezionare la struttura della frase per garantire che il testo si legge in modo regolare e professionale.",
+      "title4": "Evita la parola e la frase ad alta frequenza ad alta frequenza",
+      "des4": "Elimina le parole e le frasi che sono probabilmente utilizzate dall'intelligenza artificiale per aggirare significativamente il rilevamento dei contenuti di intelligenza artificiale, rendendo il tuo testo di riscrittura AI veramente umano."
+    },
+    "section3": {
+      "title": "Chi dovrebbe riscrivere Byecheck ai?",
+      "list": {
+        "one": {
+          "name": "Studentesse",
+          "des": "Digitare \"bisogni personali\" per incorporare opinioni/esperienze soggettive. Genera veri saggi autentici, mantenendolo grammaticalmente corretto non rilevabile."
+        },
+        "two": {
+          "name": "Professioniste",
+          "des": "Affina rapporti di lavoro, e -mail e presentazioni in espressione professionale con tono specifico"
+        },
+        "three": {
+          "name": "Creatori di contenuti",
+          "des": "Batch AI riscrivi i contenuti in modo efficiente, anche tenersi il passo con il requisito del cliente: punteggio AI basso."
+        },
+        "four": {
+          "name": "Esperti di marketing",
+          "des": "Utilizzare le \"parole chiave\" nel contenuto di riscrittura di AI con solo 1 clic. Classifica parole chiave con facilità ed efficienza."
+        },
+        "five": {
+          "name": "Studenti di lingue",
+          "des": "Migliorare la fluidità nella scrittura; La grammatica corretta e levigate le frasi per far sentire i contenuti di riscrittura di intelligenza artificiale nativi."
+        }
+      }
+    },
+    "section4": {
+      "title": "Unisciti a migliaia di scrittori usa Byecheck riswiter per automatizzare il processo",
+      "name1": "Scrittori in tutto il mondo",
+      "value1": "10.000+",
+      "name2": "Punteggio umanizzante",
+      "value2": "Valutato 4.5/5",
+      "name3": "Lingue supportate",
+      "value3": "20+",
+      "name4": "Contenuti più veloci Creazione di processo",
+      "value4": "10-50x",
+      "name5": "sul punteggio grammatica",
+      "value5": "90+",
+      "name6": "agenzie di scrittura professionale",
+      "value6": "500+",
+      "name7": "utente soddisfatto dei sondaggi",
+      "value7": "98%"
+    },
+    "section5": {
+      "title": "Cerchi un forte reophraser di intelligenza artificiale? Iscriviti a Byecheck Premium",
+      "sub_title": "Accedi a oltre 10 modalità di riformulazione insieme a Byecheck Premium, consentendo voci illimitate, più di più. I professionisti possono livellare la loro scrittura utilizzando strumenti più veloci, intelligenti e personalizzabili."
+    },
+    "section6": {
+      "title": "Domande frequenti",
+      "faqList": {
+        "q1": "1. Cosa rende Woteerai a parte gli altri strumenti di riscrittura dell'IA?",
+        "a1": "Byecheck si distingue attraverso le sue funzionalità avanzate di riscrittura e l'evasione del rilevamento dell'IA. Byecheck ricostruisce il testo a differenza degli strumenti di parafrasi di base per aggiungere e trattenere le caratteristiche di scrittura umana significato. Rimuovendo i modelli di intelligenza artificiale dalla tua scrittura ed evitando gli algoritmi di rilevamento, la nostra tecnologia assicura che i tuoi contenuti siano umanizzati piuttosto che riscritti.",
+        "q2": "2. In che modo Woteerai garantisce che i miei contenuti bypassino i rilevatori di intelligenza artificiale?",
+        "a2": "Woteerai studia le caratteristiche linguistiche del testo generato dall'IA e le scambia con strutture di scrittura umana. La scrittura umana è incorporata nel nostro algoritmo per variare naturalmente la lingua, includere lievi variazioni e incoerenze e utilizzare elementi di stile. In tal modo, i tuoi contenuti saranno in grado di passare attraverso i principali strumenti di rilevamento dell'intelligenza artificiale come Turnitin, Gptzero e Originalità.AI senza perdere il messaggio originale.",
+        "q3": "3. Byecheck può mantenere intatto il tono e lo stile del mio contenuto originale?",
+        "a3": "Assolutamente! Woteerai mantiene intatto il significato, il tono e lo stile originali dei tuoi contenuti. Hai la possibilità di regolare le impostazioni del tono per un'adeguata scrittura accademica formale, blog conversazionali, comunicazione aziendale semplice o narrazione creativa. La nostra tecnologia rileva gli elementi di stile essenziali nel tuo testo e assicura che rimangano coerenti attraverso la riscrittura, in modo che suoni come te.",
+        "q4": "4. Quanto del mio testo modifica Byecheck durante la riscrittura?",
+        "a4": "Woteerai offre diversi livelli di intensità di riscrittura. Se impostato più in basso, cambia il 40-60% del testo mantenendo invariate frasi chiave e espressioni uniche. In impostazioni più elevate, il 70-90% del testo viene riscritto, ma il messaggio principale rimane intatto. Puoi scegliere quanto conservare la tua voce originale, assicurandoti che il contenuto passi gli strumenti di rilevamento dell'IA.",
+        "q5": "5. Byecheck è appropriato per la scrittura accademica?",
+        "a5": "Decisamente. Woteerai svolge un ruolo importante nella scrittura accademica, in cui la chiarezza e l'originalità sono essenziali. Lo strumento aiuta gli studenti e i ricercatori a trasformare le note di ricerca generate dall'IA o le bozze in lucido testo accademico simile all'uomo che aggira il rilevamento dell'IA mantenendo il contenuto accademico. Woteerai può anche aiutare i parlanti inglesi non nativi nel migliorare il loro stile di scrittura accademica e la chiarezza senza alterare il contenuto accademico.",
+        "q6": "6. Qual è la differenza tra Byecheck e semplici strumenti di parafrasante?",
+        "a6": "Byecheck supera i semplici strumenti di parafrasante non solo sostituendo le parole con sinonimi. I parafrasi regolari cambiano le parole in una frase, spesso rendendole imbarazzanti e innaturali; Woteerai segue i modelli di scrittura umana per ristrutturare intere frasi o paragrafi. La nostra tecnologia esamina il contesto e mantiene un flusso logico mentre la coerenza stilistica viene mantenuta dappertutto, producendo contenuti naturalmente fluidi che sembrano scritti dall'uomo da zero.",
+        "q7": "7. Byecheck migliora la qualità della mia scrittura?",
+        "a7": "SÌ! Byecheck non solo ti aiuta a bypassare il rilevamento dell'IA, ma migliora anche notevolmente la qualità della scrittura, compresa la risoluzione di problemi di grammatica, la migliore strutturazione delle frasi, la rimozione di licenziamenti e una maggiore leggibilità. I nostri potenti algoritmi linguistici individuano le possibilità di rafforzare le frasi deboli, offrire migliori scelte di parole e rendere i tuoi contenuti fluire in modo più fluido. Byecheck migliora l'efficacia e l'impatto della tua scrittura, non solo nascondere tracce di intelligenza artificiale."
+      }
+    }
+  },
+  "NewHomeMultilingualTranslation": {
+    "tab_text": "Testo",
+    "tab_document": "Documenti",
+    "translator_btn": "Tradurre",
+    "translator_input_placeholder": "Digita o incolla testo qui da tradurre",
+    "automatic_detection": "Rilevamento automatico",
+    "target_language": "Lingua di destinazione",
+    "search_language": "Cerca lingua",
+    "Academic": "Campo",
+    "Business": "Business",
+    "Technical": "Medico",
+    "Medical": "Medical",
+    "Legal": "Legale",
+    "Marketing": "Marketing",
+    "Finance": "Finanza",
+    "E-commerce": "Commercio elettronico",
+    "Literary": "Letterario",
+    "tips_humanize_text": "Hai bisogno di umanizzare il testo?",
+    "click_here_to_humanize": "clicca qui",
+    "tips_click_text": "Fai clic sul pulsante di traduzione e ottieni il testo tradotto dall'intelligenza artificiale in un secondo",
+    "Accuracy": "Precisione",
+    "Readability": "Leggibilità",
+    "Grammatical": "Correttezza grammaticale",
+    "Consistency": "Coerenza del tono",
+    "Adaptation": "Adattamento culturale",
+    "translate_assess": "Byecheck sta valutando i risultati della traduzione...",
+    "translate_time": "Si prega di attendere 5-10 secondi",
+    "votes": "voti",
+    "rate": "Valuta questo strumento"
+  },
+  "TranslationAI": {
+    "product_introduction_tittle_1": "Cosa è",
+    "product_introduction_tittle_2": "Traduttore di ai?",
+    "product_introduction_tittle_3": "Il traduttore AI è uno strumento di traduzione basato sull'intelligenza artificiale che converte automaticamente una lingua in un'altra. Utilizzando le tecnologie di elaborazione del linguaggio naturale e del linguaggio naturale, può comprendere ed elaborare la grammatica, la semantica e il contesto per fornire traduzioni efficienti e accurate.",
+    "product_introduction_content_1": "Precisione alimentata da LLM",
+    "product_introduction_content_2": "Utilizzare algoritmi di linguaggio avanzato per fornire traduzione e garantire più accurate e fluenti che mai con traduzioni regolari.",
+    "product_introduction_content_3": "Output simile all'uomo",
+    "product_introduction_content_4": "Genera traduzioni che suonano naturali agli altoparlanti, passano strumenti di rilevamento dell'IA e rimangono liberi da errori grammaticali, preservando la tua voce autentica.",
+    "product_introduction_content_5": "Su misura per ogni utente",
+    "product_introduction_content_6": "Che tu sia uno studente, un educatore, un lavoratore professionista, un viaggiatore, un ricercatore o un creatore di contenuti, è necessaria una traduzione affidabile per navigare attraverso culture diverse.",
+    "product_introduction_button_1": "Ai traduci ora",
+    "crowd_introduction_1": "Potenti caratteristiche dello strumento di traduzione byecheck.com",
+    "crowd_introduction_2": "Traduzione e localizzazione alimentate dall'intelligenza artificiale",
+    "crowd_introduction_students_1": "Studentesse",
+    "crowd_introduction_students_2": "Il nostro traduttore di lingue assiste gli studenti ad adattarsi ad ambienti accademici multilingue, accedere alla ricerca all'estero, alla scrittura di incarichi in una seconda lingua, il che rende le conoscenze globali disponibili e utilizzabili da chiunque proveniente da qualsiasi background linguistico.",
+    "crowd_introduction_professionals_1": "Professioniste",
+    "crowd_introduction_professionals_2": "La traduzione di AI Byecheck assicura che le sottigliezze tecniche vengano catturate durante la traduzione: documenti di ricerca, tesi e documentazione tecnica da una lingua all'altra - mantenimento di termini specifici del soggetto che nella traduzione normale potrebbero essere fraintesi.",
+    "crowd_introduction_researchers_1": "Ricercatrici",
+    "crowd_introduction_researchers_2": "I ricercatori fanno affidamento sulla traduzione dell'IA per leggere pubblicazioni straniere, lavorano con coetanei all'estero e distribuiscono le loro ricerche in modo che i risultati significativi vadano oltre le lingue.",
+    "crowd_introduction_business_1": "Attività commerciale",
+    "crowd_introduction_business_2": "Le aziende utilizzano il nostro traduttore di intelligenza artificiale per gestire la propria e -mail, i contratti e il marketing in più lingue, consentendo la certezza mentre operano a livello globale nonostante le barriere linguistiche.",
+    "crowd_introduction_travelers_1": "Viaggiatori",
+    "crowd_introduction_travelers_2": "I turisti usano la nostra traduzione di intelligenza artificiale per l'interazione locale istantanea, i menu di lettura e i segni; trasformare il viaggio in impegno attivo piuttosto che passivo.",
+    "data_display_1": "Supporta 110+ lingue",
+    "data_display_content_1": "Goditi i nostri fantastici servizi di globalizzazione con supporto reciproco di traduzione per oltre 110 lingue.",
+    "data_display_2": "Compatibile con oltre 50 formati di file",
+    "data_display_content_2": "Supportato per la traduzione di txt. doc. pdf. Ora, e altri formati di file come PNG, JPG, JPEG saranno presto supportati",
+    "data_display_3": "Miglioramento dell'efficienza del 78%",
+    "data_display_content_3": "Migliora l'efficienza di traduzione superiore al 78%, ottimizzando significativamente il flusso di lavoro mantenendo la qualità.",
+    "data_display_4": "Risparmio dei costi dell'85%",
+    "data_display_content_4": "Utilizza modelli di lingua AI avanzati per ottenere risultati naturali e fluenti paragonabili ai traduttori professionisti a un costo significativamente inferiore alla traduzione umana.",
+    "how_to_1": "Come tradurre i tuoi testi con",
+    "how_to_2": "Traduttore di ai",
+    "how_to_3": "Passaggio 1. Incolla testi",
+    "how_to_4": "Passaggio 2. Traduci i testi",
+    "how_to_5": "Passaggio 3. Copia i risultati",
+    "how_to_6": "Prova a incollare o digitare i tuoi testi, paragrafi o articoli nel traduttore di Byecheck.",
+    "how_to_7": "È possibile tradurre direttamente il contenuto in un clic o provare il tipo \"umanizza\" per tradurre il testo in contenuti simili all'uomo.",
+    "how_to_8": "Copia il contenuto tradotto e incollali sui file di destinazione.",
+    "how_to_button_1": "Traduci gratuitamente ora",
+    "value_point_introduction_1": "Eccezionale",
+    "value_point_introduction_1_2": "Qualità della traduzione",
+    "value_point_introduction_2": "Naturale e fluente",
+    "value_point_introduction_2_1": "Presentazione localizzata",
+    "value_point_introduction_3": "La profonda analisi semantica del vocabolario e delle espressioni in ogni lingua garantisce risultati di traduzione accurati. Contenuti chiave come termini tecnici, abbreviazioni professionali e formule complesse sono completamente conservati per trasmettere accuratamente il significato originale e presentare perfettamente il contesto.",
+    "value_point_introduction_4": "Utilizzando la tecnologia di elaborazione incentrata sull'uomo avanzata, il testo tradotto mantiene l'integrità delle informazioni originali, integrando perfettamente nel contesto culturale della lingua target. I professionisti che lavorano con più lingue possono accedere ai contenuti professionali senza alcuna traccia di traduzione.",
+    "value_point_introduction_button_1": "Prova AI Humanizer ora",
+    "value_point_introduction_5": "Pronto all'uso",
+    "value_point_introduction_6": "servizio basato su cloud",
+    "value_point_introduction_6_1": "Non è necessario scaricare o installare: goditi i servizi di traduzione di livello professionale immediatamente online. Basato su una piattaforma di cloud computing, gli utenti sperimentano servizi di traduzione senza pubblicità e a operatori sgraziati.",
+    "value_point_introduction_7": "Byecheck supporta",
+    "value_point_introduction_7_1": "110+ lingue",
+    "value_point_introduction_7_2": "Traduzione delle coppie",
+    "language_pairs_1": "Inglese - spagnolo",
+    "language_pairs_2": "Inglese - francese",
+    "language_pairs_3": "Inglese - Portoghese",
+    "language_pairs_4": "Inglese - tedesco",
+    "language_pairs_5": "Inglese - olandese",
+    "language_pairs_6": "Inglese - cinese (tradizionale)",
+    "language_pairs_7": "Francese - inglese",
+    "language_pairs_8": "Inglese - Russo",
+    "language_pairs_9": "Cinese (tradizionale) - inglese",
+    "language_pairs_10": "Inglese - italiano",
+    "language_pairs_11": "Inglese - Giapponese",
+    "language_pairs_12": "Inglese - greco",
+    "language_pairs_13": "Inglese - Polaio",
+    "language_pairs_14": "Spagnolo - inglese",
+    "language_pairs_15": "Inglese - Tamil",
+    "language_pairs_16": "Giapponese - inglese",
+    "language_pairs_17": "Inglese - Urdu",
+    "language_pairs_18": "Filippino - inglese",
+    "language_pairs_19": "Inglese - Arabo",
+    "language_pairs_20": "Urdu - inglese",
+    "language_pairs_21": "English - Nepalei",
+    "language_pairs_22": "Arabo - inglese",
+    "language_pairs_23": "Inglese - coreano",
+    "language_pairs_24": "Inglese - cinese (semplificato)",
+    "language_pairs_25": "Tedesco - inglese",
+    "language_pairs_26": "Inglese - Malay",
+    "language_pairs_27": "Coreano - inglese",
+    "language_pairs_28": "Inglese - Indonesiano",
+    "language_pairs_29": "Malay - inglese",
+    "language_pairs_30": "Indonesiano - inglese",
+    "language_pairs_31": "Inglese - Uzbek",
+    "language_pairs_32": "Tamil - inglese",
+    "language_pairs_33": "Hindi - inglese",
+    "language_pairs_34": "Inglese - filippino",
+    "language_pairs_35": "English - Somali",
+    "language_pairs_36": "Nepalese - inglese",
+    "language_pairs_37": "Italiano - inglese",
+    "language_pairs_38": "Portoghese - inglese",
+    "language_pairs_39": "Malayalam - inglese",
+    "language_pairs_40": "Thai - inglese",
+    "translate_faq_1": "Ne hai",
+    "translate_faq_2": "Domande",
+    "translate_faq_3": "?",
+    "translate_bottom_banner_1": "Prospettive: più intelligente e più umano",
+    "translate_bottom_banner_2": "Con lo sviluppo di modelli di grandi dimensioni multimodali e calcolo quantistico, la traduzione di documenti AI si avvicinerà alla qualità della traduzione a livello umano. In definitiva, i traduttori di intelligenza artificiale possono diventare perfettamente integrati \"Invisible Bridges\", eliminando le barriere linguistiche come ostacoli alla collaborazione globale.",
+    "translate_bottom_banner_button_1": "Tradurre ora",
+    "translate_documents_tittle": "Traduttore di documenti AI: traduci pdf, doc, txt e più istantaneamente",
+    "translate_documents_content": "Il traduttore di documenti Woteter AI è un potente strumento progettato per tradurre i documenti da una lingua all'altra. Che tu sia un traduttore professionista, un ricercatore o un creatore di contenuti, la nostra soluzione basata sull'intelligenza artificiale offre un modo semplice ed efficiente per tradurre i tuoi documenti. Con il traduttore di documenti Byecheck, è possibile risparmiare tempo e fatica, garantendo che i tuoi documenti siano tradotti accuratamente in pochi secondi.",
+    "translate_documents_points_1": "Sicurezza di livello bancario",
+    "translate_documents_points_2": "Per i tuoi documenti sensibili",
+    "translate_documents_points_3": "Trattiamo la riservatezza del tuo documento con la massima serietà:",
+    "translate_documents_points_4": "Caricamento ed elaborazione sicuri",
+    "translate_documents_points_5": "I file vengono inviati con crittografia SSL. L'elaborazione avviene in un cloud protetto.",
+    "translate_documents_points_6": "Privacy dei dati rigorosa",
+    "translate_documents_points_7": "Non condividiamo i tuoi documenti o i loro contenuti con terzi. I tuoi dati non vengono utilizzati per la formazione di modelli AI esterni.",
+    "translate_documents_points_8": "Politica di eliminazione dei dati",
+    "translate_documents_points_9": "I documenti caricati e le loro traduzioni vengono generalmente rimossi dai nostri server dopo un breve periodo di elaborazione.",
+    "translate_documents_points_10": "Standard di conformità",
+    "translate_documents_points_11": "Ci rispettiamo le leggi chiave sulla protezione dei dati.",
+    "translate_documents_points_button_1": "Traduci gratuitamente ora",
+    "translate_documents_points_13": "Dal testo tradotto al documento lucido:",
+    "translate_documents_points_14": "L'impatto dell'umanizzatore",
+    "translate_documents_points_15": "Assicurati che i documenti tradotti riflettano professionalità e chiarezza. L'umanizzatore AI eleva la traduzione di AI standard di",
+    "translate_documents_points_16": "Miglioramento dei manuali tecnici per chiarezza e comprensione dell'utente.",
+    "translate_documents_points_17": "Adattare gli opuscoli di marketing tradotti per essere convincenti e culturalmente risonanti.",
+    "translate_documents_points_18": "Assicurarsi che i documenti accademici abbiano un tono formale e un flusso logico.",
+    "translate_documents_points_19": "Creazione di report tradotti perfettamente essenziali per la fiducia.",
+    "translate_documents_points_button_2": "Prova AI Humanizza ora",
+    "ai_translate_tittle_1": "AI Translator: il tuo assistente intelligente per abbattere le barriere linguistiche",
+    "product_introduction_tittle_4": "Indicazioni sull'applicazione di traduzione AI e pubblico target",
+    "product_introduction_tittle_5": "La traduzione di intelligenza artificiale online è ora ampiamente utilizzata in affari, istruzione, turismo, sanità e altri campi. I professionisti delle imprese possono usarlo per la comunicazione di riunioni transfrontaliere, gli studenti e i ricercatori possono leggere rapidamente materiali in lingua straniera, i turisti possono tradurre menu o segnali stradali in tempo e le istituzioni mediche possono usarlo per superare le barriere linguistiche tra medici e pazienti. Inoltre, anche i creatori di contenuti, i professionisti del commercio e-commerce e il personale diplomatico sono importanti gruppi di utenti. Sia per individui che per le imprese, i traduttori di intelligenza artificiale possono aiutare gli utenti a completare in modo efficiente attività trasversali e ridurre i costi di comunicazione.",
+    "product_introduction_tittle_6": "Byecheck.com",
+    "product_introduction_tittle_7": "Il traduttore fornisce"
+  },
+  "UsageTips": {
+    "title": "Usage tips",
+    "content": "AI Humanizer achieves 99.8% success in bypassing AI detection. If detected, try these proven methods:",
+    "content4": "Still having issues? Please contact us to share feedback.",
+    "title1": "Iniziare (1/3)",
+    "title2": "Umanizzare (2/3)",
+    "title3": "Regola le impostazioni (3/3)",
+    "content1": "Incolla il testo nel campo in basso o fai clic su \"Prova un esempio\" per vedere come funziona.",
+    "content2": "Ora, fai clic sul pulsante \"umanizza\" in basso per generare il tuo nuovo contenuto e vedere l'analisi.",
+    "content3": "Fai clic sull'icona \"Impostazioni\" per espandere il menu di personalizzazione. Qui, puoi inserire parole chiave e regolare il tono, lo stile, il conteggio delle parole e altro per perfezionare i risultati."
+  },
+  "article": {
+    "most_view": "La maggior parte delle visualizzazioni",
+    "latest": "Ultima",
+    "related_posts": "Post correlati",
+    "more": "Di più",
+    "home": "Casa",
+    "written_by": "Scritto da",
+    "updated_on": "Aggiornato il"
+  }
+}

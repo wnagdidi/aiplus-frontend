@@ -1,0 +1,1438 @@
+{
+  "Common": {
+    "brandName": "{brandName}",
+    "pricing": "Pricing",
+    "login": "Login",
+    "try_for_free": "Try for free",
+    "profile": "Profile",
+    "edit_profile": "Edit Profile",
+    "upgrade_account": "Upgrade Account",
+    "contact_us": "Contact Us",
+    "your_subscription": "Your Subscription",
+    "have_not_subscribed": "You have not subscribed to any {brandName} plan",
+    "choose_your_plan": "Choose your plan",
+    "your_words": "Your Words",
+    "words_remaining": "{count} Words Remaining",
+    "number_of_words_available": "The number of words available for use",
+    "logout": "Logout",
+    "logout_success": "Successfully logged out",
+    "upgrade_now": "Upgrade now",
+    "not_now": "Not now",
+    "message": "Message",
+    "current_plan": "Current",
+    "banner_caption": "FeeLove AI detection.",
+    "banner_countdown": "Hurry - ends {date}",
+    "banner_title": "Back to School Sale :",
+    "banner_discount": "up to {percent} OFF",
+    "save_now": "Save now",
+    "api": "API",
+    "order_deducting_message": "Latest order is being processed, subscription will take effect soon!",
+    "get_started": "Get started",
+    "products": "Products",
+    "company": "Company",
+    "rate": "Rate",
+    "pages": "Pages",
+    "ai_resources": "AI Resources"
+  },
+  "Error": {
+    "SUCCESS": "SUCCESS",
+    "PARAM_INVALID": "Request is invalid. please contact support. Event ID: {requestId}",
+    "NOT_FOUND": "Requested resource not found. please contact support. Event ID: {requestId}",
+    "INTERNAL_ERROR": "Something wrong with the server. please contact support. Event ID: {requestId}",
+    "SEND_EMAIL_ERROR": "Failed to send email. please contact support. Event ID: {requestId}",
+    "REGISTER_EMAIL_EXISTS": "This email has already been registered.",
+    "VERIFICATION_CODE_ERROR": "Code is invalid or expired",
+    "TOKEN_ERROR": "Please sign in to use {brandName}",
+    "PERMISSION_DENIED": "You don't have enough permission to perform the action",
+    "RECAPTCHA_CHECK_ERROR": "ReCaptcha failed, please retry",
+    "USER_LOGIN_ERROR": "email or password is invalid",
+    "OLD_PASSWORD_INVALID": "The old password is invalid",
+    "NEW_PASSWORD_EQUAL_OLD_PASSWORD": "NEW_PASSWORD_EQUAL_OLD_PASSWORD",
+    "RESET_PASSWORD_REQUEST_INVALID": "RESET_PASSWORD_REQUEST_INVALID",
+    "USER_NOT_EXISTS": "User not exist, please contact support. Event ID: {requestId}",
+    "HUMANIZE_API_ERROR": "Something wrong humanizing the content. please contact support. Event ID: {requestId}",
+    "RESET_PASSWORD_INVALID_UUID": "This password reset session has expired. Please resend the email to initiate the process again.",
+    "APP_EMAIL_IS_EXISTED": "This email has already been registered.",
+    "APP_EMAIL_IS_INVALID": "Please enter a valid email address.",
+    "EMAIL_IS_NOT_EXISTED": "This email has not been registered.",
+    "TOKEN_INVALID_OR_EXPIRED": "Your session has expired, please login again",
+    "GOOGLE_CREDENTIAL_ERROR": "Google credential is invalid, please retry",
+    "USER_NOT_LOGIN": "Please login to continue",
+    "VISITOR_ONLY_REWRITE_SAMPLE": "Please login to humanize your custom content",
+    "NO_ACTIVE_SUBSCRIPTION": "Something wrong with the subscription. please contact support. Event ID: {requestId}",
+    "WORDS_EXCEED_LIMIT": "You've hit your word limit. Please upgrade to get more words.",
+    "WORDS_BELOW_MINIMUM": "Your input should contain at least 50 words.",
+    "SUBSCRIPTION_LIMIT_REACHED": "Subscription quota exhausted. Please upgrade to get more.",
+    "CAN_NOT_SUBSCRIBE_FREE_PLAN": "Free plan is not need to subscribe",
+    "CAN_NOT_SUBSCRIBE_LOWER_PLAN": "The new plan must be of superior quality compared to the existing one",
+    "CAN_NOT_CANCEL_FREE_SUBSCRIPTION": "Can not cancel free subscription",
+    "STARTSAAS_ENCRYPTION_DATA_INVALID": "Invalid payment state"
+  },
+  "Metadata": {
+    "default": {
+      "title": {
+        "default": "FeeLove - Transform Your Images into Spicy Videos"
+      },
+      "description": {
+        "default": ""
+      },
+      "keywords": ""
+    },
+    "login": {
+      "title": "",
+      "description": "",
+      "keywords": ""
+    },
+    "pricing": {
+      "title": "Affrodable Pricing Plans for AI Humanizer and Detector Tool",
+      "description": "Choose the pricing plan that best suits your needs. Get affordable, high-quality AI humanization and detection tool to create undetectable, plagiarism-free content. Get started for free trail today!",
+      "keywords": "ai tool price, pricing plan"
+    },
+    "checkout": {
+      "title": "Checkout to use Humanize AI Detection",
+      "description": "Complete your purchase with Humanize AI and get the best tools to bypass AI detection and humanize AI text. Make AI writing undetectable.",
+      "keywords": "ai detection remover, ai humanizer, ai bypass, how to make ai text undetectable, humanize ai text"
+    },
+    "privacyPolicy": {
+      "title": "Privacy Policy for FeeLove",
+      "description": "We are committed to protecting the privacy of our users. When you use our website, we will collect and use your personal data to improve your user experience, but we will keep your privacy strictly confidential.",
+      "keywords": "privacy policy"
+    },
+    "termsAndConditions": {
+      "title": "Conditons and Services for Using FeeLove",
+      "description": "To access and use FeeLove services, you need to understand the terms and conditions. If you have any questions, please contact us.",
+      "keywords": "terms and conditions"
+    },
+    "refundPolicy": {
+      "title": "Refund Policy for FeeLove",
+      "description": "If you are not satisfied with our service, we offer a refund. Please review the refund terms and refund process to protect your rights.",
+      "keywords": "return terms, refund process"
+    },
+    "aboutUs": {
+      "title": "About FeeLove - A Leading Humanizer Tool",
+      "description": "See how FeeLove leads AI and human collaboration for enhanced creativity, innovate the futuristic AI content creation process.",
+      "keywords": "about FeeLove"
+    },
+    "contactUs": {
+      "title": "Contact FeeLove with Email or Online Form",
+      "description": "If you have any questions or need assistance, our customer service team is always here to help. Don't hesitate to contact us.",
+      "keywords": "contact FeeLove"
+    },
+    "aiDetector": {
+      "title": "AI Detector - Trusted AI Checker No Word Limit for GPT-5 & More",
+      "description": "Try our reliable AI detector for ChatGPT, GPT-5, DeepSeek, Claude and more with free trail. A truly all-in-one AI checker and supports 110+ languages detection.",
+      "keywords": "check ai, ai content checker, ai detector free, ai testing tools"
+    },
+    "aiTranslator": {
+      "title": "AI Translator - Best AI Translation Tool for Text, Doc, PDF",
+      "description": "Our AI translator provides instant and accurate translations in 110+ languages, and the translation results will be processed into human-like contents. Try for free Now!",
+      "keywords": "ai translator free, ai document translation, ai pdf translator, ai translate"
+    },
+    "aiHuman": {
+      "title": "AI to Human Text Converter - Humanize AI Text for Free",
+      "description": "FeeLove's humanize AI content tool is free for a limited time trial. Its powerful functions help convert AI text into human-like handwritten content, and could bypass any AI detection system.",
+      "keywords": "convert ai text to human text, ai text convert to human"
+    },
+    "aiBypass": {
+      "title": "Bypass AI - Undetectable AI Detector Bypass Tool for Free",
+      "description": "You'll need a tool that reliably bypasses AI to enhance your efficiency. Our tool provides a 99% steady bypass rate, staying clear of all AI detectors: Turnitin, GPTZero, Originality.AI, ZeroGPT, and more.",
+      "keywords": "bypassing ai, bypass ai detection, ai checker bypass, best ai bypass tool"
+    },
+    "aiRewriter": {
+      "title": "AI Rewriter - Best AI Rewriting Tool and AI Rewrite Generator",
+      "description": "Free for a limited time! FeeLove rewriter uses a humanizing algorithm, thus paraphrasing the text in an undetectable and grammatically correct way, and bypassing AI detectors with ease. ",
+      "keywords": "rewrite with ai, ai rewriter undetectable, ai paragraph rewriter"
+    }
+  },
+  "Auth": {
+    "sign_up_title": "Sign up to {brandName}",
+    "sign_up_title_get_words": "Sign up now to get {words} words",
+    "no_cc_required": "No Credit card required",
+    "sign_up_get_words": "{words} Words",
+    "sign_up_get_ai_writing": "Truly Undetectable Al Writing",
+    "sign_up_get_bypass": "Bypass All Al Detectors",
+    "sign_up_get_humanization": "No Distortion Humanization",
+    "sign_up_get_plagiarism_free": "100% Plagiarism-Free Content",
+    "sign_up_get_watermark_removal": "ChatGPT Watermark Removal",
+    "sign_up_get_penalties_avoid": "FeeLove Google Penalties",
+    "sign_up_get_i18n_support": "50+ Languages Supported",
+    "sign_up_with_google": "Continue with Google",
+    "sign_up_with_email": "Continue with email",
+    "already_have_an_account": "Already have an account?",
+    "sign_in_here": "Sign in here",
+    "sign_up_agree": "By signing up, you agree to our",
+    "and": "and",
+    "terms_of_service": "Term & Services",
+    "privacy_policy": "Privacy Policy",
+    "sign_up_email_title": "Sign up with your email",
+    "sign_up_email_subtitle": "Enter your address to create an account on {brandName}",
+    "bind_email_title": "Complete Your email",
+    "bind_email_subtitle": "To Better Receive Billing Information and Product Updates",
+    "sign_up_email_verify_title": "Verify your email",
+    "sign_up_email_verify_subtitle": "We've sent a verification code to {email}. Please enter the code below to verify it's your email address.",
+    "sign_up_email_create_account_title": "Create your account",
+    "sign_up_email_create_account_subtitle": "Enter your name and a password for your new account.",
+    "email_address": "Email address",
+    "email": "Email",
+    "enter_code": "Enter Code",
+    "continue": "Continue",
+    "verify": "Verify",
+    "save_changes": "Save changes",
+    "saved_changes": "Changes saved",
+    "did_not_get_code": "Didn't get the code?",
+    "resend_code": "Resend code",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "password": "Password",
+    "new_password": "New Password",
+    "confirm_password": "Confirm Password",
+    "back": "Back",
+    "or": "or",
+    "create_account": "Create Account",
+    "accept_the": "I accept the",
+    "terms_and_conditions": "Term & Services",
+    "sign_in_title": "Sign in to {brandName}",
+    "sign_in_with_google": "Sign in with Google",
+    "sign_in_with_fb": "Continue with Facebook",
+    "or_sign_in_with_email": "or sign in with email",
+    "forgot_password": "Forgot password?",
+    "sign_in": "Sign In",
+    "sign_in_success": "Successfully signed in",
+    "sign_up_success": "Successfully signed up",
+    "submit": "Submit",
+    "back_to_sign_in": "Back to Sign in",
+    "did_not_have_an_account": "Didn't hava an account?",
+    "sign_up_here": "Sign up here",
+    "forgot_password_title": "Forgot password?",
+    "forgot_password_subtitle": "Enter the email address associated with your account and we'll email you instructions to reset your password.",
+    "password_format_invalid": "Passwords must be 6-16 characters, containing at least 1 letter and 1 number",
+    "password_confirm_invalid": "Passwords do not match",
+    "email_sent": "Email Sent!",
+    "reset_password_title": "Reset password",
+    "reset_password_success": "Successfully reset password"
+  },
+  "Home": {
+    "main_title": {
+      "default": "Anti-AI Detection Tools: The Human Touch in Technological Evolution"
+    },
+    "main_title_ai_translator": {
+      "default": "AI Translator Helps Your Text Bypass All the AI Detectors"
+    },
+    "main_title_human": {
+      "default": "AI to Human Text Converter Bypass Any AI Detection System"
+    },
+    "main_title_bypass": {
+      "default": "Reliable AI Bypasser to Create Undetectable Human-Like Content Instantly"
+    },
+    "main_title_rewriter": {
+      "default": "AI Rewriter: Transform Content Instantly with Smart Keyword Optimization"
+    },
+    "main_title_detector": {
+      "default": "AI Detector: Human Vision in the AI World"
+    },
+    "main_title_give": {
+      "default": "GIVE LIFE TO AI, TRANSFORM IT INTO REAL-LIFE."
+    },
+    "sub_title": {
+      "default": "Humanize AI text into high-quality undetectable ai content, with 0 grammar mistakes"
+    },
+    "compare_title": {
+      "default": "Humanize AI Text with Free AI Humanizer Tool"
+    },
+    "compare_subtitle": {
+      "default": "Convert AI-generated text into natural, human-like content using our AI Humanizer tool, ensuring it blends seamlessly in any context."
+    },
+    "reason": {
+      "default": "Why We Must Bypass AI detection With "
+    },
+    "reason_subtitle": "3 reasons that you must need {brandName}",
+    "avoid_unfair_school_penalty": "FeeLove Unfair School Penalty",
+    "avoid_unfair_school_penalty_desc": {
+      "default": "Many students face wrongful accusations due to AI-generated content. {brandName} helps prevent these issues by humanizing your text, ensuring it passes undetected and safeguarding you from potential misunderstandings and low grades."
+    },
+    "avoid_google_ranking_penalty": "SEO-Friendly Optimization",
+    "avoid_google_ranking_penalty_desc": {
+      "default": "{brandName} ensures that your content will not be stripped off the essential keywords for SEO, while at the same time ensuring that the content is quality and can easily be read by the people hence improving your search engine ranking positions."
+    },
+    "avoid_marketing_spam_trigger": "FeeLove Marketing Spam Trigger",
+    "avoid_marketing_spam_trigger_desc": {
+      "default": "{brandName} helps content marketers to convert purely AI-created text into more human-like English for a couple of reasons: It can help woter spam filters and get to your readers."
+    },
+    "detector_title": {
+      "default": "Detect AI Content to Bypass All AI Detectors"
+    },
+    "detector_subtitle": {
+      "default": "{brandName} easily bypasses AI detectors such as GPTZero,Originality AI,ZeroGPT, Turnitin, Winston AI,Content at Scale and Copyleaks ensuring your content stays undetected and unrestricted."
+    },
+    "steps_title": {
+      "default": "3 Steps to Bypass AI detection"
+    },
+    "steps_1_title": {
+      "default": "1. Copy & Paste from Chatgpt"
+    },
+    "steps_1_desc": {
+      "default": "{brandName} can humanize text from ChatGPT, Claude, or any other AI content generator."
+    },
+    "steps_2_title": {
+      "default": "2. Click \"Humanize\""
+    },
+    "steps_2_desc": {
+      "default": "{brandName} is the industry leading AI detection remover that works seamlessly with Turnitin, ZeroGPT, and others."
+    },
+    "steps_3_title": {
+      "default": "3. Check for AI"
+    },
+    "steps_3_desc": {
+      "default": "No need to go another website, we have ALL-IN-ONE detectors tool, automatically check and secure safety for your work"
+    },
+    "customer_title": {
+      "default": "Undetectable by AI, Endorsed by Professionals!"
+    },
+    "customer_subtitle": {
+      "default": "Hear from our satisfied users who trust {brandName} for content that seamlessly bypasses AI detection. Their testimonials highlight the effectiveness and reliability of our advanced AI humanization tools."
+    },
+    "customer_1_said": {
+      "default": "\"I’ve been stressed in my school work and lots of deadlines. One of my friend recommend me {brandName}. I tried. It turns AI-generated text into content that sounds like I wrote it myself, with perfect grammar and no plagiarism. My essays are unique and error-free, and my grades have definitely improved. \" -- Michael Thompson"
+    },
+    "customer_1_earn": "+ 120 %",
+    "customer_1_tip": {
+      "default": "increase my essay grade"
+    },
+    "customer_2_said": {
+      "default": "\"As a freelance SEO writer, {brandName} has transformed my workflow. It creates engaging, accurate, and plagiarism-free content that ranks well on search engines. I can meet tight deadlines without compromising on quality, all thanks to {brandName}. It's an indispensable tool for anyone serious about content writing and SEO.\" -- Emily Johnson"
+    },
+    "customer_2_earn": "$ 250 k",
+    "customer_2_tip": {
+      "default": "Extra earning from finish more post"
+    },
+    "customer_3_said": {
+      "default": "\"Running an SEO agency, I can't ignore the power of AI co-writing. {brandName} has completely transformed my content creation. Its algorithms generate natural, authentic content and the SEO-friendly output has greatly boosted my website’s visibility. Now, I produce top-tier content at scale we never imagined, elevating my brand to new heights.\" -- Joshua Noble"
+    },
+    "customer_3_earn": "+ 280 %",
+    "customer_3_tip": "Increase in company revenue",
+    "faq": "FAQ for {brandName} Detection",
+    "faq_subtitle": "If you're new or looking for answers to your questions, this guide will help you learn more about our services and their features.",
+    "question_1": "What is an AI detection remover?",
+    "answer_1": {
+      "default": "An undetectable AI writing tool called an AI detection remover or AI bypasser helps users get around AI detectors by creating AI material that receives 100% human scores."
+    },
+    "question_2": "Why is it important to bypass AI detection?",
+    "answer_2": {
+      "default": "Students need to ensure their work passes AI checks and meets institutional rules. Content creators can improve Google ranking and woter penalties by evading AI detectors. Advertisers can make content seem authentic and woter spam reports using tools like {brandName}."
+    },
+    "question_3": "How to make AI text undetectable?",
+    "answer_3": {
+      "default": "With {brandName}, you can humanize AI-generated text and make it completely undetectable to AI detectors. Our algorithm team spent months developing this tool using a self-trained model. The solution is simple: just click the \"humanize\" button, and you'll receive content that sounds fully human-written."
+    },
+    "question_4": "Is it free to bypass AI detectors with {brandName}?",
+    "answer_4": {
+      "default": "Every new user can add free words to AI text by using {brandName}. In order to access additional words and features, you must enroll in one of our subscription plans. See our price page for further information."
+    },
+    "question_5": "What languages does {brandName} support?",
+    "answer_5": {
+      "default": "In addition to humanizing AI writing in English, {brandName} can also handle humanization in over 30 other languages. Thus, you can use {brandName} to freely produce undetectable AI writing and reach a worldwide audience."
+    },
+    "question_6": "How much time does processing my paperwork take?",
+    "answer_6": {
+      "default": "Processing time for your humanized output depends on the input's length and complexity, as well as your specific needs. On average, expect your AI detection-free document within 10 to 20 seconds."
+    },
+    "recommend_title": {
+      "default": "Effortlessly Bypass AI With {brandName} Today"
+    },
+    "recommend_subtitle": {
+      "default": "Transform AI-generated text into completely undetectable, human-like content. Try {brandName} to bypass AI detection for Free!"
+    },
+    "avoid_ai_desc": "Transform your images into spicy videos with advanced AI technology. Privacy-focused, secure, and blazing fast.",
+    "company": "Company",
+    "about_us": "About Us",
+    "terms_and_conditions": "Term & Services",
+    "privacy_policy": "Privacy Policy",
+    "return_policy": "Refund Policy",
+    "contact_us": "Contact Us",
+    "solution_and_services": "Solution & Services",
+    "undetectable_ai": "Undetectable AI",
+    "ai_humanizer": "AI Humanizer",
+    "ai_bypasser": "AI Bypasser",
+    "ai_detection_remover": "AI Detection Remover",
+    "upgrade_now": "Upgrade Now",
+    "try_now": "Try AI Humanizer Now",
+    "limited_offer": "Limited {percent} Offer",
+    "test_detector_for_free": "Test AI Detector For free",
+    "start_for_free": "Start for Free"
+  },
+  "Humanize": {
+    "mode": "Mode",
+    "mode_free": "Free",
+    "mode_premium": "Premium",
+    "usage_guidelines": "Usage guidelines",
+    "input_placeholder": "Enter the text you want to humanize here",
+    "mobile_imput_placeholder": "Enter the text you want to Al detect here",
+    "try_a_sample": "Try A Sample",
+    "paste_text": "Paste Text",
+    "words": "Words Per Time",
+    "humanize": "Humanize",
+    "flash_sale": "70%Off Flash-Sale Premium",
+    "flash_sale_month_fee": "only $3.99/month",
+    "helper_title": "Humanizing in 3 Main Scenarios",
+    "helper_chip_paper": "Essays & research papers",
+    "helper_chip_article": "SEO Blogs & Affiliate Articles",
+    "helper_chip_email": "Marketing Emails",
+    "helper_input_text_title": "INPUT TEXT",
+    "helper_input_text_desc": "The shift to agriculture took thousands of years.",
+    "helper_result_text_title": "PARAPHRASED TEXT",
+    "helper_result_text_desc_1": "The",
+    "helper_result_text_desc_2": "transition",
+    "helper_result_text_desc_3": "to an",
+    "helper_result_text_desc_4": "agrarian society spanned several millennia",
+    "humanize_helper_text": "The humanized results will be displayed here",
+    "analyzing_content": "We're analyzing your content now.",
+    "processing_texts": "Processing texts",
+    "identifying_text": "Identifying AI generated text",
+    "comparing_human_pattern": "Comparing to human writing pattern",
+    "detecting_title": "AI detection probability",
+    "detecting_subtitle": "Checking if the next is AI-generated. Please wait for 5-10 seconds...",
+    "checking_result": "Checking result:",
+    "human_written": "Human-written",
+    "50_human_written": "50% Human-written",
+    "ai_generated": "AI-generated",
+    "output_content_human_written": "The output content seems to be human-written.",
+    "less_than_min_words": "Your input should contain at least {minWords} words.",
+    "only_show_template_words": "Visitors only support the official demo provided",
+    "more_than_max_words": "Not Enough Words",
+    "copied_result": "Result copied to clipboard!",
+    "get_premium": "Upgrade",
+    "for_more_words": "for more words",
+    "monthly_usage_desc": "{used}/{total} free words per month",
+    "get_more": "Get more",
+    "upgrade_now": "Upgrade Now",
+    "hit_word_limit": "You've hit your word limit. Please upgrade to get more words.",
+    "your_content": "Your Content",
+    "output": "Output",
+    "rewrite": "Rewrite",
+    "passing_rate": "Passing Rate",
+    "quality": "Quality",
+    "normal": "Normal",
+    "height": "High",
+    "submit": "Submit",
+    "clear": "Clear",
+    "copy": "Copy",
+    "more": "More",
+    "more_setting": "More Setting",
+    "format_of_output": "Format of output",
+    "audience": "Broad audience",
+    "college": "Student",
+    "marketing": "Marketing",
+    "professional": "Professional",
+    "rewrite_level": "Rewrite Level",
+    "choose_persona": "Choose A Persona",
+    "keywords": "Keywords",
+    "personal_needs": "Personal Needs",
+    "more_humanized": "More Humanized",
+    "hight_passing_tip": "Cost x2 words credit Ensure higher passing rate More suitable for scenario requiring high pass rate",
+    "hight_quality_tip": "Cost x2 words credit Ensure more stable quality More suitable for serious re-written scenario",
+    "keywords_placeholder": "Please provide your keywords, and we will focus on optimization based on the keywords you provide. You may also provide keywords that need to remain unchanged.",
+    "personal_placeholder": "Please specify your personal needs for the rewrite. For instance, you may request to expand the text to 500 words, shorten it, adopt a more formal/academic tone, or make it more polite.",
+    "please_select_language": "Please select language",
+    "Please_select_output_format": "Please select the output format",
+    "Please_select_the_purpose": "Choose Writing Purpose",
+    "general_writing": "General Writing",
+    "essays": "Essays",
+    "blog_article": "Blog Article",
+    "paraphrase_unlimited_text": "Paraphrase unlimited text",
+    "paraphrase_in_unlimited_modes": "Paraphrase in unlimited modes",
+    "access_premium_grammarrecommendations": "Access Premium grammarrecommendations",
+    "prevent_accidental_plagiarism": "Prevent accidental plagiarism",
+    "and_so_much_more": "And so much more!",
+    "starting_from": "starting from",
+    "get_premium_today": "Get Premium today!",
+    "paraphrase_unlimited_words": "Paraphrase unlimited words",
+    "grammar_improved": "Grammar improved",
+    "spelling_fixed": "Spelling fixed",
+    "tone_adjusted": "Tone adjusted",
+    "Param": {
+      "3790b93fb56fd98f6b6466512383724c": "Readability",
+      "4d066bbb0e40abe54f3000755a45aa6e": "Purpose",
+      "15d61712450a686a7f365adf4fef581f": "Mode",
+      "46ae7abb16cb95fc64fa45ffafac4f7b": "High School",
+      "10238d6114894bb5edc39981835bbec9": "University",
+      "270a37e30f72fc24b9b623402eb17195": "Doctorate",
+      "82ad21b5762c06c3eb611a807982ab76": "Journalist",
+      "c769c2bd15500dd906102d9be97fdceb": "Marketing",
+      "c814fd17f6661d247523384865b80bbb": "General Writing",
+      "aa71444b7b6dc365709350e025d91df5": "Essay",
+      "92a2b5cb9c6906035c2864fa225e1940": "Article",
+      "a710492c49a03e7a00747bf5cbe87630": "Marketing Material",
+      "bec670e5a55424d840db8636ecc28828": "Story",
+      "d957d1eeb9a2e4784e910d9556b28d87": "Cover Letter",
+      "e98d2f001da5678b39482efbdf5770dc": "Report",
+      "0ab2df4893b1b7dd5391401b78b44ff1": "Business Material",
+      "501c86a72e95caaa26d0acb4dad38a13": "Legal Material",
+      "d66636b253cb346dbb6240e30def3618": "Quality",
+      "b336df698d12ac8e54570ba6ea2679f0": "Balanced",
+      "9a9a22f67f1c8127bfb92b3aa1d9e776": "More Human"
+    }
+  },
+  "Billing": {
+    "test": "test",
+    "pricing_main_title": {
+      "default": "Get Premium AI Humanizer and AI Detector with Cost-Effective Price"
+    },
+    "monthly": "Monthly",
+    "quarterly": "Quarterly",
+    "yearly": "Yearly",
+    "lifetime": "Free Trial",
+    "save_up_to": "Save up to {percent}",
+    "per_month": "Per month",
+    "per_month_c": "/ month",
+    "per_year_c": "/ year",
+    "contact_us_title": "Need More Words or APl? Contact Us Now!",
+    "contact_us_content": "· For your large-scale content needs: instantly detect Al, then humanize it for authentic, undetectable results",
+    "contact_us_button": "Contact Us",
+    "lifetime_deal": "Lifetime deal",
+    "words_per_month": "{words} Words / month",
+    "buy_now": "Buy Now",
+    "subscribe": "Subscribe",
+    "unlimited": "Unlimited",
+    "unlimited_words": "Unlimited Words",
+    "unlimited_words_per_request": "Unlimited Words per request",
+    "words_per_request": "{words} Words / request",
+    "most_popular": "Most Popular",
+    "checkout_success": "Your payment successfully processed",
+    "back_to_website": "Back to Website",
+    "waiting_for_payment_confirmation": "Waiting for order activation...",
+    "cancel_subscription": "Cancel subscription",
+    "cancel_subscription_desc": "You will continue to have access to your account until your current billing period ends.\n\nYou will not be billed after your subscription end date.",
+    "cancel_subscription_success": "Your subscription has been successfully cancelled",
+    "secure_payment": "Secure Payment",
+    "more": "more",
+    "save_money": "SAVE {percent}",
+    "money_back_guarantee": "3-day money-back guarantee",
+    "money_back_guarantee_tip_1": "Try {brandName} for 3 days. lf you're not happy, you can request a refund. See our",
+    "money_back_guarantee_tip_2": "for more details.",
+    "content_quality_assurance": "Content Quality Assurance Card",
+    "content_quality_assurance_tip_1": "For non-unlimited plan users, we provide refunds for word counts affected by detection failures or major grammar errors. See",
+    "content_quality_assurance_tip_2": "for details.",
+    "payment_success": "Payment Succeed, Thank You!",
+    "payment_failed": "Payment Failed",
+    "amount": "Amount",
+    "expiration_time": "Expiration Time: ",
+    "Plan": {
+      "5eb913e78d947a39ff25e4dd081b5e8f": "Unlimited",
+      "6a1d02e0a259612781bc827093cb5046": "{brandName} Starter",
+      "f5bc03820460c0251b0df90eb6ce222b": "{brandName} Basic",
+      "5ace4e6437e2cdc8ee5b3ef509186f6f": "{brandName} Professional",
+      "74c576d1b8ce57187b30a014fd2a7f33": "{brandName} Unlimited",
+      "78eb23fbc84f91ee306c1d9af5b4f0f5": "Passes All AI detectors",
+      "7101736c63619b1ebab632b619ef23db": "100% Plagiarism-free Content",
+      "47b22ae76526522591c9bbb96f78fde3": "High quality, Legible Content",
+      "21a6dcc2b71d24b40d66d8628e6f9ff5": "Truly Undetectable AI Writing",
+      "7c9445f4766f35b4edd021903f486db5": "Error-Free Outputs",
+      "a26f7abeeec6cf4dbd7effe80605414b": "ChatGPT Watermark Removal",
+      "6fc3440f72cb794cec7f86ca9f66191e": "Built-in AI Detectors",
+      "a232690a332961ecf3b02bcfbbf8cd5b": "Unlimited words to humanize",
+      "37c6b4ff9ffd286d3e494c3c72df3d3c": "Unlimited words to humanize;Passes All AI detectors;100% Plagiarism-free Content;High quality, Legible Content;Trule Undetectable AI Writing;Error-Free Outputs;ChatGPT Watermark Removal",
+      "2026dce580da53e79838347cc1b5664d": "Passes All AI detectors;100% Plagiarism-free Content;High quality, Legible Content;Trule Undetectable AI Writing;Error-Free Outputs;ChatGPT Watermark Removal;Built-in AI Detectors",
+      "6ee4557bbbe139354d34d22f8869c219": "Unlimited words to humanize;Passes All AI detectors;100% Plagiarism-free Content;High quality, Legible Content;Truly Undetectable AI Writing;Error-Free Outputs;ChatGPT Watermark Removal",
+      "1c595fd9e5ab443b92342510ef289e79": "Passes All AI detectors;100% Plagiarism-free Content;High quality, Legible Content;Truly Undetectable AI Writing;Error-Free Outputs;ChatGPT Watermark Removal;Built-in AI Detectors"
+    },
+    "subscription_status": {
+      "ACTIVE": "Active",
+      "CANCELED": "Canceled",
+      "DEDUCTING": "Payment Processing",
+      "FAILED": "Payment Failed"
+    },
+    "product": "Product",
+    "subscription": "Subscription",
+    "subscription_confirming": "Subscription status is being confirmed",
+    "billed": "billed",
+    "upgrade_enjoy": "Upgrade now and enjoy more words at a lower price!",
+    "upgrade_tips": "For just {upgradeTotalPrice} (regularly {realTotalPrice}), get access to the upgraded plan with expanded words. Your current subscription will be replaced by this upgraded plan - word count will not stack.",
+    "subscription_checking": "The subscription status is waiting for bank confirmation. You can directly contact our customer service for confirmation"
+  },
+  "AboutUs": {
+    "about_us": "About {brandName}",
+    "our_vision_title": "Our Vision",
+    "our_vision_content": "We were born from a simple belief: technology's highest mission should not be to replace humanity, but to empower it. We hope to bring warmth to the future.",
+    "our_mission_title": "Our Mission",
+    "our_mission_content": "Our mission is to create truly human-level AI tools. We firmly believe that true intelligence lies not only in problem-solving but also in awe. We are a team of technologists, designers, and environmental advocates dedicated to making intelligence more humane and progress more sustainable.",
+    "our_core_values_title": "Our Core Values",
+    "our_core_values_desc_1": "1. Human-Centric Design",
+    "our_core_values_desc_2": "Our tools listen to, understand, and adapt to the complex emotions and needs of human beings. We are committed to removing the coldness of technology and making AI a warm, inclusive, and empowering partner for everyone.",
+    "our_core_values_desc_3": "2. Commitment to Sustainability",
+    "our_core_values_desc_4": "Green Algorithms: Optimize model efficiency, accomplish more tasks with fewer computing resources, and significantly reduce our carbon footprint.",
+    "our_core_values_desc_5": "Responsible Cloud Services: Prioritize cloud service providers and data centers that use 100% renewable energy.",
+    "our_core_values_desc_6": "Digital Waste Reduction: Through intelligent process design, we help users reduce unnecessary duplication of work and resource waste.",
+    "our_core_values_desc_7": "3. Environmental Action",
+    "our_core_values_desc_8": "We believe that ideas need action. Therefore, we donate a fixed percentage of our profits to certified environmental organizations and encourage our team members to participate in local environmental initiatives like tree planting and beach cleanups.",
+    "our_commitment_to_you": "Our Commitment to You",
+    "our_commitment_to_you_desc_1": "When you subscribe to {brandName}, you're not just buying a plan; you're signing up with a partner who's fully committed to supporting your business.",
+    "our_commitment_to_you_desc_2": "1) Continuous Innovation: The online world is constantly changing. We constantly update our algorithms to stay ahead of the curve and ensure our tools remain reliable and effective.",
+    "our_commitment_to_you_desc_3": "2) User-Centered Design: We use simple tools to solve the complex problems we face. Your feedback will be directly incorporated into our product roadmap.",
+    "our_commitment_to_you_desc_4": "3) Integrity: Your privacy is paramount to us. We operate transparently to ensure your content's ownership and privacy.",
+    "last_info": "Every calculation you make carries our shared aspirations for a smarter, more humane, and more sustainable world. Together, let us protect the warmth of humanity with intelligence and sow the seeds of a sustainable future with technology.",
+    "sincerely_title": "Sincerely, the {brandName} Team",
+    "get_started": "Get started now"
+  },
+  "ContactUs": {
+    "contact_us_title": "Get in Touch with {brandName}",
+    "how_can_we_help": "We'd Love to Hear from You",
+    "send_us_email": "Contact Us Through: {supportEmail}",
+    "manager_said": "Have a question about our tools? Need help with your subscription, or just want to share some feedback? We're here for listening. Reaching out to us is the easiest way to get the answers you need.",
+    "manager_name": "Johanna",
+    "manager_desc": "Customer Service Manager, {brandName}",
+    "send_success": "Thank you for contacting us. We will get back to you via email within three working days."
+  },
+  "TermsAndConditions": {
+    "terms_and_conditions": "Terms and Conditions of Use",
+    "last_modified": "Last updated: 12/08/25",
+    "terms_of_use_desc_1": "Welcome to {brandName}. The following Terms and Conditions (this “Terms”) apply when using the FeeLove website located at https://FeeLove.com/ (the “Site”) and the services performed through the Site, including, without limitation, the Humanizer, AI Translator, and AI Detection tool (the “Services”) offered therein.",
+    "terms_of_use_desc_2": "These terms serve to govern your usage of our Services. By using our Site, creating an account, or otherwise utilizing our Services, you agree to be bound by these Terms and our Privacy Policy. If you are not in agreement with all of the provisions of these Terms, you may not use or access our Services.",
+    "highlight_1": "At {brandName}, we are here to deliver real value by solving your problems.  If you encounter any issues or have suggestions, reach out to us—we’ll give your feedback the highest priority.",
+    "highlight_2": "We believe in the principle of first principles: by solving the most critical problems in the industry and delivering true value to our users, our brand can truly become a valuable asset.",
+    "pre_service": "Pre-Service (Before You Start)",
+    "during_service": "During Service (While Using the Service)",
+    "post_service": "Post-Service (After You’ve Purchased)",
+    "general_terms": "General Terms (Important Information for All Users)",
+    "acceptance_of_terms_and_conditions_title": {
+      "default": "Acceptance of Term & Services"
+    },
+    "acceptance_of_terms_and_conditions_items_1": {
+      "default": "Agreement: By accessing and using {brandName} Services, you acknowledge and agree to be bound by these Terms. If you do not agree with these Terms, you must not access or use the Services."
+    },
+    "acceptance_of_terms_and_conditions_items_2": "Changes: {brandName} reserves the right to modify, update, or revise these Terms at any time without prior notice. Your continued use of the Services after any changes constitutes your acceptance of the revised Terms.",
+    "flexible_plans_title": "Flexible Plans with customization",
+    "flexible_plans_items_1": "We offer tailored subscription plans with secure payment processing. If you have any questions or need a custom plan, just email us at {supportEmail} — we’re happy to assist!",
+    "free_plan_title": "Free Plan with Full Experience",
+    "free_plan_items_1": "Our free plan offers 600 words, significantly more than most competitors, because we believe you deserve enough to fully test {brandName}’s stability and effectiveness. Our goal is to let you verify the product can truly solve your problems before committing.",
+    "free_plan_items_2": "If you need more than 600 words due to special requirements, feel free to email our support team to request additional free words. We’re here to ensure you make a confident and informed choice.",
+    "quality_assurance_title": "Quality Assurance Card",
+    "quality_assurance_items_1": "For users who purchase our non-unlimited plans, if you encounter any text that fails to bypass detection or contains significant grammar errors, we offer a Quality Assurance Card policy. Simply reach out to us at {supportEmail}, and we will refund the affected word count.",
+    "quality_assurance_items_2": "We are committed to delivering the highest detection bypass rate and top-notch grammar quality, rather than allowing poor-quality content to drain our customers' token words.",
+    "prohibited_uses_title": "Prohibited Uses",
+    "prohibited_uses_items_1": "{brandName} is for lawful purposes only. Please refrain from using our services for any harmful, illegal, or malicious activities.",
+    "prohibited_uses_items_list_1": "If your transaction is flagged as high-risk, indicating potential fraud (e.g., stolen credit cards), we will contact you for identity verification. If there's no response, we’ll refund you and block the suspicious IP.",
+    "prohibited_uses_items_list_2": "If we detect bot usage, web scraping, or attacks on our site, we will immediately suspend your account and block your IP.",
+    "technical_support_title": "Technical Support & Troubleshooting",
+    "technical_support_items_1": "Should you encounter any technical issues, our support team is ready to assist within 24 hours. Whether you need help with tool usage or troubleshooting, we aim to provide fast and effective solutions.",
+    "shape_the_future_title": "Shape the Future of {brandName} and Enjoy Unlimited Credits!",
+    "shape_the_future_items_1": "We understand that every user—students, professionals, marketers—has unique needs for rewriting.",
+    "shape_the_future_items_2": "We aim to develop specialized features tailored to your needs. Please share your insights with us! Email our founder at Scarlettnoble@FeeLove.com with your ideas for intelligent rewriting tools.",
+    "highlight_3": "Each month, we’ll choose 3 contributors and reward them with a free upgrade to an unlimited word plan. Let’s craft the best humanizing tool together!",
+    "registration_and_user_accounts_title": "1. Account Registration and Security",
+    "registration_and_user_accounts_items_1": "In order to use the paid Services, you must sign up for an account and provide true and accurate information. You are responsible for keeping your account information secure and for all the actions that take place under your account. You agree to inform us promptly if you know of any unauthorized use of your account or any other security violation. For any harm or damage that occurs due to your failure to keep your account details secure, FeeLove cannot and will not be held responsible.",
+    "subscription_services_title": "2. Subscription Services, Fees, and Payments",
+    "subscription_services_items_1": "Subscription Plans: Our Services are offered on a subscription basis (“Subscription”). You can find out more details about your Subscription, including price and features, on our pricing page.",
+    "subscription_services_items_2": "Payment: By providing a payment method, you give us permission to collect charges due using that method. The charges are recurring and must be paid in advance in accordance with your selected billing period. All charges are nonrefundable, unless required by applicable law or explicitly stated in our refund policy.",
+    "subscription_services_items_3": "Renew sooner: Your Subscription will renew automatically at the expiration of each billing period unless you opt out of such renewal at least three (3) days before the renewal date. You may cancel your Subscription at any time from within your account settings. The cancellation will take effect at your next renewal date.",
+    "subscription_services_items_4": "Price Changes: We may change our subscription fees at any time. We will notify you in advance of any change in prices that are reasonable. Your continued engagement with the Services following the effective date of the price increase shall constitute your consent to the increased fees.",
+    "conduct_and_acceptable_use_policy_title": "3. Conduct and Acceptable Use Policy",
+    "conduct_and_acceptable_use_policy_items_1": "Do not use our Services for business or community purposes that are illegal or unauthorized. You are solely responsible for your use of the services and the User Content (defined below), including your submission of any data, text, files or information (“User Content”) via the services.",
+    "conduct_and_acceptable_use_policy_items_2": "1) Agreed not to use Services in violation of the laws, do not use the Services for unlawful purposes.",
+    "conduct_and_acceptable_use_policy_items_3": "2) Violate the intellectual property rights of others, or submit content that is infringing, libelous, defamatory, or otherwise unlawful.",
+    "conduct_and_acceptable_use_policy_items_4": "3) Post content that is illegal, harassing, abusive, defaming, obscene or in any way objectionable.",
+    "conduct_and_acceptable_use_policy_items_5": "4) Use the Services to produce content for malicious or fraudulent uses.",
+    "intellectual_property": "4. Intellectual Property",
+    "intellectual_property_1": "1) What We Own: The Services, and all software, visual interfaces, graphics, design, compilation and all other elements thereof, including but not limited to use via any Site (“Site Elements”), are owned by FeeLove or its licensors and are protected by state and federal laws and/or international treaties. This Agreement grants you a limited, non-exclusive, non-sublicensable, non-transferable license to access and use the Services for your personal or business use.",
+    "intellectual_property_2": "2) Your Rights: You maintain ownership of any User Content you post. When you publish User Content, you give FeeLove a royalty-free, worldwide, license to use, host, and process that content only to provide and improve Services for you.",
+    "intellectual_property_3": "3) AI Output: The output generated by our AI tools is for your personal use. Subject to your execution of these Terms you own what it writes for you. That said, given the nature of machine learning, generated output may not be unique and others may generate similar solutions.",
+    "disclaimer_of_warranties_title": "5. Disclaimer of Warranties",
+    "disclaimer_of_warranties_items_1": "You use the services at your own risk. The services are provided on an “as is,” “as available” and “with all faults” basis. FeeLove disclaims all warranties of any kind, either express or implied, including, but not limited to, the implied warranties of merchantability, fitness for a particular purpose, or non-infringement. There are no warranties that the services will be uninterrupted, timely, or error-free.",
+    "limitation_of_liability_title": "6. Limitation of Liability",
+    "payments_subscriptions_and_refunds_items_1": "In no event shall FeeLove be liable to the full extent permissible under applicable law for any indirect, incidental, punitive, special, or consequential damages, the loss of profits or revenues (whether direct or indirect), loss of data, use, goodwill, or other intangible losses arising out of (i) your access to or utilization of the services; and (ii) the character or behavior of any third party on the services; arising from or resulting in connection with the services; (c) from your unable to access or make use of the services, whether your loss is due to any act or omission.",
+    "refund_policy_title": {
+      "default": "Refund Policy"
+    },
+    "refund_policy_items_1": {
+      "default": "Refund Policy: You can request a refund within 3 days (72 hours) of your initial purchase if you are not satisfied, provided you have not used more than 1000 words."
+    },
+    "refund_policy_items_2": {
+      "default": "Ineligible Refunds: Refund requests submitted after the 3-day (72-hour) window from your initial purchase or those exceeding 1000 words used will not be processed."
+    },
+    "refund_policy_items_3": {
+      "default": "Refund Process: To request a refund, please contact customer support at {supportEmail}, providing your order details and the reason for your refund request."
+    },
+    "refund_policy_items_4": "Policy Updates: {brandName} reserves the right to modify and update this Refund Policy at any time. We encourage you to review this policy periodically.",
+    "refund_policy_items_5": "Free Plan: {brandName} provides a free plan that lets users try the service before committing to a subscription.",
+    "service_quality_guarantee_title": "Service Quality Guarantee",
+    "service_quality_guarantee_items_1": "We are committed to providing high-quality service. Our platform and tools meet industry standards. If you experience any service quality issues, we’ll offer compensation like a refund or service extension, depending on the situation.",
+    "customer_support_title": "Customer Support",
+    "customer_support_items_1": "Our team is always available to assist with any concerns, whether it's about features, account management, or resolving an issue. You can contact us via email or live chat (coming soon), and we’ll respond quickly to guide you through any challenges.",
+    "secure_payment_support_title": "Secure Payment Support",
+    "secure_payment_support_items_list_1": "Cancel Anytime: You can cancel your subscription at any time. Rest assured, we will never initiate unauthorized charges, multiple deductions, or duplicate payments.",
+    "secure_payment_support_items_list_2": "Payment Issues: If a rare payment issue occurs, please contact us immediately. We will work with the payment processor to investigate and resolve the matter as quickly as possible.",
+    "secure_payment_support_items_list_3": "Unauthorized Charges: If you notice unauthorized charges on your card from our platform, it could indicate your card information has been compromised by fraudulent parties. In such cases, we will assist you in securing a refund and take the necessary steps to protect your account.",
+    "lifetime_plan_title": "Lifetime Plan",
+    "lifetime_plan_items_1": "For users purchasing the lifetime plan, you will have access to {brandName} for as long as we continue to operate. Please note that if {brandName} ceases operations, lifetime access may no longer be applicable. We will keep you informed of any major changes.",
+    "legal_compliance_title": "Legal Compliance",
+    "legal_compliance_items_1": "These Terms are governed by the laws of Hong Kong. We are committed to complying with all relevant legal requirements to ensure a fair and secure experience for all users.",
+    "intellectual_property_title": "Intellectual Property",
+    "intellectual_property_items_1": "All intellectual property related to {brandName} Services—including the software, tools, algorithms, designs, trademarks, and any proprietary technologies—is owned by {brandName} or its licensors. These are protected under applicable intellectual property laws, and you are granted a limited, non-exclusive, non-transferable license to use the service in accordance with these Terms.",
+    "intellectual_property_items_2": "Any content you generate or upload using {brandName}, including rewritten or paraphrased text, remains your intellectual property. {brandName} makes no claim of ownership over your content. However, by using our services, you grant us a limited license to process your content solely for the purpose of providing the service.",
+    "complete_agreement_title": "Complete Agreement",
+    "complete_agreement_items_1": "These Terms constitute the entire agreement between you and {brandName} regarding the services. Any prior agreements, either written or oral, are replaced by these Terms.",
+    "no_waiver_title": "No Waiver",
+    "no_waiver_items_1": "If we do not immediately enforce a provision of these Terms, it does not mean we have waived our right to do so in the future.",
+    "severability_title": "Severability",
+    "severability_items_1": {
+      "default": "If any provision of these Terms is deemed invalid or unenforceable by a court, the remaining provisions will continue to be fully effective."
+    },
+    "contact_us_title": "Contact Us",
+    "contact_us_items_1": {
+      "default": "If you have any questions or issues about these Terms or the Services, please send us an email at {supportEmail}. We’ll do everything in our power to respond to your questions quickly and effectively."
+    },
+    "conduct_and_acceptable_use_policy_items_1_1": ""
+  },
+  "PrivacyPolicy": {
+    "privacy_policy": "Privacy Policy for {brandName}",
+    "last_modified": "Last Updated: July 26, 2025",
+    "privacy_policy_desc": "Welcome to {brandName}! At {brandName} (“we,” “us,” “our,” or “the Company”), your privacy is of paramount importance and we are dedicated to keeping your personal data safe. This Privacy Policy describes how we collect, use, share and protect your information when you visit our website at https://FeeLove.com/ (“Site”) or use our humanization tool, AI translator, and AI detection tool or services (“Services”). When you use our Site and Services, you accept and agree to this policy.",
+    "information_we_collect_title": "1. Information We Collect",
+    "information_we_collect_item_1": "We might gather personal data from you when you use {brandName}, including your name, email address, and other contact details.",
+    "information_we_collect_item_2": "Personal Information: Your name and email address, payment information (processed by secure third-party payment processors), and any other information you provide to us when you register for an account, subscribe to our Services, or get in touch.",
+    "information_we_collect_item_3": "Usage Data: We automatically collect this information when you visit, access, or use the Site and Services, including your IP address, browser type, device type, pages visited, and the date and time of your visit.",
+    "information_we_collect_item_4": "Content Data: We may process the text or content you provide while using our AI products (including humanization, translation, or detection capabilities) in order to provide the Services. But we do not keep that data any longer than necessary to generate the results and enhance our Services.",
+    "how_we_use_your_information_title": "2. How We Use Your Information",
+    "how_we_use_your_information_item_1": "The information we collect enables us to, among other things:",
+    "how_we_use_your_information_item_2": "Provide, support and improve our services, including customer service and billing options;",
+    "how_we_use_your_information_item_3": "To manage your subscription and billing, and to run our business;",
+    "how_we_use_your_information_item_4": "To communicate with you, including service announcements, updates, and support.",
+    "how_we_use_your_information_item_5": "Offer a tailored experience and provide you customized content and information;",
+    "how_we_use_your_information_item_6": "Recognize and examine trends that help us to improve our Services.",
+    "how_we_use_your_information_item_7": "And Care – handle your e-mails with care.",
+    "storage_and_retention_of_data_title": "3. Storage and Retention of Data",
+    "storage_and_retention_of_data_item_1": "Your data is hosted on secure servers and we do not keep it longer than required to serve the purposes mentioned in this privacy statement, unless the applicable laws dictate otherwise. AI processed content is temporarily stored to provide the service and then deleted or anonymized.",
+    "disclosure_and_sharing_of_data_when_required_by_law_title": "4. Disclosure and Sharing of Data When Required by Law",
+    "disclosure_and_sharing_of_data_when_required_by_law_item_1": "We don’t sell your personal information, but your do share or disclose it to:",
+    "disclosure_and_sharing_of_data_when_required_by_law_item_2": "Service Providers: We may engage third-party vendors to assist us in providing the Services to you, such as payment processor services, hosting provider services, analytics services, etc. ",
+    "disclosure_and_sharing_of_data_when_required_by_law_item_3": "They will be under an obligation of confidentiality with respect to your information.",
+    "disclosure_and_sharing_of_data_when_required_by_law_item_4": "Legal Requirements: We have the right to disclose your information if required to do so by law or in the good faith belief that such action is necessary to.",
+    "disclosure_and_sharing_of_data_when_required_by_law_item_5": "Business Transfers: We may disclose your information to entities with whom we have business relationships, such as in the event of a merger or sale.",
+    "cookies_and_tracking_technologies_title": "5. Cookies and Tracking Technologies",
+    "cookies_and_tracking_technologies_item_1": "Do cookies and tracking technologies have some telling useful information things and tell you how to improve your experience.",
+    "cookies_and_tracking_technologies_item_2": "You can control your browser to refuse cookies, but some functionality of our Services may not work as a result.",
+    "your_rights_and_choices_title": "6. Your Rights and Choices ",
+    "your_rights_and_choices_item_1": "View, change, or remove your information in our possession;",
+    "your_rights_and_choices_item_2": "Stop further marketing emails from us; ",
+    "your_rights_and_choices_item_3": "Serious concerns that you may have the right to limit or object to your data being used under certain circumstances, including for direct marketing.",
+    "your_rights_and_choices_item_4": "Contact Us at {supportEmail} if you want to do any of the above.",
+    "security_title": "7. Security",
+    "security_item_1": "We take appropriate and reasonable steps to protect your personal information from unauthorized access, collection, use, or disclosure, including encryption of personal data where appropriate. But still, there’s no such thing as 100% security when it comes to the Internet or storing data online.",
+    "international_data_transfers_title": "8. International Data Transfers",
+    "international_data_transfers_item_1": "If you are accessing the Service outside of the United States, please be advised that your information, including personal information, may be transferred to the United States, where our servers are located. By accessing or using the Services, you agree to these transfers.",
+    "children's_privacy_title": "9. Children's Privacy",
+    "children's_privacy_item_1": "Our Services are intended for users who are 18 years of age or older. We do not knowingly collect any personal information from children below the age of 18. If you think a kid has given us his personal information, please contact us.",
+    "changes_to_this_policy_title": "10. Changes to This Policy",
+    "changes_to_this_policy_item_1": "We have the right to modify this Privacy Policy as we see fit at any time. Any changes to this Privacy Policy will be posted on this page and the revised Privacy Policy will be dated at the top of this page. We encourage you to review this policy on a regular basis.",
+    "contact_us_title": "11. Contact Us",
+    "contact_us_item_1": "If you have any questions about this Privacy Policy or our data practices, please contact us at: {supportEmail}"
+  },
+  "RefundPolicy": {
+    "refund_policy": "Refund Policy",
+    "subscription_cancellation_and_refund_policy_title": "Refund Conditions",
+    "subscription_cancellation_and_refund_policy_item_1": "Hello User!",
+    "subscription_cancellation_and_refund_policy_item_2": "Greetings! {brandName} thanks for the privilege of having you. Quality AI tools should be nothing but simple to use, easy at the same time but powerful and useful for anyone, and we will do our best to make our users satisfied with the subscriptions service. Obviously, to make our services sustainable and to focus on creating more amazing and/ or useful tools for you in the future, it’s essential we have straightforward, standardized policies about subscription cancellations and refunds. ",
+    "general_subscription_terms_title": "General Subscription Terms",
+    "general_subscription_terms_item_1": "We have two subscriptions: one monthly and another annual to accommodate better your usage needs. Subscribing allows full access to our suite of AI tools, such as AI Text Humanizer, Translator and Detector. Since this is a digital product service, once the subscription is activated, you have access to all tools. As such, we adhere to standard refund processes for digital goods detailed below:",
+    "general_subscription_terms_item_2": "1. We generally do not offer refunds for prepaid subscription fees, except where non-refundable payments are required under applicable laws in your jurisdiction. Before you subscribe, choose wisely.",
+    "general_subscription_terms_item_3": "2. In the event of (i) a recognized catastrophic technical malfunction that prevents you from accessing the platform and tools for the whole (or almost the whole) billing period, and (ii) the failure persists despite our user support team contacting you, then we will refund the fraction of the subscription fee for the time being.",
+    "special_refund_cases_title": "Special Refund Cases",
+    "special_refund_cases_item_1": "1. Checkbox Handling Duplicate Charges: If on the fence you are indeed double charged on the same exact subscription plan as a result of system error, we will do a refund for overcharge as soon as we confirm the charge.",
+    "special_refund_cases_item_2": "2. Legal Necessities: If you've entitled by your local consumer protection civil to be given a refund, we'll abide by such statutory provisions and provide the refund.",
+    "claim_eligible_refunds_policies_title": "Claim Eligible Refunds Policies",
+    "claim_eligible_refunds_policies_item_1": "In case your business falls in any of the above refund situations, you may submit a claim through the following steps:",
+    "claim_eligible_refunds_policies_item_2": "1. Please e-mail us at the customer service e-mail {supportEmail} with your registered email id on {brandName}. Specify in the subject line of the email subject as Apply for Refund.",
+    "claim_eligible_refunds_policies_item_3": "2. Let the email have the following:",
+    "claim_eligible_refunds_policies_item_4": "1) Your full name",
+    "claim_eligible_refunds_policies_item_5": "2) Registered email used to sign up {brandName}",
+    "claim_eligible_refunds_policies_item_6": "3) A full explanation for the problem or the reason why you are asking for a refund (Attach any related documents that may assist / support your claim if you can to help us in processing your claim more swiftly).",
+    "claim_eligible_refunds_policies_item_7": "3. After receiving your application, we will complete the confirmation in 3-5 business days. It is our intention to get back to you as quickly as possible once determination for the return has been made.",
+    "subscription_cancellation_terms_title": "Subscription Cancellation Terms",
+    "subscription_cancellation_terms_item_1": "You can cancel your subscription and reclaim your account anytime: ",
+    "subscription_cancellation_terms_item_2": "1. Cancel your current subscription if you wish to do so.",
+    "subscription_cancellation_terms_item_3": "2. Disable the auto-renew subscription option (disable this subscription for auto-billing to stop receiving automatic payment reminders).",
+    "subscription_cancellation_terms_item_4": "Note: Cancel your subscription does not deactivate it instantly, you will still be able to use the tools till its expiration date. Until the subscription runs out, you can continue to enjoy the features as normal.",
+    "subscription_cancellation_terms_item_5": "If you have any questions regarding this policy or require further assistance, please don’t hesitate to email us at {supportEmail}, we’ll be happy to help. We have customer service which will take care of you professionally.",
+    "subscription_cancellation_terms_item_6": "Thank again for your trust and support. {brandName} is excited to continue serving you with amazing AI services!"
+  },
+  "Hub": {
+    "written_by": "Written by",
+    "home": "Home",
+    "updated_on": "Updated on:",
+    "table_of_content": "Table of Content",
+    "related_articles": "Related Articles"
+  },
+  "PayRegister": {
+    "subscribe_text": "Subscribe",
+    "per_text": "per",
+    "plan_tag": "{planTag}",
+    "plan_desc": "subscription to aihumaniz. Includesvariable amounts of words per {planTag} and full acces...Billed {planTag}",
+    "subtotal_text": "Subtotal",
+    "tax_text": "Tax",
+    "total_due_today": "Total due today",
+    "email_text": "Email",
+    "payment_method": "Payment method",
+    "card_text": "card",
+    "card_information": "Card information",
+    "card_number": "Card Number",
+    "cardholder_name": "Cardholder name",
+    "first_name": "First Name",
+    "last_name": "Last Name"
+  },
+  "AvoidaiPro": {
+    "home_placeholder": " Tell me what undetectable content you want to create or humanize today.",
+    "show_un_login_count": "Limited | 900 Free Words！",
+    "free_plan": "Free Plan",
+    "upgrade": "Upgrade",
+    "show_sign_up": "Sign Up For 600 Free Words Now!",
+    "show_un_limited": "Unlimited Number Of Words!",
+    "words": "Words",
+    "show_not_enough": "Not Enough Words",
+    "chat_placeholder": "You can also tell me via text the way you want to rewrite it",
+    "clear": "Clear",
+    "send": "Send",
+    "more_about": "More About FeeLove",
+    "write_essay": "Write an essay",
+    "write_repoter": "Write a professional report",
+    "write_resume": "Write an resume",
+    "write_email_professor": "Write a email to professor",
+    "write_SEO": "Write an article with SEO keywords",
+    "error_message": "Please enter the correct message !",
+    "home_sub_title": "GIVE LIFE TO AI, TRANSFORM IT INTO REAL-LIFE.",
+    "history_session": "History Sessions",
+    "history_placeholder": "Search History Sessions",
+    "not_history": "Not History Sessions",
+    "delete_chat_title": "Permanently Delete Conversation",
+    "delete_chat_sub_title": "This conversation data will be permanently deleted and cannot be recovered or undone. Are you sure you want to delete it?",
+    "agree": "Agree",
+    "dis_agree": "Disagree",
+    "today": "Today",
+    "this_week": "This week",
+    "this_year": "This year",
+    "earlier": "Earlier",
+    "avoidai_gpt": "WoterGPT",
+    "chat_sub_title": "Chat like GPT, get undetectable content",
+    "sub_title_1": "Scored 95+ on Grammarly",
+    "sub_desc_1": " Create usable undeteatcble content with good quality and accurate grammar.",
+    "sub_title_2": "Academic and Professional Tone",
+    "sub_desc_2": " Deliver humanized content with an academic and professional tone at the first priority.",
+    "sub_title_3": "No more Gibberish, No more illusions",
+    "sub_desc_3": " Say good bye to mistakenly added gibberish. Create readable and usable content.",
+    "sub_title_4": "Stay True to the Original, Stick to the Facts",
+    "sub_desc_5": " Align with original sources, facts/examples, and even authors' viewpoints.",
+    "sub_desc_4": " Align with original sources, facts/examples, and even authors' viewpoints."
+  },
+  "NewHomePage": {
+    "product_value_main_title": "Humanize AI with 99% Passing Rate",
+    "product_value_sub_title": "Trained on millions of real human writing materials to humanize AI content from 4 main areas: academic, professional, marketing, and daily life speech.",
+    "product_value_item_1_title": "Scored 95+ on Grammarly",
+    "product_value_item_1_content": "Try testing FeeLove on Grammarly, and you’ll find an average of 95+ grades. While some humanizer AI algorithms intentionally introduce human errors to mimic imperfections, we prioritize delivering high-quality, usable content that maintains both authenticity and professionalism.",
+    "product_value_item_2_title": "Academic and Professional Tone",
+    "product_value_item_2_content": "FeeLove utilizes millions of academic papers and business reports as its original training data sources to deliver undetectable content with an academic and professional tone from the start, while also bypassing AI detectors.",
+    "product_value_item_3_title": "Say Goodbye to 'Kindergarten filter'",
+    "product_value_item_3_content": "Many AI humanizer tools intentionally simplify text to make it seem like it was written by a 6-year-old child in order to bypass AI detection. Obviously, this is unacceptable for serious writing scenarios. FeeLove showcases your professionalism by maintaining high standards, ensuring that the AI-humanized content indeed aligns with your writing purpose.",
+    "product_value_item_4_title": "No more Gibberish, No more illusions",
+    "product_value_item_4_content": "Have you ever used AI humanizer tools to create disparate content or mistakenly added gibberish in it? This is where FeeLove comes into use. Usability of content is our primary concern, and we do not unnecessarily add matter just for bypassing AI detection.",
+    "product_value_item_5_title": "Stay True to the Original, Stick to the Facts",
+    "product_value_item_5_content": "Many paraphraser include fabricated data sources that weren’t even mentioned, even Chatgpt does that sometimes. FeeLove has put a lot of effort into aligning sources, facts/examples, and even authors' viewpoints with original.",
+    "purchase_motivation_main_title": "Why Choose FeeLove to Humanize AI Text",
+    "purchase_motivation_sub_title": "FeeLove offers unparalleled benefits that set it apart from other AI humanizers:",
+    "purchase_motivation_item_1_title": "Guaranteed Accuracy",
+    "purchase_motivation_item_1_content": "FeeLove understands the context and nuances of your original text. It intelligently selects the right words for a polished, humanized output without altered original meaning, attitude and emotion.",
+    "purchase_motivation_item_2_title": "High Grammarly Score",
+    "purchase_motivation_item_2_content": "Unlike other AI humanizer which can only achieve 60+ scores at Grammarly, FeeLove humanized content stablely get 90+ score at Grammarly check, proving it's high standard of grammartical quality.",
+    "purchase_motivation_item_3_title": "Improved SEO-Friendliness",
+    "purchase_motivation_item_3_content": "FeeLove ensures your content meets Google’s quality guidelines by humanized the sentence structures and rhythm without altering the “keywords” you aim to rank higher on search engines.",
+    "purchase_motivation_item_4_title": "FeeLove Being Flagged as Spam",
+    "purchase_motivation_item_4_content": "FeeLove transforms AI-generated content to make it indistinguishable from human-written text. Whether used in emails or online publications, your content will never be flagged as spam.",
+    "purchase_motivation_item_5_title": "Multiple Languages Supported",
+    "purchase_motivation_item_5_content": "FeeLove supports over 50 languages, including French, Italian, German, Spanish, Portuguese, Turkish, Tagalog, and Polish. This allows you to humanize AI content in virtually any language you need.",
+    "purchase_motivation_item_6_title": "Free to Try",
+    "purchase_motivation_item_6_content": "Experience the power of FeeLove for free! No payments or sign-ups are required to give it a try. See for yourself why FeeLove is the ultimate tool for humanizing AI-generated text.",
+    "compare_main_title": "FeeLove detection with Undetectable AI content",
+    "compare_sub_title": "FeeLove transforms AI-generated content (like ChatGPT or GPT-4) into 100% human-like text. Learn how to humanize AI writing and make it read like it was written by a person.",
+    "compare_item_left_title": "Original",
+    "compare_item_right_title": "Humanized by FeeLove",
+    "compare_item_chatgpt_left_content": "You always manage to brighten my day, and I feel incredibly lucky to have you in my life. Whether we're sharing quiet moments together or laughing about something silly, every moment with you feels special. You inspire me to be better, and I’m grateful for your support, love, and understanding.",
+    "compare_item_chatgpt_right_content": "You never fail to lift my mood, I am truly blessed to have you. Sharing quiet times together or giggling over something ridiculous, being with you always feels amazing and wonderful. Thanks for the inspiration, I appreciate your support as well as love and understanding.",
+    "compare_item_chatgpt4_left_1_content": "Define Your Target Market and Customer Segments",
+    "compare_item_chatgpt4_left_2_content": "Before expanding, it's important to know who your product intends to serve. Understanding your ideal customers — their needs, problems, and behaviors — will yield valuable information to tailor your growth strategy. Think about elements such as demographics, location, company size, user behavior.",
+    "compare_item_chatgpt4_right_1_content": "Define Your Target Market and Customer Segments",
+    "compare_item_chatgpt4_right_2_content": "Before you expand, it's vital to identify who your product is intended for. Having a clear understanding of your customers — their needs, problems and behaviours — will provide valuable insights to define your growth strategy. Consider aspects like demographics, geography, organization size, user behavior",
+    "compare_item_claude_left_1_content": "Key Actions:",
+    "compare_item_claude_left_2_content": "Interview customers and conduct surveys",
+    "compare_item_claude_left_3_content": "Study competitors and identify gaps in the market",
+    "compare_item_claude_left_4_content": "Segment customers by pain points, budget, usage",
+    "compare_item_claude_right_1_content": "Key Actions:",
+    "compare_item_claude_right_2_content": "Talk to customers and ask them questions via surveys.",
+    "compare_item_claude_right_3_content": "Analyze competitors and find market gaps",
+    "compare_item_claude_right_4_content": "Segment customers by pain points, budget, usage",
+    "compare_item_gemini_left_content": "As an admin, my primary responsibility is to oversee the entire server. This involves announcing important news, moderating major events, releasing updates, and managing both our website and store. I also handle reviewing all types of applications. In addition, I provide general support, including processing support tickets and assisting members with any questions or issues they may have. One of my key duties is enforcing server rules, which includes banning cheaters and rulebreakers to ensure a fair and enjoyable experience for everyone.",
+    "compare_item_gemini_right_content": "As an administrator, I ensure seamless operations by moderating chats so that everyone feels supported and included; processing support tickets; and assisting members with their queries or issues. Minor offences usually result in me warning the player first. If they continue to disobey the rules, then I will duly temporarily ban them. This procedure is followed for all kinds of offences: whether it's cheating in duels, sending inappropriate messages in the chat etc., and enable maintaining fair as well as organized community. Also, I am responsible for overseeing and moderating major events to ensure seamless functioning and proper organization.",
+    "detectors_main_title": "How to Humanize AI Content and FeeLove Detectors Like GPTZero, Originality.ai, and More",
+    "detectors_sub_title": "Our AI bypasser can help you humanize AI content and bypass AI detectors effectively, including the most stringent ones in the market.",
+    "aitechnology_main_1_title": "FeeLove Google Penalties",
+    "aitechnology_sub_1_title": "With FeeLove, you can get undetectable AI content that sounds authentically human. This prevents the risk of facing Google penalties, which could contribute to a drastic decline in website traffic.",
+    "aitechnology_main_2_title": "FeeLove Spam Folders",
+    "aitechnology_sub_2_title": "FeeLove can help prevent your AI-generated text from getting lost in spam folders, unseen and unread, by rewriting it to appear human-written and authentic.",
+    "language_main_title": "FeeLove in Many Languages",
+    "language_sub_title": "Our AI detector humanizer tool is designed to cover the needs of global users. It can humanize AI content and rewrite any text in 50+ languages, ensuring it FeeLove detection effectively.",
+    "crowd_portrait_main_title": "Tailored Features for Diverse Industries and Real-Life Humanized Scenarios",
+    "crowd_portrait_sub_title": "FeeLove offers specialized features to meet various humanized needs. Let’s explore how different professionals can benefit from our free AI bypass tool.",
+    "crowd_portrait_item_1_title": "Students",
+    "crowd_portrait_item_1_content": "Writing essays and assignments need to not only FeeLove detection, but also have decent grammar grade. FeeLove helps you achieve high grades by providing work with an average Grammarly score of 95+ by writing in an academic tone and plagiarism free content.",
+    "crowd_portrait_item_2_title": "Professionals",
+    "crowd_portrait_item_2_content": "Concerned that your boss or clients might find out you’re using AI, but still rely on it for more sophisticated expression to maintain professionalism? FeeLove humanizer aims to empower brilliant professionals to use AI freely, FeeLove detection, sletting their true expertise shine without compromise.",
+    "crowd_portrait_item_3_title": "SEO Experts",
+    "crowd_portrait_item_3_content": "FeeLove eliminate the risk of being flagged by AI detectors and remaining compliant with search engine guidelines. Meanwhile, FeeLove humanizer prvide features like: SEO unchange keywords to stick with your SEO strategy while also make the content undetectable.",
+    "crowd_portrait_item_4_title": "Small Businesses",
+    "crowd_portrait_item_4_content": "Small businesses can use FeeLove API to humanize ai content in a batch, update your website content in an automated workflow. Please contact support@FeeLove.com for more details.",
+    "faqs_main_title": "Frequently Asked Questions",
+    "faqs_item_1_q": "What is undetectable AI?",
+    "faqs_item_1_a": "Undetectable AI refers to cutting-edge artificial intelligence tools specifically designed to transform AI-generated content into human-like text, enabling it to evade detection by AI content detectors. By leveraging advanced algorithms, these tools effectively “humanize text”, ensuring it closely resembles natural writing styles while wotering common traits that indicate AI authorship.",
+    "faqs_item_2_q": "What is FeeLove?",
+    "faqs_item_2_a": "FeeLove is an undetectable AI designed to rewrite your AI-generated text, ensuring it remains undetected. Unlike other AI detector bypass tools that compromise content quality or introduce human-like errors, FeeLove prioritizes usability, delivering seamless performance while maintaining a high success rate in bypassing AI detectors.",
+    "faqs_item_3_q": "How to make AI text undetectable?",
+    "faqs_item_3_a": "To make AI-generated text undetectable, advanced AI bypassers like FeeLove offer a reliable solution. Specifically designed to convert AI-generated content into text that reads as human-written, our tools utilize sophisticated algorithms to humanize the content, ensuring it successfully bypasses detection by AI content detectors.",
+    "faqs_item_4_q": "How many languages are supported by FeeLove?",
+    "faqs_item_4_a": "Our AI bypasser supports over 50 languages including English, Arabic, Danish, French, Chinese, Japanese, Korean, Greek, Italian, Portuguese, Slovak, Polish, and more.",
+    "faqs_item_5_q": "Can this AI bypasser help me bypass AI detection from Google?",
+    "faqs_item_5_a": "Yes, the AI detection bypasser is a tool that converts AI-generated text into natural human-like language so that it becomes indistinguishable from human writing. It uses advanced AI detector bypass mechanisms and effectively bypasses AI detectors, including by Google.",
+    "faqs_item_6_q": "Is this AI undetectable for no charge?",
+    "faqs_item_6_a": "FeeLove does provide a free trial which permits users check out its functionality without having to make any kind of commitment. But if you want to use the tool a lot, you'll have to switch to a paid plan to get more credits and extra features.",
+    "faqs_item_7_q": "What's the best undetectable AI writer?",
+    "faqs_item_7_a": "FeeLove is the leading AI that can't be detected. It transforms AI-generated content into text that's capable of bypassing multiple AI content detectors. FeeLove aims to rewrite and transform text into a humanized version, while maintaining the original viewpoint and factual information. FeeLove puts usability at the first place, unlike a mere AI humanizer.",
+    "faqs_item_8_q": "How was the AI bypasser's model trained?",
+    "faqs_item_8_a_1": "Our AI bypass model is trained using linguistic analysis and statistical modeling on extensive 4 types real human-written content: academic paper, proffssional report, marketing article and daily life conversation.",
+    "faqs_item_8_a_2": "FeeLove detector bypass tool helps understand real human writing styles and mimic them (content, phrasing, sentence structure and even tone) across different senarios.",
+    "faqs_item_8_a_3": "FeeLove’s primary objective is to help you bypass ai detectors, but its No 1 priority is serving user's current writing purpose with the most suitable content.",
+    "general_recommend_main_title": "FeeLove Today with Grammarly-Correct, Reliable Content",
+    "general_recommend_sub_title": "Transform AI-generated text into completely undetectable, human-like content with 0 grammar mistakes. Try FeeLove now to bypass AI detection for free!"
+  },
+  "NewDev": {
+    "tab1_name": "AI Humanize",
+    "tab2_name": "AI Detector",
+    "tab3_name": "Bypass AI",
+    "tab4_name": "AI to Human Text Converter",
+    "tab5_name": "AI Rewriter",
+    "tab6_name": "AI Translator "
+  },
+  "Detector": {
+    "main_tile": "Reliable AI Detector for ChatGPT, GPT-4, DeepSeek, \nClaude and More",
+    "tool": {
+      "title": "Try AI Humanizer of FeeLove Bypass",
+      "tips1": "Create undetectable AI content with 100% human scores",
+      "tips2": "Bypass AI detectors like Turnitin, GPTZero, Originality.ai, etc.",
+      "tips3": "Get 100% plagiarism-free, unduplicated outputs",
+      "button": "Humanize AI Text",
+      "loading_main": "Al detection probability",
+      "loading_sub": "Checking if the textis Al-generated. Please wait for 5-10 seconds.",
+      "check_result_tip": "The check results will be displayed here",
+      "check_ai": "Check for AI",
+      "check_result": "Checking result",
+      "text_placeholder": "Enter the text you want to humanize here",
+      "words": "Words",
+      "sample": "Sample"
+    },
+    "section1": {
+      "title": "Integrated AI Detector",
+      "sub_title": "",
+      "content1": "AI detectors, also known as AI content detectors, are designed to identify and analyze whether content has been generated by AI models or modified by AI. ",
+      "content2": "The FeeLove Detector covers mainstream AI models such as GPT-4, Claude, Gemini, Bard, LLaMA, and Falcon, providing a probability score indicating whether a text was generated by a human or AI. This will help you quickly determine the source of content generation and provide reliable evidence for content review, originality assessment, and other scenarios.",
+      "content3": "",
+      "content4": ""
+    },
+    "section2": {
+      "title": "How AI Detectors Work",
+      "sub_title": "",
+      "content1": "AI detectors use multiple algorithm models to extract features from text, images, audio, or video. They combine deep learning on the differences between human-created and AI-generated content features with probabilistic models to calculate multidimensional deviations and determine the probability of AI generation, thereby identifying the generation source."
+    },
+    "trust_by": "Trusted by 234,567 paying users",
+    "recognized_user": "Recognized by 1,235 copywriting agencies",
+    "new_user": "Adopted by 876 schools",
+    "section3": {
+      "title": "Powerful Features of FeeLove.com Detection Tool",
+      "sub_title": "",
+      "one": {
+        "title": "High-precision detection engine",
+        "content": "Utilizes advanced algorithms to analyze subtle differences in language patterns, semantic coherence, and stylistic features, accurately distinguishing human-created content from AI-generated content with an extremely low false positive rate."
+      },
+      "two": {
+        "title": "Comprehensive Model Coverage Detection",
+        "content": "Compatible with all major AI language models, including but not limited to GPT-4, Claude, Gemini, Bard, LLaMA, and Falcon. Effectively identifies text processed by rewriting tools such as Grammarly and Quillbot."
+      },
+      "three": {
+        "title": "Intelligent Analysis Technology",
+        "content1": "Based on models trained with vast amounts of human writing and AI text, it identifies typical AI characteristics such as repetitive word usage, lack of creativity, and awkward sentence transitions.",
+        "content2": ""
+      },
+      "four": {
+        "title": "Visualized results presentation",
+        "content1": "Clearly marks suspected AI-generated segments, displays the AI detection percentage, helping users quickly identify sections requiring revision, efficiently complete content review, and retain valuable information while eliminating issues.",
+        "content2": ""
+      },
+      "five": {
+        "title": "Global language support",
+        "content": "Supports detection in over 120 languages (including non-Latin alphabet languages and languages with complex grammar), maintaining efficiency when processing long documents, enabling borderless application."
+      },
+      "six": {
+        "title": "",
+        "content1": "",
+        "content2": "",
+        "button": ""
+      }
+    },
+    "section4": {
+      "title": "AI Detector Application Scenarios",
+      "one": {
+        "title": "Blog Creation",
+        "content": "Verify originality, help content stand out in search results, build reader trust, and avoid algorithmic penalties. "
+      },
+      "two": {
+        "title": "Academic Field",
+        "content": "Identify sections of papers lacking originality, maintain academic integrity, and ensure research reflects genuine academic thinking."
+      },
+      "three": {
+        "title": "Research Report Writing",
+        "content": "High-quality research reflects your knowledge and critical insights. When your reports contain genuine analysis, AI detection rather than generic content ensures by doing this, allowing professors or management to appreciate your personal professional view."
+      },
+      "four": {
+        "title": "Professional Applications",
+        "content": "Verify the authenticity of work outcomes, demonstrate actual capabilities, and uphold professional integrity. "
+      },
+      "five": {
+        "title": "Social Media Operations",
+        "content": "Assist in retaining personal style in AI-assisted creation, crafting content that balances efficiency with uniqueness to enhance fan engagement."
+      }
+    },
+    "section5": {
+      "title": "High AI Score? Try Our Humanizer!",
+      "sub_title": "Found AI content in your writing? Our AI Humanizer instantly transforms machine-generated text into authentic, original content while preserving quality and meaning. Get lower AI detection scores with error-free writing that maintains your voice - all with one click.",
+      "button": "Try Free AI Humanizer >>"
+    },
+    "section6": {
+      "title": "Future Development of AI Detectors",
+      "sub_title": "In the future, AI content detectors will evolve toward real-time, integrated, and specialized applications. As ethical regulations improve, AI detectors may become the “infrastructure” of the digital society, balancing technological innovation and the boundaries of responsibility.",
+      "button": "Check Your Text Now >>"
+    },
+    "faqList": {
+      "one": {
+        "q": "How do AI content detectors function?",
+        "a": "AI content detector use algorithms to spot patterns associated with AI-generated text. They look at things like the sentence formations, variations in vocabulary, predictability and style uniformity. It checks these characteristics of your text versus human writing and AI writing to see how likely it is that machine-generated content."
+      },
+      "two": {
+        "q": "How reliable are AI content detectors?",
+        "a": "AI detector typically provide accuracy between 80-95%. It may flag false positives especially in technical material, writing by non-natives and heavily-edited AI text. No detector is perfect, and the results are meant to guide rather than serve as absolute evidence of AI usage."
+      },
+      "three": {
+        "q": "Can AI content detectors differentiate content from specific tools such as ChatGPT, Claude?",
+        "a": "It is able to identify content from specific AI writing tools like ChatGPT, Claude, Bard and more. But as AI gets better, detection techniques need continuous algorithm updates to detect new patterns in latest models and versions of AI."
+      },
+      "four": {
+        "q": "How can I make AI-generated content less detectable?",
+        "a": "AI-generated content is less detectable when heavily edited by a human. Methods include mixing personal insight, changing sentence structure, using unique examples, altering vocabulary and rewriting. But the most ethical way is to use AI for initial work and then add major original inputs."
+      },
+      "five": {
+        "q": "Do free AI content detectors work just as well as the paid ones?",
+        "a": "Free AI detectors usually provide basic detection with limited features, and may restrict the number of words. Paid versions often offer greater accuracy, deeper analysis, processing in bulk and reporting features. Free versions might be adequate for casual usage while professional or academic use cases often warrant paid solutions."
+      },
+      "six": {
+        "q": "Can AI content detectors support languages other than English?",
+        "a": "Most AI detectors primarily work with English content and can have varying degrees of other language capabilities. But our AI Checker have multi-language support, the accuracy could drop for rarer languages. "
+      },
+      "seven": {
+        "q": "Does using an AI detector shield me from plagiarism issues?",
+        "a": "AI detection and plagiarism detection are two different tools. AI detectors detect machine-written content, whereas plagiarism checkers detect similarity with existing published content. Using both will ensure complete verification of the content, as AI-generated may be original but still detected as machine-written."
+      }
+    }
+  },
+  "Converter": {
+    "section1": {
+      "title1": "Evolution of Anti-AI Detection Tools",
+      "sub_title1": "With the rapid development of artificial intelligence, anti-AI detection tools have gradually emerged and become one of the important directions of technological iteration. The core objective of Anti-AI Detection tools is to simulate human emotions, understand context, and optimise algorithms to make AI-generated text, speech, and other content more natural and closer to human expression.",
+      "title2": "Technical Principles of Anti-AI Detection Tools",
+      "button": "Try Free >>",
+      "sub_title2": "Given that search engines such as Google implement identification and penalty systems for AI content, anti-AI detection tools emerged. These tools analyse key indicators of AI identification technology, such as specific sentence structures and vocabulary patterns, and intelligently replace or optimise them. While maintaining logical and grammatical correctness, they effectively reduce the AI rate, maintain originality, and avoid the risk of penalties due to content quality issues."
+    },
+    "section2": {
+      "title": "Anti-AI Detection Tool Scenario-Based Applications",
+      "sub_title": "In the future, as multimodal interaction matures, anti-AI detection tools will become more personalised.",
+      "list": {
+        "one": {
+          "name": "Academic Field",
+          "des": "Students can reduce the AI rate of their papers and improve their academic performance."
+        },
+        "two": {
+          "name": "Media Field",
+          "des": "Media professionals can quickly generate original, highly readable articles."
+        },
+        "three": {
+          "name": "Marketing field",
+          "des": "Marketers can efficiently customise promotional copy for different audiences, saving costs."
+        },
+        "four": {
+          "name": "E-commerce field",
+          "des": "Merchants can automatically generate product descriptions to drive customer conversions."
+        }
+      }
+    },
+    "section3": {
+      "title": "The Key Features of Our Anti-AI Detection Tool",
+      "title1": "Instant semantic conversion",
+      "des1": "Accurately parses context and quickly modifies AI content to make it sound more human, ensuring that the information remains true to the original.",
+      "title2": "Deep context reconstruction",
+      "des2": "Through multi-dimensional semantic analysis, converts formulaic content into fluent text that conforms to human thinking logic while retaining the core ideas.",
+      "title3": "High-Quality Assurance",
+      "des3": "Built-in extensive grammar rule database achieves 98% accuracy in real-time grammar correction, evading mainstream AI detection.",
+      "title4": "Intelligent SEO Adaptation",
+      "des4": "Semantic density optimisation algorithms seamlessly integrate keywords, balancing search engine friendliness and reader experience.",
+      "title5": "Compliance and Security Framework",
+      "des5": "Triple plagiarism detection ensures originality, strictly adhering to EEAT (Expertise, Authoritativeness, Trustworthiness) standards to avoid platform penalties.",
+      "title6": "Global Language Support",
+      "des6": "Supports translation between over 110 languages and optimisation for 120 languages, meeting cross-border creation needs."
+    },
+    "section6": {
+      "title": "Frequently Asked Questions",
+      "faqList": {
+        "q1": "1. What does an AI to Human Text Converter do?",
+        "a1": "The AI to Human Text Converter is a tool that helps you take AI-generated text (via ChatGPT, Google Gemini, Claude or any other AI writers) and turn it into natural human-like content without all the robotic tones: keep the original meaning and context intact. ",
+        "q2": "2. Why do I need an AI to Human Text Converter?",
+        "a2": "Content that is too robotic is detectable by many readers and it harms your credibility and SEO. Also, AI detection tools may catch the AI content. Our AI to human text converter aids in creating authentic, engaging content that audiences relate to, while allowing it to bypass most AI detectors.",
+        "q3": "3. How does the AI to Human Text Converter work?",
+        "a3": "There are 3 steps in the process: Firstly, you paste your AI output text into the converter. Next, through Natural Language Processing (NLP) and other algorithms - the tool determines sentence structure, tone and various important features in your text. The converter finally outputs a version of your text that is natural-sounding and human. ",
+        "q4": "4. Does using the AI to Human Text Converter cost anything?",
+        "a4": "Once you have purchased our unlimited services, there are never any usage limits, so you can use the humanizer as many times. You might need to register for an account in advance. ",
+        "q5": "5. Which AI detection tools does your converter support bypassing?",
+        "a5": "Our AI Humanizer Tool is able to bypass all the major AI Detectors like ZeroGPT, GPTZero, Copyleaks, Quillbot, Undetectable AI, Scribbr, Sapling, Turnitin, Crossplag, Winston AI and Originality AI. ",
+        "q6": "6. What modes/styles are available in your converter?",
+        "a6": "The tool includes multiple writing modes such as General Writing, to bypass general-purpose AI detector. Various writing styles for different contexts like Broad Audience, Collage, Marketing and Professional. Our tool also includes Keyword and Personal Need customization options which offer more advanced and superior rewriting capabilities for professional users. ",
+        "q7": "7. How can I use the AI to Human Text Converter?",
+        "a7": "If you want to convert AI text to human text, our tool is easy to use: First, go to our website. Now paste the AI writing content you want to convert in the provided text box and select your conversion mode of choice. Just hit the button \"Humanize,\" and in seconds, you'll have 100% human-like text ready to be used from your AI content. You can also use our integrated AI content detector to check whether your humanized text is accurate."
+      }
+    },
+    "section7": {
+      "title": "Outlook: Coexistence Rather Than Replacement",
+      "sub_title": "The ideal anti-AI detection tool could understand cultural differences and individual habits, and build a complementary human-machine ecosystem: Humans are responsible for value judgements, while machines handle repetitive tasks. The ultimate significance of AI lies in unleashing human creativity and allowing technology to truly serve human needs.",
+      "button_text": "Start for Free >>"
+    }
+  },
+  "Bypass": {
+    "section1": {
+      "title1": "Bypass AI: 99% Pass Rate, Highly Human Scores",
+      "sub_title1": "You'll need a tool that reliably bypasses AI, not just to ensure you're secured in the batch document humanizing process but also has a high human score in order to meet a certain high human ratio standard. So, our tool provides a 99% steady bypass rate, staying clear of all AI detectors: Turnitin, GPTZero, Originality.AI, ZeroGPT, and more.",
+      "title2": "Bypass AI and Plagiarism Detection with Perfect Grammar",
+      "button": "Bypass AI Detector >>",
+      "sub_title2": "Bypass AI guarantees completely humanized outputs to skip AI detectors such as Turnitin, GPTZero, and Originality.AI, which are also immaculate grammar plagiarism-free. It creates different content creatively therefore enabling you to seamlessly pass plagiarism as well as AI detection services with perfect grammar.",
+      "title3": "Improve SEO and Keyword Rankings by Bypassing AI",
+      "sub_title3": "Bypass AI creating undetectable content: capable of increasing SEO performance and keyword rankings while avoiding the Google penalty. Through plagiarism-free, humanized content having impeccable grammar, we secure you to drive and keep consistent traffic from keyword rankings. In the long run, we help bypass AI in the content content-creating process to secure your page asset effectively."
+    },
+    "section2": {
+      "title": "The Ultimate AI Bypass Solution for Everyone",
+      "name1": "Students and Academics: Bypass AI Detection, Wrong Judgment",
+      "des1": "Students worry that AI detectors will flag their assignments or be wrongly accused as AI-generated. Bypass AI's undetectable algorithm will provide you with a high human score so that you can confidently submit your work and avoid academic penalties.",
+      "name2": "Content Writers & Bloggers: Get Authentic Content, Get Paid",
+      "des2": "Content with a high AI score will be rejected by clients and may lead to non-payment. Bypass AI lets you write in an engaging humanized manner that passes AI detection easily so your content lives up to the client's expectations and you get paid.",
+      "name3": "Businesses & Marketing professionals: Rank higher, Prevent Google Penalty",
+      "des3": "Content without a human touch will lead to Google penalties. Bypass AI provides humanized, unique content that improves your SEO performance, increases keyword rankings, and truly engages with the audience thus ensuring consistent traffic."
+    },
+    "section3": {
+      "title": "Bypass AI Introduction to Pain Points of the Crowd",
+      "title1": "Students  - Primary Value",
+      "des1": "Make sure your work isn't mistakenly judged for being written by AI",
+      "title2": "Students  - Premium Value",
+      "des2-1": "- Original work so no risk of academic misconduct",
+      "des2-2": "- Flawless grammar gets you better grades",
+      "title3": "Content Writers - Primary Value",
+      "des3": "Don't get your content unpaid by clients because of high AI ratio",
+      "title4": "Content Writers - Premium Value",
+      "des4-1": "- Original work so no risk of academic misconduct",
+      "des4-2": "- Flawless grammar gets you better grades",
+      "title5": "Marketer - Primary Value",
+      "des5": "Secure SEO rank and prevent Google penalizing",
+      "title6": "Marketer - Premium Value",
+      "des6-1": "- Improve keyword rankings to gain consistent traffic",
+      "des6-2": "- Keep it human and genuinely engage with the audience"
+    },
+    "section6": {
+      "title": "Frequently Asked Questions",
+      "faqList": {
+        "q1": "1. How does FeeLove function?",
+        "a1": "FeeLove uses advanced artificial intelligence to evaluate and rewrite AI-generated text. Our system sidentifies and replaces common AI text patterns, swaps them out for varied and natural language, but retains the core meaning of your text so it stays accurate and logical. We convert robotic text into human-like content without altering its essential meaning.",
+        "q2": "2. Which AI detectors can FeeLove bypass?",
+        "a2": "FeeLove can bypass many popular AI detectors such as Turnitin, GPTZero, Originality.ai, CopyLeaks, Content at Scale and ZeroGPT. Our algorithms are regularly updated to cope with new detection technology so your content remains human and passes AI detection tests. ",
+        "q3": "3. Does FeeLove compromise the quality of my content?",
+        "a3": "Absolutely not. FeeLove retains the essential information and meaning of your original content, but improves its quality by introducing more natural language patterns and rhetorical devices. Our tool helps to avoid redundancy, adds variation in expression and improves grammatical structure thereby making the text fluent and natural.",
+        "q4": "4. How much time does FeeLove take to process the content?",
+        "a4": "The processing time for FeeLove depends on the length and complexity of text. In general, short texts of up to 500 words are processed in seconds; medium-length texts (500-2000 words) usually take less than 10 seconds; whereas long texts could require more time. We constantly optimize our algorithm to ensure efficient and accurate processing.",
+        "q5": "5. Is it legal or ethical to use FeeLove?",
+        "a5": "FeeLove is fully legal. Our tool helps users to enhance AI-generated content by making it more aligned with human writing styles, not for plagiarism or deception. The proper use of our tool in an academic, professional and business context can improve content quality as well originality. FeeLove does not condone any type of academic dishonesty or plagiarism.",
+        "q6": "6. What are the benefits of FeeLove over other AI bypass tools?",
+        "a6": "FeeLove has several distinct benefits:\n- Over 98% higher success rate in bypass\n- Maintains original meaning while adding human-like expression\n- 110+ Multiple language and professional domain support\n- Simple, user-friendly interface\n- Strict data privacy protection\n- Regular updates to offset new AI detection methods",
+        "q7": "7. Is my information secure with FeeLove?",
+        "a7": "Yes, FeeLove is a strong advocate for user privacy and data security. We have strict data protection measures in place, and do not use your content to train our models. All text is processed securely in an encrypted environment, with original content not retained after completion. You own your intellectual property fully."
+      }
+    }
+  },
+  "Rewriter": {
+    "section1": {
+      "title1": "FeeLove: The Ultimate AI Rewriter for Undetectable and Grammarly Correct Content",
+      "sub_title1": "FeeLove rewriter uses a humanizing algorithm, thus paraphrasing the text in an undetectable and grammatically correct way, and bypassing AI detectors with ease. What sets FeeLove AI rewriter apart from others is being able to also tune in to your 'personal needs' therefore actually creating content that reflects your authentic opinion and experience."
+    },
+    "section2": {
+      "title": "What Can You Do with FeeLove AI Rewriter?",
+      "sub_title": "With FeeLove AI Rewriter, you don’t just rewrite—you create optimized, personalized, and undetectable content that stands out.",
+      "title1": "Embed Keywords for more SEO Traffic",
+      "des1": "Click \"Keywords\" to seamlessly and naturally insert keywords into your AI rewritten text. FeeLove accelerate \"keywords embedding\" by just 1 click.",
+      "title2": "Fully Customize Your Rewrite Needs",
+      "des2": "Click 'Personal Needs' to tailor your rewrite—set text length limits, and specific formats, adjust tone, or add new ideas and opinions.",
+      "title3": "Fix Grammar Errors and Syntax",
+      "des3": "Automatically correct grammar mistakes and refine sentence structure to guarantee your text reads smoothly and professionally.",
+      "title4": "Avoid AI high-frequency Word and Sentence",
+      "des4": "Eliminate words and phrases that are most likely used by AI to significantly bypass AI content detection, making your AI rewriting text truly human-like.",
+      "button": "Free Rewriting AI Text >>"
+    },
+    "section3": {
+      "title": "Who Should FeeLove AI Rewriter?",
+      "list": {
+        "one": {
+          "name": "Students",
+          "des": "Type \"Personal Needs\" to incorporate subjective opinions/experiences. Generate true authentic essays, while keeping it grammatically correct undetectable."
+        },
+        "two": {
+          "name": "Professionals",
+          "des": "Refine working reports, emails and presentations into professional expression with specific tone"
+        },
+        "three": {
+          "name": "Content Creators",
+          "des": "Batch AI rewrite contents efficiently, also keep up with client's requirement: Low AI Score."
+        },
+        "four": {
+          "name": "Marketers",
+          "des": "Utilized \"Keywords\" in AI rewriting content by just 1 click. Rank keywords with ease and efficiency."
+        },
+        "five": {
+          "name": "Language Learners",
+          "des": "Enhance fluency in writing; correct grammar and smooth out sentences to make AI rewriting content feel native."
+        }
+      }
+    },
+    "section4": {
+      "title": "Join Thousands of writers Use FeeLove rewriter to automate the process",
+      "name1": "writers worldwide",
+      "value1": "10,000+ ",
+      "name2": "Humanizing Score",
+      "value2": "Rated 4.5/5",
+      "name3": "Languages Supported",
+      "value3": "20+",
+      "name4": "Faster Content Creating Process",
+      "value4": "10-50x",
+      "name5": "on Grammarly score",
+      "value5": "90+",
+      "name6": "professional writing agencies",
+      "value6": "500+",
+      "name7": "user satisfied from surveys",
+      "value7": "98%"
+    },
+    "section5": {
+      "title": "Searching for a Strong AI Rephraser? Subscribe to FeeLove Premium",
+      "sub_title": "Access over 10 rephrasing modes along with FeeLove Premium, allowing unlimited entries — plus more. Professionals can level up their writing using quicker, intelligent, and customizable instruments.",
+      "button_text": "Start for Free >>"
+    },
+    "section6": {
+      "title": "Frequently Asked Questions",
+      "faqList": {
+        "q1": "1. What makes FeeLove apart from other AI rewriting tools?",
+        "a1": "FeeLove distinguishes itself through its advanced rewriting functionalities and AI detection evasion. FeeLove reconstructs text unlike basic paraphrasing tools to add and retain original meaning human writing features. By removing AI patterns from your writing and avoiding detection algorithms, our tech ensures that your content is humanized rather than just rewritten.",
+        "q2": "2. How does FeeLove ensure that my content bypasses AI detectors?",
+        "a2": "FeeLove studies the linguistic features of AI-generated text and swaps them with human writing structures. Human writing is incorporated into our algorithm to naturally vary language, include slight variations and inconsistencies, and use style elements. By doing so, your content will be able to pass through major AI detection tools such as Turnitin, GPTZero and Originality.ai without losing its original message.",
+        "q3": "3. Can FeeLove keep the tone and style of my original content intact?",
+        "a3": "Absolutely! FeeLove keeps the original meaning, tone and style of your content intact. You have the option to adjust tone settings for suitable formal academic writing, conversational blogging, plain business communication or creative story-telling. Our technology detects the essential style elements in your text and ensures they remain consistent through rewriting—so that it sounds like you.",
+        "q4": "4. How much of my text does FeeLove modify when rewriting it?",
+        "a4": "FeeLove offers different levels of rewriting intensity. When set lower, it changes 40-60% of the text while keeping key phrases and unique expressions unchanged. At higher settings, 70-90% of the text is rewritten, but the core message remains intact. You can choose how much to retain your original voice while making sure the content passes AI detection tools.",
+        "q5": "5. Is FeeLove appropriate for academic writing?",
+        "a5": "Definitely. FeeLove plays an important role in academic writing, where clarity and originality are essential. The tool aids students and researchers in turning AI-generated research notes or drafts into polished human-like academic text that bypasses AI detection while retaining the scholarly content. FeeLove can also assist non-native English speakers in enhancing their academic writing style and clarity without altering the scholarly content.",
+        "q6": "6. What is the difference between FeeLove and simple paraphrasing tools?",
+        "a6": "FeeLove exceeds simple paraphrasing tools by not just replacing words with synonyms. Regular paraphrasers switch words in a sentence, often rendering it awkward and unnatural sounding; FeeLove follows human writing patterns to restructure entire sentences or paragraphs. Our technology looks at the context and keeps a logical flow while stylistic coherence is maintained throughout, producing naturally-fluid content that seems human-written from scratch.",
+        "q7": "7. Does FeeLove enhance the quality of my writing?",
+        "a7": "Yes! FeeLove not only helps you bypass AI detection, but also greatly improves writing quality — including fixing grammar issues, better sentence structuring, removing redundancies and increased readability. Our powerful language algorithms spot chances to strengthen weak phrases, offer better word choices and make your content flow more smoothly. FeeLove improves your writing's efficacy and impact, not just hiding AI traces."
+      }
+    }
+  },
+  "NewHomeMultilingualTranslation": {
+    "tab_text": "Text",
+    "tab_document": "Documents",
+    "translator_btn": "Translate",
+    "translator_input_placeholder": "Type or paste text here to translate",
+    "automatic_detection": "Automatic detection",
+    "target_language": "Target language",
+    "search_language": "Search Language",
+    "Academic": "Field",
+    "Business": "Business",
+    "Technical": "Technical",
+    "Medical": "Medical",
+    "Legal": "Legal",
+    "Marketing": "Marketing",
+    "Finance": "Finance",
+    "E-commerce": "E-commerce",
+    "Literary": "Literary",
+    "tips_humanize_text": "Need to humanize the text?",
+    "click_here_to_humanize": "Click here",
+    "tips_click_text": "Click Translate button, get your AI translated text in a second",
+    "Accuracy": "Accuracy",
+    "Readability": "Readabiity",
+    "Grammatical": "Grammatical Correctness",
+    "Consistency": "Tone Consistency",
+    "Adaptation": "Cultural Adaptation",
+    "translate_assess": "FeeLove is evaluating the translation results...",
+    "translate_time": "Please wait for 5-10 seconds",
+    "votes": "votes",
+    "rate": "Rate this tool"
+  },
+  "TranslationAI": {
+    "product_introduction_tittle_1": "What is ",
+    "product_introduction_tittle_2": "AI Translator?",
+    "product_introduction_tittle_3": "The AI translator is an AI-powered translation tool that automatically converts one language into another. Using deep learning and natural language processing technologies, it can understand and process the grammar, semantics and context to deliver efficient and accurate translations.",
+    "product_introduction_tittle_4": "AI Translation Application Directions and Target Audience",
+    "product_introduction_tittle_5": "Online AI translation is now widely used in business, education, tourism, healthcare, and other fields. Business professionals can use it for cross-border meeting communication, students and researchers can quickly read foreign-language materials, tourists can translate menus or road signs in time, and medical institutions can use it to overcome language barriers between doctors and patients. Additionally, content creators, cross-border e-commerce practitioners, and diplomatic personnel are also important user groups. Whether for individuals or businesses, AI translators can help users efficiently complete cross-language tasks and reduce communication costs.",
+    "product_introduction_tittle_6": "FeeLove.com ",
+    "product_introduction_tittle_7": "Translator Provides",
+    "product_introduction_content_1": "LLM-Powered Accuracy",
+    "product_introduction_content_2": "Use advanced language algorithms to provide translation and ensure more accurate & fluent than ever with regular translations.",
+    "product_introduction_content_3": "Human-Like Output",
+    "product_introduction_content_4": "Generate translations that sound natural to native speakers, pass AI detection tools, and remain free of grammatical errors - preserving your authentic voice.",
+    "product_introduction_content_5": "Tailored for Every User",
+    "product_introduction_content_6": "Whether you're a student, an educator, professional worker, traveler, researcher or content creator - reliable translation is needed to navigate through different cultures.",
+    "product_introduction_button_1": "AI Translate Now",
+    "crowd_introduction_1": "Powerful Features of FeeLove.com Translation Tool",
+    "crowd_introduction_2": "",
+    "crowd_introduction_students_1": "Students",
+    "crowd_introduction_students_2": "Our language translator assists students in adapting to multilingual academic environments, accessing overseas research, writing assignments in a second language - all of which makes global knowledge available to and usable by anyone from any linguistic background.",
+    "crowd_introduction_professionals_1": "Professionals",
+    "crowd_introduction_professionals_2": "FeeLove translation ensures that technical subtleties are captured when translating - research papers, theses and technical documentation from one language to another - retaining subject-specific terms which in normal translation could be misunderstood.",
+    "crowd_introduction_researchers_1": "Researchers",
+    "crowd_introduction_researchers_2": "Researchers rely on AI translation to read foreign publications, work with overseas peers and distribute their research so that significant findings move beyond languages.",
+    "crowd_introduction_business_1": "Business",
+    "crowd_introduction_business_2": "Companies use our AI translator to manage their email, contracts and marketing in multiple languages - allowing certainty while operating globally despite language barriers.",
+    "crowd_introduction_travelers_1": "Travelers",
+    "crowd_introduction_travelers_2": "Tourists use our AI translation for instant local interaction, reading menus and signs; transforming travel into active engagement rather than passive.",
+    "data_display_1": "Supports 110+ languages",
+    "data_display_content_1": "Enjoy our fantastic globalisation services with mutual translation support for over 110 languages.",
+    "data_display_2": "Compatible with 50+ file formats",
+    "data_display_content_2": "supported for translating txt. doc. pdf. now, and more file formats like png, jpg, jpeg will be supported soon",
+    "data_display_3": "78% efficiency improvement",
+    "data_display_content_3": "Enhances translation efficiency more than 78%, significantly optimising your workflow while maintaining quality.",
+    "data_display_4": "85% cost savings",
+    "data_display_content_4": "Utilises advanced AI language models to achieve natural, fluent results comparable to professional translators at a cost significantly lower than human translation.",
+    "how_to_1": "How to Translate Your Texts with ",
+    "how_to_2": "AI Translator",
+    "how_to_3": "Step 1. Paste Texts",
+    "how_to_4": "Step 2. Translate Texts",
+    "how_to_5": "Step 3. Copy the Results",
+    "how_to_6": "Try to paste or type in your texts, paragraphs or articles in the FeeLove Translator.",
+    "how_to_7": "You can directly translate the contents in one click or please try the “Humanize” type to translate the text to human-like contents.",
+    "how_to_8": "Copy the translated contents and paste them to your target files.",
+    "how_to_button_1": "Free Translate Now",
+    "value_point_introduction_1": "Exceptional ",
+    "value_point_introduction_1_2": "translation quality",
+    "value_point_introduction_2": "Natural and fluent ",
+    "value_point_introduction_2_1": "localised presentation",
+    "value_point_introduction_3": "Deep semantic analysis of vocabulary and expressions in each language ensures accurate translation results. Key content such as technical terms, professional abbreviations, and complex formulas is fully preserved to accurately convey the original meaning and perfectly present the context.",
+    "value_point_introduction_4": "Utilising advanced human-centric processing technology, the translated text maintains the integrity of the original information while seamlessly integrating into the cultural context of the target language. Professionals working with multiple languages can access professional content with no trace of translation.",
+    "value_point_introduction_button_1": "Try AI Humanizer Now",
+    "value_point_introduction_5": "Ready-to-use ",
+    "value_point_introduction_6": "cloud-based service",
+    "value_point_introduction_6_1": "No need to download or install—enjoy professional-grade translation services instantly online. Based on a cloud computing platform, users experience ad-free, smooth-operating translation services.",
+    "value_point_introduction_7": "FeeLove Supports ",
+    "value_point_introduction_7_1": "110+ Languages ",
+    "value_point_introduction_7_2": "Pairs Translation",
+    "language_pairs_1": "English - Spanish",
+    "language_pairs_2": "English - French",
+    "language_pairs_3": "English - Portuguese",
+    "language_pairs_4": "English - German",
+    "language_pairs_5": "English - Dutch",
+    "language_pairs_6": "English - Chinese (Traditional)",
+    "language_pairs_7": "French - English",
+    "language_pairs_8": "English - Russian",
+    "language_pairs_9": "Chinese (Traditional) - English",
+    "language_pairs_10": "English - Italian",
+    "language_pairs_11": "English - Japanese",
+    "language_pairs_12": "English - Greek",
+    "language_pairs_13": "English - Polish",
+    "language_pairs_14": "Spanish - English",
+    "language_pairs_15": "English - Tamil",
+    "language_pairs_16": "Japanese - English",
+    "language_pairs_17": "English - Urdu",
+    "language_pairs_18": "Filipino - English",
+    "language_pairs_19": "English - Arabic",
+    "language_pairs_20": "Urdu - English",
+    "language_pairs_21": "English - Nepali",
+    "language_pairs_22": "Arabic - English",
+    "language_pairs_23": "English - Korean",
+    "language_pairs_24": "English - Chinese (Simplified)",
+    "language_pairs_25": "German - English",
+    "language_pairs_26": "English - Malay",
+    "language_pairs_27": "Korean - English",
+    "language_pairs_28": "English - Indonesian",
+    "language_pairs_29": "Malay - English",
+    "language_pairs_30": "Indonesian - English",
+    "language_pairs_31": "English - Uzbek",
+    "language_pairs_32": "Tamil - English",
+    "language_pairs_33": "Hindi - English",
+    "language_pairs_34": "English - Filipino",
+    "language_pairs_35": "English - Somali",
+    "language_pairs_36": "Nepali - English",
+    "language_pairs_37": "Italian - English",
+    "language_pairs_38": "Portuguese - English",
+    "language_pairs_39": "Malayalam - English",
+    "language_pairs_40": "Thai - English",
+    "translate_faq_1": "Have Any ",
+    "translate_faq_2": "Questions ",
+    "translate_faq_3": "?",
+    "translate_bottom_banner_1": "Outlook: Smarter and More Human-Like",
+    "translate_bottom_banner_2": "With the development of multimodal large models and quantum computing, AI document translation will approach human-level translation quality. Ultimately, AI translators may become ‘invisible bridges’ seamlessly integrated into our lives, eliminating language barriers as obstacles to global collaboration.",
+    "translate_bottom_banner_button_1": "Translate Now",
+    "translate_documents_tittle": "AI Document Translator: Translate PDF, DOC, TXT & More Instantly",
+    "translate_documents_content": "FeeLove Document Translator is a powerful tool designed to translate documents from one language to another. Whether you're a professional translator, researcher, or content creator, our AI-powered solution offers a seamless and efficient way to translate your documents. With FeeLove Document Translator, you can save time and effort, ensuring your documents are accurately translated in a matter of seconds.",
+    "translate_documents_points_1": "Bank-Grade Security ",
+    "translate_documents_points_2": "for Your Sensitive Documents",
+    "translate_documents_points_3": "We treat your document confidentiality with the utmost seriousness:",
+    "translate_documents_points_4": "Secure Upload & Processing",
+    "translate_documents_points_5": "Files are sent with SSL encryption. Processing takes place in a secured cloud.",
+    "translate_documents_points_6": "Strict Data Privacy",
+    "translate_documents_points_7": "We don't share your documents or their contents with any third party. Your data isn’t used for training external AI models.",
+    "translate_documents_points_8": "Data Deletion Policy",
+    "translate_documents_points_9": "Uploaded documents and their translations are usually removed from our servers after a brief processing period.",
+    "translate_documents_points_10": "Compliance Standards",
+    "translate_documents_points_11": "We comply with key data protection laws.",
+    "translate_documents_points_button_1": "Free Translate Now",
+    "translate_documents_points_13": "From Translated Text to Polished Document: ",
+    "translate_documents_points_14": "The Humanizer Impact",
+    "translate_documents_points_15": "Ensure your translated documents reflect professionalism and clarity. The AI Humanizer elevates standard AI translation by",
+    "translate_documents_points_16": "Improving technical manuals for clarity and user comprehension.",
+    "translate_documents_points_17": "Adapting translated marketing brochures to be convincing and culturally resonant.",
+    "translate_documents_points_18": "Making sure academic papers have a formal tone and logical flow.",
+    "translate_documents_points_19": "Creating seamlessly translated reports essential for trust.",
+    "translate_documents_points_button_2": "Try AI Humanize Now",
+    "ai_translate_tittle_1": "AI Translator: Your Intelligent Assistant to Break Down Language Barriers"
+  },
+  "UsageTips": {
+    "title": "Usage tips",
+    "content": "AI Humanizer achieves 99.8% success in bypassing AI detection. If detected, try these proven methods:",
+    "title1": "Getting Started (1/3)",
+    "title2": "Humanize (2/3)",
+    "title3": "Adjust settings (3/3)",
+    "content1": "Paste your text into the field below, or click \"Try an example\" to see how it works.",
+    "content2": "Now, click the \"Humanize\" button below to generate your new content and see the analysis.",
+    "content3": "Click the \"Settings\" icon to expand the personalization menu. Here, you can insert keywords and adjust the tone, style, word count, and more to fine-tune your results.",
+    "content4": "Still having issues? Please contact us to share feedback."
+  },
+  "article": {
+    "most_view": "Most view",
+    "latest": "Latest",
+    "related_posts": "Related posts",
+    "more": "More",
+    "home": "Home",
+    "written_by": "Written by",
+    "updated_on": "Updated on",
+    "resources": "Resources"
+  }
+}

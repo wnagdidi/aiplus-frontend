@@ -1,0 +1,7 @@
+export default function DrawerIcon() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12" viewBox="0 0 18 12">
+      <path d="M0.960938 0.104248H17.0401V2.06948H0.960938V0.104248ZM6.99062 5.01732H17.0401V6.98255H6.99062V5.01732ZM0.960938 9.9304H17.0401V11.8956H0.960938V9.9304ZM0.960938 5.99994L4.98073 3.5434V8.45648L0.960938 5.99994Z"/>
+    </svg>
+  )
+}

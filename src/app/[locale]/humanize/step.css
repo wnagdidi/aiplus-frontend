@@ -1,0 +1,84 @@
+/* 仅调整弹框样式与按钮文案呈现（Next/Back，Skip 显示为 ×） */
+
+/* 弹框卡片外观 */
+.introjs-helperLayer {
+  box-shadow: rgba(139, 89, 237, 1) 0px 0px 1px 2px, rgba(33, 33, 33, 0.5) 0px 0px 0px 5000px !important;
+}
+.introjs-tooltip {
+  background: #ffffff;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12);
+  padding: 16px 16px 14px 16px;
+}
+.introjs-skipbutton {
+  top: 0 !important;
+  right: 0 !important;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #37537526 !important;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* 标题轻量蓝色 */
+.introjs-tooltip-title {
+  /* 字体渐变色 */
+  background: linear-gradient(90deg, #497FF7 0%, #9548EB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* color: #2563eb; */
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 28px 8px 0;
+}
+
+/* 正文 */
+.introjs-tooltiptext {
+  color: #374151;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+/* 右上角关闭（用 × 替代文字） */
+.introjs-skipbutton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  color: #6b7280;
+  padding: 0;
+  line-height: 1;
+  font-size: 0; /* 隐藏文本 */
+}
+.introjs-skipbutton::before {
+  content: "\00D7"; /* × */
+  font-size: 16px;
+}
+.introjs-skipbutton:hover { color: #374151; }
+.introjs-tooltip-header {
+  padding: 0 !important;
+}
+/* 底部按钮区域排版 */
+.introjs-tooltipbuttons {
+  border-top: none !important;
+  padding: 0 !important;
+}
+.introjs-tooltiptext {
+  padding: 20px 0 !important;
+}
+
+/* 统一按钮样式（Next/Back/Done） */
+.introjs-button {
+  border: none !important;
+  border-radius: 6px !important;
+  font-size: 14px !important;
+  padding: 4px 12px !important;
+  text-shadow: none !important;
+  background: var(--hover-background-gradient) !important;
+  color: #ffffff !important;
+}
+
+

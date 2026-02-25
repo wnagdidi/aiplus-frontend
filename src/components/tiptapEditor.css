@@ -1,0 +1,47 @@
+.tiptap .is-editor-empty {
+  font-size: 16px;
+  margin: 0;
+  color: #9ba9ba;
+}
+
+/* Tiptap Placeholder 样式 */
+.ProseMirror p.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  float: left;
+  color: #9ba9ba;
+  pointer-events: none;
+  height: 0;
+}
+
+/* 确保placeholder在空编辑器时显示 */
+.ProseMirror .is-editor-empty::before {
+  content: attr(data-placeholder);
+  color: #9ba9ba;
+  pointer-events: none;
+  position: absolute;
+}
+
+/* 额外的placeholder样式支持 */
+.ProseMirror [data-placeholder]::before {
+  content: attr(data-placeholder);
+  color: #9ba9ba;
+  pointer-events: none;
+  float: left;
+  height: 0;
+}
+.tiptap p{
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+.tiptap {
+  outline: none;
+  padding: 16px;
+  min-height: 100%;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #375375;
+}
+.tiptap .gray-out {
+  color: #ccc;
+}

@@ -1,0 +1,86 @@
+/* 使用 CSS Modules，通过传入 tooltipClass/buttonClass/highlightClass 让样式生效 */
+
+/* 传给 tooltipClass 的类名 */
+.tooltip {}
+
+/* 只在同时具备 introjs 默认类与本地类时生效 */
+:global(.introjs-tooltip).tooltip {
+  background: #ffffff;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12);
+  padding: 16px 16px 14px 16px;
+}
+
+:global(.introjs-tooltip).tooltip .introjs-tooltip-title {
+  color: #2563eb;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 28px 8px 0;
+}
+
+:global(.introjs-tooltip).tooltip .introjs-tooltiptext {
+  color: #374151;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+/* 右上角关闭按钮显示为 × */
+:global(.introjs-tooltip).tooltip .introjs-skipbutton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  color: #6b7280;
+  padding: 0;
+  line-height: 1;
+  font-size: 0; /* 隐藏文本 */
+}
+:global(.introjs-tooltip).tooltip .introjs-skipbutton::before {
+  content: "\00D7"; /* × */
+  font-size: 16px;
+}
+:global(.introjs-tooltip).tooltip .introjs-skipbutton:hover { color: #374151; }
+
+:global(.introjs-tooltip).tooltip .introjs-tooltipbuttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  padding-top: 8px;
+}
+
+/* 传给 buttonClass 的类名，附加到所有按钮上 */
+.btn {}
+
+:global(.introjs-button).btn {
+  border: none;
+  border-radius: 10px;
+  font-size: 12px;
+  padding: 8px 12px;
+}
+
+/* Back 次要按钮 */
+:global(.introjs-tooltip).tooltip .introjs-prevbutton {
+  background: #eef2ff;
+  color: #4f46e5;
+}
+:global(.introjs-tooltip).tooltip .introjs-prevbutton:hover { background: #e0e7ff; }
+
+/* Next/Finish 主按钮 */
+:global(.introjs-tooltip).tooltip .introjs-nextbutton,
+:global(.introjs-tooltip).tooltip .introjs-donebutton {
+  background: #7c4dff;
+  color: #ffffff;
+}
+:global(.introjs-tooltip).tooltip .introjs-nextbutton:hover,
+:global(.introjs-tooltip).tooltip .introjs-donebutton:hover { background: #6a3df0; }
+
+/* 传给 highlightClass 的类名（高亮层） */
+.highlight {}
+
+:global(.introjs-helperLayer).highlight {
+  box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.4), 0 0 0 2px rgba(124, 77, 255, 0.5);
+  border-radius: 10px !important;
+}
+
