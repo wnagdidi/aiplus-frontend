@@ -3,4 +3,4 @@
 crontab -e
 
 # 添加以下行（每5分钟检查一次）
-*/5 * * * * cron-healthcheck.sh
+*/5 * * * * /var/www/apps/aiplus-frontend/cron-healthcheck.sh
