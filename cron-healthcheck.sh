@@ -3,11 +3,10 @@ APP_NAME="avoid-ai-web"
 PORT="8008"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 LOG_FILE="/tmp/${APP_NAME}-cron.log"
-# IP地址
-url_ip=$1
+
 
 # 检查应用是否健康
-if ! curl -s -f -o /dev/null --max-time 5 ${url_ip}:${PORT}; then
+if ! curl -s -f -o /dev/null --max-time 5 http://47.82.165.65:8008:${PORT}; then
     echo "[$(date)] 应用无响应，尝试重启" >> ${LOG_FILE}
     
     # 检查 PM2 状态
