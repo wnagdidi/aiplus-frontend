@@ -59,32 +59,9 @@ stop() {
 
 # 函数：重启应用
 restart() {
-    echo "=== 开始重启 ${APP_NAME} ==="
-    
-    # 拉取最新代码
-    echo "拉取最新代码..."
-    git pull
-    
-    # 安装依赖
-    echo "安装依赖..."
-    pnpm i
-    
-    # 构建
-    echo "构建应用..."
-    export NODE_ENV=production
-    pnpm build
-    
-    # 重启应用
-    if pm2 describe ${APP_NAME} > /dev/null 2>&1; then
-        pm2 restart ${APP_NAME}
-        echo "应用已重启"
-    else
-        echo "应用未运行，正在启动..."
-        pm2 start "NODE_ENV=production PORT='${PORT}' pnpm start" --name ${APP_NAME}
-    fi
-    
-    echo "=== 重启完成 ==="
-    pm2 list | grep ${APP_NAME} || true
+    stop
+    sleep 2
+    start
 }
 
 # 函数：查看状态
